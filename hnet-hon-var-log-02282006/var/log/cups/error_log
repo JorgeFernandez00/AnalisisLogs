@@ -1,0 +1,17 @@
+I [22/Jan/2006:04:10:51 -0500] Listening to 7f000001:631
+I [22/Jan/2006:04:10:51 -0500] Loaded configuration file "/etc/cups/cupsd.conf"
+I [22/Jan/2006:04:10:51 -0500] Configured for up to 100 clients.
+I [22/Jan/2006:04:10:51 -0500] Allowing up to 100 client connections per host.
+I [22/Jan/2006:04:10:51 -0500] Full reload is required.
+I [22/Jan/2006:04:10:54 -0500] LoadPPDs: Read "/etc/cups/ppds.dat", 3388 PPDs...
+I [22/Jan/2006:04:10:55 -0500] LoadPPDs: No new or changed PPDs...
+I [22/Jan/2006:04:10:55 -0500] Full reload complete.
+I [26/Jan/2006:12:20:06 -0500] Scheduler shutting down normally.
+I [26/Jan/2006:12:22:19 -0500] Listening to 7f000001:631
+I [26/Jan/2006:12:22:19 -0500] Loaded configuration file "/etc/cups/cupsd.conf"
+I [26/Jan/2006:12:22:19 -0500] Configured for up to 100 clients.
+I [26/Jan/2006:12:22:19 -0500] Allowing up to 100 client connections per host.
+I [26/Jan/2006:12:22:19 -0500] Full reload is required.
+I [26/Jan/2006:12:22:24 -0500] LoadPPDs: Read "/etc/cups/ppds.dat", 3388 PPDs...
+I [26/Jan/2006:12:22:27 -0500] LoadPPDs: No new or changed PPDs...
+I [26/Jan/2006:12:22:27 -0500] Full reload complete.

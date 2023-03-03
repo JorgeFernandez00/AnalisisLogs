@@ -1,0 +1,114 @@
+050919 05:58:33  mysqld started
+Cannot initialize InnoDB as 'innodb_data_file_path' is not set.
+If you do not want to use transactional InnoDB tables, add a line
+skip-innodb
+to the [mysqld] section of init parameters in your my.cnf
+or my.ini. If you want to use InnoDB tables, add to the [mysqld]
+section, for example,
+innodb_data_file_path = ibdata1:10M:autoextend
+But to get good performance you should adjust for your hardware
+the InnoDB startup options listed in section 2 at
+http://www.innodb.com/ibman.html
+/usr/libexec/mysqld: ready for connections
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+lock: 8dd8cdc:
+
+lock: f5636e04:
+
+lock: f563424c:
+
+lock: f5630b04:
+
+lock: 8d5bb2c:
+
+lock: f562cfac:
+
+lock: 8d6397c:
+
+lock: f5620eb4:
+
+lock: 8d76bbc:
+
+lock: f5610734:
+
+lock: 8db9b74:
+
+key_cache status:
+blocks used:         4
+not flushed:         0
+w_requests:         36
+writes:             21
+r_requests:        132
+reads:               4
+
+handler status:
+read_key:           36
+read_next:          24
+read_rnd            97
+read_first:        109
+write:             109
+delete               0
+update:              0
+
+Table status:
+Opened tables:         56
+Open tables:           50
+Open files:            61
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+lock: 8dd8cdc:
+
+lock: f5636e04:
+
+lock: f563424c:
+
+lock: f5630b04:
+
+lock: 8d5bb2c:
+
+lock: f562cfac:
+
+lock: 8d6397c:
+
+lock: f5620eb4:
+
+lock: 8d76bbc:
+
+lock: f5610734:
+
+lock: 8db9b74:
+
+key_cache status:
+blocks used:         4
+not flushed:         0
+w_requests:         36
+writes:             21
+r_requests:        132
+reads:               4
+
+handler status:
+read_key:           36
+read_next:          24
+read_rnd            97
+read_first:        109
+write:             109
+delete               0
+update:              0
+
+Table status:
+Opened tables:         56
+Open tables:           50
+Open files:            61
+Open streams:           0
+050928  9:08:43  /usr/libexec/mysqld: Normal shutdown
+
+050928  9:08:44  /usr/libexec/mysqld: Shutdown Complete
+

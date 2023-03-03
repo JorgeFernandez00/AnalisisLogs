@@ -1,0 +1,98 @@
+Oct 30 04:11:07 combo sendmail[17395]: j9U94QXB017395: from=root, size=591, class=0, nrcpts=1, msgid=<200510300904.j9U94QXB017395@combo.bkwconsulting.com>, relay=root@localhost
+Oct 30 04:12:03 combo sendmail[18056]: j9U9B7Kn018056: from=<root@combo.bkwconsulting.com>, size=889, class=0, nrcpts=1, msgid=<200510300904.j9U94QXB017395@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Oct 30 04:12:03 combo sendmail[17395]: j9U94QXB017395: to=root, ctladdr=root (0/0), delay=00:07:37, xdelay=00:00:56, mailer=relay, pri=30591, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j9U9B7Kn018056 Message accepted for delivery)
+Oct 30 04:12:04 combo sendmail[18057]: j9U9B7Kn018056: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=31129, dsn=2.0.0, stat=Sent
+Oct 31 04:02:04 combo sendmail[23369]: j9V924sP023369: from=root, size=1082, class=0, nrcpts=1, msgid=<200510310902.j9V924sP023369@combo.bkwconsulting.com>, relay=root@localhost
+Oct 31 04:03:00 combo sendmail[23371]: j9V9247V023371: from=<root@combo.bkwconsulting.com>, size=1398, class=0, nrcpts=1, msgid=<200510310902.j9V924sP023369@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Oct 31 04:03:00 combo sendmail[23369]: j9V924sP023369: to=root, ctladdr=root (0/0), delay=00:00:56, xdelay=00:00:56, mailer=relay, pri=31082, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j9V9247V023371 Message accepted for delivery)
+Oct 31 04:03:01 combo sendmail[23372]: j9V9247V023371: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=31643, dsn=2.0.0, stat=Sent
+Oct 31 04:03:02 combo ctl_mboxlist[23387]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Oct 31 04:03:03 combo ctl_mboxlist[23387]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Oct 31 04:11:11 combo sendmail[23397]: j9V9347q023397: from=root, size=524, class=0, nrcpts=1, msgid=<200510310903.j9V9347q023397@combo.bkwconsulting.com>, relay=root@localhost
+Oct 31 04:12:08 combo sendmail[28086]: j9V9BBLt028086: from=<root@combo.bkwconsulting.com>, size=822, class=0, nrcpts=1, msgid=<200510310903.j9V9347q023397@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Oct 31 04:12:08 combo sendmail[23397]: j9V9347q023397: to=root, ctladdr=root (0/0), delay=00:09:04, xdelay=00:00:57, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j9V9BBLt028086 Message accepted for delivery)
+Oct 31 04:12:08 combo sendmail[28087]: j9V9BBLt028086: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31062, dsn=2.0.0, stat=Sent
+Nov  1 04:02:04 combo sendmail[30345]: jA1924Nm030345: from=root, size=1116, class=0, nrcpts=1, msgid=<200511010902.jA1924Nm030345@combo.bkwconsulting.com>, relay=root@localhost
+Nov  1 04:03:00 combo sendmail[30347]: jA1924Bl030347: from=<root@combo.bkwconsulting.com>, size=1430, class=0, nrcpts=1, msgid=<200511010902.jA1924Nm030345@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Nov  1 04:03:00 combo sendmail[30345]: jA1924Nm030345: to=root, ctladdr=root (0/0), delay=00:00:56, xdelay=00:00:56, mailer=relay, pri=31116, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (jA1924Bl030347 Message accepted for delivery)
+Nov  1 04:03:01 combo sendmail[30348]: jA1924Bl030347: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=31674, dsn=2.0.0, stat=Sent
+Nov  1 04:03:02 combo ctl_mboxlist[30363]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Nov  1 04:03:02 combo ctl_mboxlist[30363]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Nov  1 04:08:36 combo sendmail[30376]: jA1933NS030376: from=root, size=524, class=0, nrcpts=1, msgid=<200511010903.jA1933NS030376@combo.bkwconsulting.com>, relay=root@localhost
+Nov  1 04:09:33 combo sendmail[30783]: jA198bMv030783: from=<root@combo.bkwconsulting.com>, size=820, class=0, nrcpts=1, msgid=<200511010903.jA1933NS030376@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Nov  1 04:09:33 combo sendmail[30376]: jA1933NS030376: to=root, ctladdr=root (0/0), delay=00:06:30, xdelay=00:00:56, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (jA198bMv030783 Message accepted for delivery)
+Nov  1 04:09:33 combo sendmail[30786]: jA198bMv030783: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31059, dsn=2.0.0, stat=Sent
+Nov  1 05:00:02 combo sendmail[30858]: jA1A02ig030858: from=mailman, size=270, class=0, nrcpts=1, msgid=<200511011000.jA1A02ig030858@combo.bkwconsulting.com>, relay=mailman@localhost
+Nov  1 05:00:58 combo sendmail[30859]: jA1A02Bp030859: from=<mailman@combo.bkwconsulting.com>, size=572, class=0, nrcpts=1, msgid=<200511011000.jA1A02ig030858@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Nov  1 05:00:58 combo sendmail[30858]: jA1A02ig030858: to=mailman, ctladdr=mailman (41/41), delay=00:00:56, xdelay=00:00:56, mailer=relay, pri=30270, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (jA1A02Bp030859 Message accepted for delivery)
+Nov  1 05:00:58 combo sendmail[30860]: jA1A02Bp030859: to=root, ctladdr=<mailman@combo.bkwconsulting.com> (41/41), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=30835, dsn=2.0.0, stat=Sent
+Nov  2 04:02:04 combo sendmail[595]: jA29245M000595: from=root, size=1116, class=0, nrcpts=1, msgid=<200511020902.jA29245M000595@combo.bkwconsulting.com>, relay=root@localhost
+Nov  2 04:03:00 combo sendmail[597]: jA2924iI000597: from=<root@combo.bkwconsulting.com>, size=1430, class=0, nrcpts=1, msgid=<200511020902.jA29245M000595@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Nov  2 04:03:00 combo sendmail[595]: jA29245M000595: to=root, ctladdr=root (0/0), delay=00:00:56, xdelay=00:00:56, mailer=relay, pri=31116, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (jA2924iI000597 Message accepted for delivery)
+Nov  2 04:03:01 combo sendmail[598]: jA2924iI000597: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=31674, dsn=2.0.0, stat=Sent
+Nov  2 04:03:02 combo ctl_mboxlist[613]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Nov  2 04:03:02 combo ctl_mboxlist[613]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Nov  2 04:09:10 combo sendmail[623]: jA2933rQ000623: from=root, size=524, class=0, nrcpts=1, msgid=<200511020903.jA2933rQ000623@combo.bkwconsulting.com>, relay=root@localhost
+Nov  2 04:10:08 combo sendmail[1900]: jA299Bog001900: from=<root@combo.bkwconsulting.com>, size=820, class=0, nrcpts=1, msgid=<200511020903.jA2933rQ000623@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Nov  2 04:10:08 combo sendmail[623]: jA2933rQ000623: to=root, ctladdr=root (0/0), delay=00:07:05, xdelay=00:00:57, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (jA299Bog001900 Message accepted for delivery)
+Nov  2 04:10:09 combo sendmail[1908]: jA299Bog001900: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=31059, dsn=2.0.0, stat=Sent
+Nov  3 04:02:04 combo sendmail[4208]: jA3924NH004208: from=root, size=1116, class=0, nrcpts=1, msgid=<200511030902.jA3924NH004208@combo.bkwconsulting.com>, relay=root@localhost
+Nov  3 04:03:00 combo sendmail[4210]: jA3924iR004210: from=<root@combo.bkwconsulting.com>, size=1430, class=0, nrcpts=1, msgid=<200511030902.jA3924NH004208@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Nov  3 04:03:00 combo sendmail[4208]: jA3924NH004208: to=root, ctladdr=root (0/0), delay=00:00:56, xdelay=00:00:56, mailer=relay, pri=31116, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (jA3924iR004210 Message accepted for delivery)
+Nov  3 04:03:01 combo sendmail[4211]: jA3924iR004210: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=31674, dsn=2.0.0, stat=Sent
+Nov  3 04:03:02 combo ctl_mboxlist[4226]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Nov  3 04:03:02 combo ctl_mboxlist[4226]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Nov  3 04:08:38 combo sendmail[4238]: jA39332h004238: from=root, size=524, class=0, nrcpts=1, msgid=<200511030903.jA39332h004238@combo.bkwconsulting.com>, relay=root@localhost
+Nov  3 04:09:35 combo sendmail[4643]: jA398d2Y004643: from=<root@combo.bkwconsulting.com>, size=820, class=0, nrcpts=1, msgid=<200511030903.jA39332h004238@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Nov  3 04:09:35 combo sendmail[4238]: jA39332h004238: to=root, ctladdr=root (0/0), delay=00:06:32, xdelay=00:00:57, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (jA398d2Y004643 Message accepted for delivery)
+Nov  3 04:09:36 combo sendmail[4646]: jA398d2Y004643: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=31059, dsn=2.0.0, stat=Sent
+Nov  4 04:02:05 combo sendmail[6996]: jA4925Nc006996: from=root, size=1398, class=0, nrcpts=1, msgid=<200511040902.jA4925Nc006996@combo.bkwconsulting.com>, relay=root@localhost
+Nov  4 04:02:23 combo sendmail[6998]: jA4925Lq006998: from=<root@combo.bkwconsulting.com>, size=1712, class=0, nrcpts=1, msgid=<200511040902.jA4925Nc006996@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Nov  4 04:02:23 combo sendmail[6996]: jA4925Nc006996: to=root, ctladdr=root (0/0), delay=00:00:18, xdelay=00:00:18, mailer=relay, pri=31398, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (jA4925Lq006998 Message accepted for delivery)
+Nov  4 04:02:24 combo sendmail[6999]: jA4925Lq006998: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=31956, dsn=2.0.0, stat=Sent
+Nov  4 04:02:43 combo ctl_mboxlist[7025]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Nov  4 04:02:43 combo ctl_mboxlist[7025]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Nov  4 04:09:19 combo sendmail[7035]: jA492ik1007035: from=root, size=524, class=0, nrcpts=1, msgid=<200511040902.jA492ik1007035@combo.bkwconsulting.com>, relay=root@localhost
+Nov  4 04:09:36 combo sendmail[8299]: jA499J9U008299: from=<root@combo.bkwconsulting.com>, size=820, class=0, nrcpts=1, msgid=<200511040902.jA492ik1007035@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Nov  4 04:09:36 combo sendmail[7035]: jA492ik1007035: to=root, ctladdr=root (0/0), delay=00:06:52, xdelay=00:00:17, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (jA499J9U008299 Message accepted for delivery)
+Nov  4 04:09:36 combo sendmail[8300]: jA499J9U008299: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31059, dsn=2.0.0, stat=Sent
+Nov  4 14:03:29 combo sendmail[9128]: jA4J3TEf009128: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:29 combo sendmail[9126]: jA4J3T4M009126: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:29 combo sendmail[9123]: jA4J3T2k009123: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:29 combo sendmail[9127]: jA4J3TPU009127: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:29 combo sendmail[9125]: jA4J3Tfq009125: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:29 combo sendmail[9124]: jA4J3TFa009124: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:29 combo sendmail[9130]: jA4J3TtT009130: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:29 combo sendmail[9129]: jA4J3TLn009129: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:29 combo sendmail[9132]: jA4J3T2i009132: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:29 combo sendmail[9131]: jA4J3T0w009131: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:29 combo sendmail[9133]: jA4J3TN2009133: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:29 combo sendmail[9134]: jA4J3TjD009134: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:30 combo sendmail[9135]: jA4J3UXg009135: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:30 combo sendmail[9138]: jA4J3Ud5009138: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:30 combo sendmail[9136]: jA4J3Ust009136: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:30 combo sendmail[9137]: jA4J3Uee009137: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:30 combo sendmail[9139]: jA4J3UC6009139: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:30 combo sendmail[9140]: jA4J3UCJ009140: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:30 combo sendmail[9141]: jA4J3Ujk009141: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:30 combo sendmail[9142]: jA4J3UJc009142: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:30 combo sendmail[9143]: jA4J3UYE009143: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:30 combo sendmail[9144]: jA4J3UvX009144: [221.221.235.28] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Nov  4 14:03:39 combo sendmail[9122]: jA4J3LOT009122: lost input channel from [221.221.235.28] to MTA after mail
+Nov  4 14:03:39 combo sendmail[9122]: jA4J3LOT009122: from=e375257@yahoo.co.kr, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.221.235.28]
+Nov  5 04:02:04 combo sendmail[10592]: jA5924Ro010592: from=root, size=1384, class=0, nrcpts=1, msgid=<200511050902.jA5924Ro010592@combo.bkwconsulting.com>, relay=root@localhost
+Nov  5 04:02:21 combo sendmail[10594]: jA5924gZ010594: from=<root@combo.bkwconsulting.com>, size=1698, class=0, nrcpts=1, msgid=<200511050902.jA5924Ro010592@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Nov  5 04:02:21 combo sendmail[10592]: jA5924Ro010592: to=root, ctladdr=root (0/0), delay=00:00:17, xdelay=00:00:17, mailer=relay, pri=31384, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (jA5924gZ010594 Message accepted for delivery)
+Nov  5 04:02:21 combo sendmail[10595]: jA5924gZ010594: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31942, dsn=2.0.0, stat=Sent
+Nov  5 04:03:00 combo ctl_mboxlist[10621]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Nov  5 04:03:01 combo ctl_mboxlist[10621]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Nov  5 04:09:04 combo sendmail[10631]: jA5931MN010631: from=root, size=524, class=0, nrcpts=1, msgid=<200511050903.jA5931MN010631@combo.bkwconsulting.com>, relay=root@localhost
+Nov  5 04:09:20 combo sendmail[11038]: jA5994Vv011038: from=<root@combo.bkwconsulting.com>, size=820, class=0, nrcpts=1, msgid=<200511050903.jA5931MN010631@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Nov  5 04:09:20 combo sendmail[10631]: jA5931MN010631: to=root, ctladdr=root (0/0), delay=00:06:19, xdelay=00:00:16, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (jA5994Vv011038 Message accepted for delivery)
+Nov  5 04:09:21 combo sendmail[11041]: jA5994Vv011038: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=31059, dsn=2.0.0, stat=Sent
+Nov  6 04:04:54 combo sendmail[13558]: jA694sSc013558: from=root, size=21128, class=0, nrcpts=1, msgid=<200511060904.jA694sSc013558@combo.bkwconsulting.com>, relay=root@localhost
+Nov  6 04:05:11 combo sendmail[13560]: jA694sRh013560: from=<root@combo.bkwconsulting.com>, size=21442, class=0, nrcpts=1, msgid=<200511060904.jA694sSc013558@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Nov  6 04:05:11 combo sendmail[13558]: jA694sSc013558: to=root, ctladdr=root (0/0), delay=00:00:17, xdelay=00:00:17, mailer=relay, pri=51128, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (jA694sRh013560 Message accepted for delivery)
+Nov  6 04:05:12 combo sendmail[13565]: jA694sRh013560: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=51686, dsn=2.0.0, stat=Sent
+Nov  6 04:05:53 combo ctl_mboxlist[13591]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Nov  6 04:05:53 combo ctl_mboxlist[13591]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds

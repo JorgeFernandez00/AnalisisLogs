@@ -1,0 +1,124 @@
+Oct 23 04:09:55 combo sendmail[17430]: j9N83iwc017430: from=root, size=524, class=0, nrcpts=1, msgid=<200510230803.j9N83iwc017430@combo.bkwconsulting.com>, relay=root@localhost
+Oct 23 04:10:12 combo sendmail[18700]: j9N89tBn018700: from=<root@combo.bkwconsulting.com>, size=822, class=0, nrcpts=1, msgid=<200510230803.j9N83iwc017430@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Oct 23 04:10:12 combo sendmail[17430]: j9N83iwc017430: to=root, ctladdr=root (0/0), delay=00:06:28, xdelay=00:00:17, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j9N89tBn018700 Message accepted for delivery)
+Oct 23 04:10:13 combo sendmail[18708]: j9N89tBn018700: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=31062, dsn=2.0.0, stat=Sent
+Oct 23 08:58:01 combo sendmail[22171]: j9NCvdEv022171: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:01 combo sendmail[22171]: j9NCvdEv022171: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:04 combo sendmail[22174]: j9NCvl30022174: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:04 combo sendmail[22187]: j9NCvlYw022187: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:04 combo sendmail[22183]: j9NCvlqN022183: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:04 combo sendmail[22177]: j9NCvlIF022177: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:05 combo sendmail[22174]: j9NCvl30022174: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:05 combo sendmail[22187]: j9NCvlYw022187: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:05 combo sendmail[22183]: j9NCvlqN022183: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:05 combo sendmail[22177]: j9NCvlIF022177: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:05 combo sendmail[22184]: j9NCvlvC022184: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:05 combo sendmail[22173]: j9NCvlfn022173: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:05 combo sendmail[22181]: j9NCvlol022181: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:05 combo sendmail[22184]: j9NCvlvC022184: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:06 combo sendmail[22173]: j9NCvlfn022173: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:06 combo sendmail[22181]: j9NCvlol022181: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:06 combo sendmail[22188]: j9NCvnf1022188: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:06 combo sendmail[22188]: j9NCvnf1022188: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:07 combo sendmail[22179]: j9NCvlA8022179: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:07 combo sendmail[22185]: j9NCvl6s022185: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:07 combo sendmail[22179]: j9NCvlA8022179: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:07 combo sendmail[22185]: j9NCvl6s022185: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:07 combo sendmail[22172]: j9NCvlg0022172: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:07 combo sendmail[22176]: j9NCvl9B022176: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:07 combo sendmail[22175]: j9NCvlmZ022175: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:08 combo sendmail[22172]: j9NCvlg0022172: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:08 combo sendmail[22176]: j9NCvl9B022176: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:08 combo sendmail[22175]: j9NCvlmZ022175: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:08 combo sendmail[22182]: j9NCvllu022182: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:08 combo sendmail[22182]: j9NCvllu022182: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:09 combo sendmail[22192]: j9NCvoAe022192: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:09 combo sendmail[22192]: j9NCvoAe022192: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:11 combo sendmail[22193]: j9NCvs0S022193: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:11 combo sendmail[22180]: j9NCvlOP022180: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:11 combo sendmail[22193]: j9NCvs0S022193: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:11 combo sendmail[22190]: j9NCvn0P022190: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:11 combo sendmail[22180]: j9NCvlOP022180: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:11 combo sendmail[22190]: j9NCvn0P022190: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:15 combo sendmail[22189]: j9NCvnE2022189: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:15 combo sendmail[22189]: j9NCvnE2022189: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:17 combo sendmail[22186]: j9NCvlB8022186: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:18 combo sendmail[22186]: j9NCvlB8022186: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:25 combo sendmail[22178]: j9NCvlVl022178: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:26 combo sendmail[22178]: j9NCvlVl022178: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 08:58:29 combo sendmail[22191]: j9NCvoK7022191: ruleset=check_rcpt, arg1=<china9988@21cn.com>, relay=[211.190.205.184], reject=550 5.7.1 <china9988@21cn.com>... Relaying denied. IP name lookup failed [211.190.205.184]
+Oct 23 08:58:29 combo sendmail[22191]: j9NCvoK7022191: from=<china9988@21cn.com>, size=0, class=0, nrcpts=0, proto=ESMTP, daemon=MTA, relay=[211.190.205.184]
+Oct 23 09:49:43 combo sendmail[22267]: j9NDnhI3022267: combo.bkwconsulting.com [63.126.79.67] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Oct 24 04:06:19 combo sendmail[24118]: j9O86Ju5024118: from=root, size=2973, class=0, nrcpts=1, msgid=<200510240806.j9O86Ju5024118@combo.bkwconsulting.com>, relay=root@localhost
+Oct 24 04:06:35 combo sendmail[24120]: j9O86Jkc024120: from=<root@combo.bkwconsulting.com>, size=3289, class=0, nrcpts=1, msgid=<200510240806.j9O86Ju5024118@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Oct 24 04:06:35 combo sendmail[24118]: j9O86Ju5024118: to=root, ctladdr=root (0/0), delay=00:00:16, xdelay=00:00:16, mailer=relay, pri=32973, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j9O86Jkc024120 Message accepted for delivery)
+Oct 24 04:06:36 combo sendmail[24121]: j9O86Jkc024120: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=33534, dsn=2.0.0, stat=Sent
+Oct 24 04:07:00 combo ctl_mboxlist[24147]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Oct 24 04:07:00 combo ctl_mboxlist[24147]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Oct 24 04:12:32 combo sendmail[24157]: j9O87165024157: from=root, size=524, class=0, nrcpts=1, msgid=<200510240807.j9O87165024157@combo.bkwconsulting.com>, relay=root@localhost
+Oct 24 04:12:49 combo sendmail[24567]: j9O8CWPU024567: from=<root@combo.bkwconsulting.com>, size=822, class=0, nrcpts=1, msgid=<200510240807.j9O87165024157@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Oct 24 04:12:49 combo sendmail[24157]: j9O87165024157: to=root, ctladdr=root (0/0), delay=00:05:48, xdelay=00:00:17, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j9O8CWPU024567 Message accepted for delivery)
+Oct 24 04:12:50 combo sendmail[24568]: j9O8CWPU024567: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=31062, dsn=2.0.0, stat=Sent
+Oct 25 04:02:05 combo sendmail[26906]: j9P825eO026906: from=root, size=30718, class=0, nrcpts=1, msgid=<200510250802.j9P825eO026906@combo.bkwconsulting.com>, relay=root@localhost
+Oct 25 04:03:01 combo sendmail[26908]: j9P82552026908: from=<root@combo.bkwconsulting.com>, size=31090, class=0, nrcpts=1, msgid=<200510250802.j9P825eO026906@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Oct 25 04:03:01 combo sendmail[26906]: j9P825eO026906: to=root, ctladdr=root (0/0), delay=00:00:56, xdelay=00:00:56, mailer=relay, pri=60718, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j9P82552026908 Message accepted for delivery)
+Oct 25 04:03:02 combo sendmail[26909]: j9P82552026908: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=61335, dsn=2.0.0, stat=Sent
+Oct 25 04:04:00 combo ctl_mboxlist[26936]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Oct 25 04:04:00 combo ctl_mboxlist[26936]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Oct 25 04:10:08 combo sendmail[26925]: j9P83x60026925: from=root, size=591, class=0, nrcpts=1, msgid=<200510250803.j9P83x60026925@combo.bkwconsulting.com>, relay=root@localhost
+Oct 25 04:11:06 combo sendmail[28214]: j9P8A9m1028214: from=<root@combo.bkwconsulting.com>, size=889, class=0, nrcpts=1, msgid=<200510250803.j9P83x60026925@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Oct 25 04:11:06 combo sendmail[26925]: j9P83x60026925: to=root, ctladdr=root (0/0), delay=00:07:07, xdelay=00:00:58, mailer=relay, pri=30591, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j9P8A9m1028214 Message accepted for delivery)
+Oct 25 04:11:07 combo sendmail[28215]: j9P8A9m1028214: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=31129, dsn=2.0.0, stat=Sent
+Oct 25 10:06:56 combo spamd[2051]: server killed by SIGTERM, shutting down 
+Oct 25 10:09:08 combo sendmail[2017]: alias database /etc/aliases rebuilt by root
+Oct 25 10:09:08 combo sendmail[2017]: /etc/aliases: 69 aliases, longest 10 bytes, 679 bytes total
+Oct 25 10:09:09 combo sendmail[2022]: starting daemon (8.12.11): SMTP+queueing@01:00:00
+Oct 25 10:09:10 combo sm-msp-queue[2031]: starting daemon (8.12.11): queueing@01:00:00
+Oct 25 10:09:15 combo sendmail[2022]: STARTTLS=server: file /etc/mail/certs/cert.pem unsafe: No such file or directory
+Oct 25 10:10:19 combo spamd[2048]: server started on port 783/tcp (running version 2.63) 
+Oct 26 04:02:32 combo sendmail[4707]: j9Q82WaG004707: from=root, size=2249, class=0, nrcpts=1, msgid=<200510260802.j9Q82WaG004707@combo.bkwconsulting.com>, relay=root@localhost
+Oct 26 04:03:29 combo sendmail[4709]: j9Q82Xt3004709: from=<root@combo.bkwconsulting.com>, size=2565, class=0, nrcpts=1, msgid=<200510260802.j9Q82WaG004707@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Oct 26 04:03:29 combo sendmail[4707]: j9Q82WaG004707: to=root, ctladdr=root (0/0), delay=00:00:57, xdelay=00:00:56, mailer=relay, pri=32249, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j9Q82Xt3004709 Message accepted for delivery)
+Oct 26 04:03:30 combo sendmail[4710]: j9Q82Xt3004709: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=32810, dsn=2.0.0, stat=Sent
+Oct 26 04:04:28 combo ctl_mboxlist[4738]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Oct 26 04:04:29 combo ctl_mboxlist[4738]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Oct 26 04:10:54 combo sendmail[4726]: j9Q84RMJ004726: from=root, size=591, class=0, nrcpts=1, msgid=<200510260804.j9Q84RMJ004726@combo.bkwconsulting.com>, relay=root@localhost
+Oct 26 04:11:51 combo sendmail[5163]: j9Q8AtRW005163: from=<root@combo.bkwconsulting.com>, size=889, class=0, nrcpts=1, msgid=<200510260804.j9Q84RMJ004726@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Oct 26 04:11:51 combo sendmail[4726]: j9Q84RMJ004726: to=root, ctladdr=root (0/0), delay=00:07:24, xdelay=00:00:57, mailer=relay, pri=30591, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j9Q8AtRW005163 Message accepted for delivery)
+Oct 26 04:11:51 combo sendmail[5164]: j9Q8AtRW005163: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31129, dsn=2.0.0, stat=Sent
+Oct 27 04:02:04 combo sendmail[7443]: j9R824nc007443: from=root, size=1340, class=0, nrcpts=1, msgid=<200510270802.j9R824nc007443@combo.bkwconsulting.com>, relay=root@localhost
+Oct 27 04:03:01 combo sendmail[7445]: j9R824wN007445: from=<root@combo.bkwconsulting.com>, size=1656, class=0, nrcpts=1, msgid=<200510270802.j9R824nc007443@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Oct 27 04:03:01 combo sendmail[7443]: j9R824nc007443: to=root, ctladdr=root (0/0), delay=00:00:57, xdelay=00:00:57, mailer=relay, pri=31340, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j9R824wN007445 Message accepted for delivery)
+Oct 27 04:03:01 combo sendmail[7446]: j9R824wN007445: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31901, dsn=2.0.0, stat=Sent
+Oct 27 04:03:59 combo ctl_mboxlist[7473]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Oct 27 04:03:59 combo ctl_mboxlist[7473]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Oct 27 04:10:49 combo sendmail[7461]: j9R83wXs007461: from=root, size=591, class=0, nrcpts=1, msgid=<200510270803.j9R83wXs007461@combo.bkwconsulting.com>, relay=root@localhost
+Oct 27 04:11:46 combo sendmail[8753]: j9R8AnUw008753: from=<root@combo.bkwconsulting.com>, size=889, class=0, nrcpts=1, msgid=<200510270803.j9R83wXs007461@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Oct 27 04:11:46 combo sendmail[7461]: j9R83wXs007461: to=root, ctladdr=root (0/0), delay=00:07:48, xdelay=00:00:57, mailer=relay, pri=30591, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j9R8AnUw008753 Message accepted for delivery)
+Oct 27 04:11:47 combo sendmail[8754]: j9R8AnUw008753: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=31129, dsn=2.0.0, stat=Sent
+Oct 28 04:02:04 combo sendmail[11012]: j9S824Ei011012: from=root, size=1116, class=0, nrcpts=1, msgid=<200510280802.j9S824Ei011012@combo.bkwconsulting.com>, relay=root@localhost
+Oct 28 04:03:01 combo sendmail[11014]: j9S824Vr011014: from=<root@combo.bkwconsulting.com>, size=1432, class=0, nrcpts=1, msgid=<200510280802.j9S824Ei011012@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Oct 28 04:03:01 combo sendmail[11012]: j9S824Ei011012: to=root, ctladdr=root (0/0), delay=00:00:57, xdelay=00:00:57, mailer=relay, pri=31116, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j9S824Vr011014 Message accepted for delivery)
+Oct 28 04:03:01 combo sendmail[11015]: j9S824Vr011014: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31677, dsn=2.0.0, stat=Sent
+Oct 28 04:04:27 combo ctl_mboxlist[11042]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Oct 28 04:04:28 combo ctl_mboxlist[11042]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Oct 28 04:10:35 combo sendmail[11030]: j9S84Qpb011030: from=root, size=591, class=0, nrcpts=1, msgid=<200510280804.j9S84Qpb011030@combo.bkwconsulting.com>, relay=root@localhost
+Oct 28 04:11:32 combo sendmail[11467]: j9S8Aa9Y011467: from=<root@combo.bkwconsulting.com>, size=889, class=0, nrcpts=1, msgid=<200510280804.j9S84Qpb011030@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Oct 28 04:11:32 combo sendmail[11030]: j9S84Qpb011030: to=root, ctladdr=root (0/0), delay=00:07:06, xdelay=00:00:56, mailer=relay, pri=30591, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j9S8Aa9Y011467 Message accepted for delivery)
+Oct 28 04:11:33 combo sendmail[11468]: j9S8Aa9Y011467: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=31129, dsn=2.0.0, stat=Sent
+Oct 29 04:02:04 combo sendmail[13726]: j9T824jr013726: from=root, size=1116, class=0, nrcpts=1, msgid=<200510290802.j9T824jr013726@combo.bkwconsulting.com>, relay=root@localhost
+Oct 29 04:03:01 combo sendmail[13728]: j9T8245M013728: from=<root@combo.bkwconsulting.com>, size=1432, class=0, nrcpts=1, msgid=<200510290802.j9T824jr013726@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Oct 29 04:03:01 combo sendmail[13726]: j9T824jr013726: to=root, ctladdr=root (0/0), delay=00:00:57, xdelay=00:00:57, mailer=relay, pri=31116, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j9T8245M013728 Message accepted for delivery)
+Oct 29 04:03:01 combo sendmail[13729]: j9T8245M013728: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=31677, dsn=2.0.0, stat=Sent
+Oct 29 04:04:27 combo ctl_mboxlist[13756]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Oct 29 04:04:27 combo ctl_mboxlist[13756]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Oct 29 04:11:05 combo sendmail[13744]: j9T84Qvs013744: from=root, size=591, class=0, nrcpts=1, msgid=<200510290804.j9T84Qvs013744@combo.bkwconsulting.com>, relay=root@localhost
+Oct 29 04:12:02 combo sendmail[15036]: j9T8B6VJ015036: from=<root@combo.bkwconsulting.com>, size=889, class=0, nrcpts=1, msgid=<200510290804.j9T84Qvs013744@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Oct 29 04:12:02 combo sendmail[13744]: j9T84Qvs013744: to=root, ctladdr=root (0/0), delay=00:07:36, xdelay=00:00:56, mailer=relay, pri=30591, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j9T8B6VJ015036 Message accepted for delivery)
+Oct 29 04:12:03 combo sendmail[15037]: j9T8B6VJ015036: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=31129, dsn=2.0.0, stat=Sent
+Oct 30 04:02:04 combo sendmail[17377]: j9U924IS017377: from=root, size=1116, class=0, nrcpts=1, msgid=<200510300902.j9U924IS017377@combo.bkwconsulting.com>, relay=root@localhost
+Oct 30 04:03:00 combo sendmail[17379]: j9U924jl017379: from=<root@combo.bkwconsulting.com>, size=1432, class=0, nrcpts=1, msgid=<200510300902.j9U924IS017377@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Oct 30 04:03:00 combo sendmail[17377]: j9U924IS017377: to=root, ctladdr=root (0/0), delay=00:00:56, xdelay=00:00:56, mailer=relay, pri=31116, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j9U924jl017379 Message accepted for delivery)
+Oct 30 04:03:01 combo sendmail[17380]: j9U924jl017379: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=31677, dsn=2.0.0, stat=Sent
+Oct 30 04:04:27 combo ctl_mboxlist[17407]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Oct 30 04:04:27 combo ctl_mboxlist[17407]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds

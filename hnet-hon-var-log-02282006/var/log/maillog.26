@@ -1,0 +1,236 @@
+Jul 24 04:33:58 combo sendmail[17274]: j6O8KI4H017274: from=root, size=591, class=0, nrcpts=1, msgid=<200507240820.j6O8KI4H017274@combo.bkwconsulting.com>, relay=root@localhost
+Jul 24 04:34:55 combo sendmail[21853]: j6O8Xx72021853: from=<root@combo.bkwconsulting.com>, size=889, class=0, nrcpts=1, msgid=<200507240820.j6O8KI4H017274@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul 24 04:34:55 combo sendmail[17274]: j6O8KI4H017274: to=root, ctladdr=root (0/0), delay=00:14:37, xdelay=00:00:57, mailer=relay, pri=30591, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6O8Xx72021853 Message accepted for delivery)
+Jul 24 04:34:56 combo sendmail[21854]: j6O8Xx72021853: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=31129, dsn=2.0.0, stat=Sent
+Jul 24 11:33:02 combo sendmail[22465]: j6JFNbp4030855: j6OFW673022465: return to sender: Cannot send message for 5 days
+Jul 24 11:33:02 combo sendmail[22465]: j6OFW673022465: to=root, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=33942, dsn=2.0.0, stat=Sent
+Jul 24 12:33:02 combo sendmail[22550]: j6JGKRWw030944: j6OGW673022550: return to sender: Cannot send message for 5 days
+Jul 24 12:33:02 combo sendmail[22550]: j6OGW673022550: to=root, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=33954, dsn=2.0.0, stat=Sent
+Jul 24 12:33:02 combo sendmail[22550]: j6JFonAn030891: j6OGW674022550: return to sender: Cannot send message for 5 days
+Jul 24 12:33:02 combo sendmail[22550]: j6OGW674022550: to=root, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=34022, dsn=2.0.0, stat=Sent
+Jul 24 14:33:02 combo sendmail[22735]: j6JHlOwf031072: j6OIW673022735: return to sender: Cannot send message for 5 days
+Jul 24 14:33:02 combo sendmail[22735]: j6OIW673022735: to=root, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=33970, dsn=2.0.0, stat=Sent
+Jul 24 18:46:27 combo sendmail[23147]: j6OMiY2B023147: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:46:27 combo sendmail[23147]: j6OMiY2B023147: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:23 combo sendmail[23148]: j6OMjUtP023148: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23149]: j6OMjU1p023149: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23150]: j6OMjU5S023150: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23151]: j6OMjU3l023151: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23152]: j6OMjUPF023152: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23153]: j6OMjUm0023153: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23154]: j6OMjUNP023154: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23155]: j6OMjUwZ023155: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23156]: j6OMjUrW023156: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23157]: j6OMjUTH023157: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23158]: j6OMjUoN023158: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23159]: j6OMjUOp023159: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23161]: j6OMjUKT023161: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23148]: j6OMjUtP023148: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:23 combo sendmail[23160]: j6OMjUWZ023160: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23149]: j6OMjU1p023149: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:23 combo sendmail[23163]: j6OMjUvw023163: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23162]: j6OMjUZn023162: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23150]: j6OMjU5S023150: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:23 combo sendmail[23151]: j6OMjU3l023151: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:23 combo sendmail[23152]: j6OMjUPF023152: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:23 combo sendmail[23153]: j6OMjUm0023153: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:23 combo sendmail[23154]: j6OMjUNP023154: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:23 combo sendmail[23155]: j6OMjUwZ023155: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:23 combo sendmail[23164]: j6OMjU5X023164: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23165]: j6OMjU9k023165: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23156]: j6OMjUrW023156: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:23 combo sendmail[23166]: j6OMjUFF023166: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23168]: j6OMjUfF023168: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23167]: j6OMjUC1023167: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23169]: j6OMjUeg023169: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=[220.137.89.247], reject=450 4.7.1 <a231.b233@msa.hinet.net>... Relaying temporarily denied. Cannot resolve PTR record for 220.137.89.247
+Jul 24 18:47:23 combo sendmail[23157]: j6OMjUTH023157: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:23 combo sendmail[23158]: j6OMjUoN023158: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:23 combo sendmail[23159]: j6OMjUOp023159: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:23 combo sendmail[23161]: j6OMjUKT023161: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:24 combo sendmail[23160]: j6OMjUWZ023160: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:24 combo sendmail[23163]: j6OMjUvw023163: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:24 combo sendmail[23162]: j6OMjUZn023162: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:24 combo sendmail[23164]: j6OMjU5X023164: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:24 combo sendmail[23165]: j6OMjU9k023165: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:24 combo sendmail[23166]: j6OMjUFF023166: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:24 combo sendmail[23168]: j6OMjUfF023168: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:24 combo sendmail[23167]: j6OMjUC1023167: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 24 18:47:24 combo sendmail[23169]: j6OMjUeg023169: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[220.137.89.247]
+Jul 25 04:02:04 combo sendmail[24285]: j6P824XV024285: from=root, size=3176, class=0, nrcpts=1, msgid=<200507250802.j6P824XV024285@combo.bkwconsulting.com>, relay=root@localhost
+Jul 25 04:03:00 combo sendmail[24287]: j6P824r6024287: from=<root@combo.bkwconsulting.com>, size=3492, class=0, nrcpts=1, msgid=<200507250802.j6P824XV024285@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul 25 04:03:00 combo sendmail[24285]: j6P824XV024285: to=root, ctladdr=root (0/0), delay=00:00:56, xdelay=00:00:56, mailer=relay, pri=33176, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6P824r6024287 Message accepted for delivery)
+Jul 25 04:03:01 combo sendmail[24288]: j6P824r6024287: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=33737, dsn=2.0.0, stat=Sent
+Jul 25 04:03:59 combo ctl_mboxlist[24314]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Jul 25 04:03:59 combo ctl_mboxlist[24314]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Jul 25 04:09:33 combo sendmail[24326]: j6P840fP024326: from=root, size=524, class=0, nrcpts=1, msgid=<200507250804.j6P840fP024326@combo.bkwconsulting.com>, relay=root@localhost
+Jul 25 04:10:30 combo sendmail[24731]: j6P89Xg3024731: from=<root@combo.bkwconsulting.com>, size=822, class=0, nrcpts=1, msgid=<200507250804.j6P840fP024326@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul 25 04:10:30 combo sendmail[24326]: j6P840fP024326: to=root, ctladdr=root (0/0), delay=00:06:30, xdelay=00:00:57, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6P89Xg3024731 Message accepted for delivery)
+Jul 25 04:10:30 combo sendmail[24739]: j6P89Xg3024731: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31062, dsn=2.0.0, stat=Sent
+Jul 26 02:26:47 combo sendmail[26751]: j6Q6Ql0T026751: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:26:47 combo sendmail[26745]: j6Q6QllU026745: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:26:47 combo sendmail[26748]: j6Q6QlnM026748: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:26:47 combo sendmail[26743]: j6Q6QlF3026743: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:26:47 combo sendmail[26740]: j6Q6QljB026740: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:26:47 combo sendmail[26746]: j6Q6QlHE026746: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:26:47 combo sendmail[26742]: j6Q6Qlsa026742: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:26:47 combo sendmail[26744]: j6Q6QlBl026744: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:26:47 combo sendmail[26750]: j6Q6QlAx026750: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:26:47 combo sendmail[26747]: j6Q6Ql7C026747: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:26:47 combo sendmail[26749]: j6Q6QlMg026749: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:26:47 combo sendmail[26752]: j6Q6QluZ026752: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:26:47 combo sendmail[26753]: j6Q6QlYO026753: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:26:47 combo sendmail[26741]: j6Q6QlkG026741: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:26:47 combo sendmail[26754]: j6Q6Qlx4026754: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:26:47 combo sendmail[26755]: j6Q6Qlo7026755: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:26:47 combo sendmail[26756]: j6Q6Ql3g026756: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:26:50 combo sendmail[26757]: j6Q6QoZK026757: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:47 combo sendmail[26762]: j6Q6Rl0o026762: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:47 combo sendmail[26763]: j6Q6RlaH026763: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:47 combo sendmail[26764]: j6Q6Rltn026764: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:47 combo sendmail[26765]: j6Q6Rlae026765: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:47 combo sendmail[26766]: j6Q6RlK7026766: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:48 combo sendmail[26767]: j6Q6RmlF026767: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:48 combo sendmail[26768]: j6Q6RmWI026768: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:48 combo sendmail[26769]: j6Q6RmLF026769: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:48 combo sendmail[26770]: j6Q6RmxG026770: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:48 combo sendmail[26771]: j6Q6RmxQ026771: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:48 combo sendmail[26772]: j6Q6Rmln026772: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:48 combo sendmail[26773]: j6Q6RmcE026773: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:48 combo sendmail[26774]: j6Q6RmfT026774: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:48 combo sendmail[26775]: j6Q6RmX1026775: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:48 combo sendmail[26776]: j6Q6RmOV026776: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:48 combo sendmail[26777]: j6Q6Rma5026777: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:51 combo sendmail[26778]: j6Q6RpXu026778: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:51 combo sendmail[26779]: j6Q6RpMA026779: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:51 combo sendmail[26780]: j6Q6Rp9R026780: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:52 combo sendmail[26781]: j6Q6Rqb2026781: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:27:57 combo sendmail[26782]: j6Q6RvTM026782: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:28:09 combo sendmail[26783]: j6Q6S9if026783: [61.141.185.221] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:39:58 combo sendmail[26798]: j6Q6dwQD026798: [61.31.128.158] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:40:54 combo sendmail[26797]: j6Q6esja026797: [61.31.128.158] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:40:54 combo sendmail[26799]: j6Q6esjB026799: [61.31.128.158] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:40:54 combo sendmail[26800]: j6Q6esgB026800: [61.31.128.158] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:40:54 combo sendmail[26801]: j6Q6eskT026801: [61.31.128.158] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:40:54 combo sendmail[26802]: j6Q6esU7026802: [61.31.128.158] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:40:54 combo sendmail[26804]: j6Q6esoB026804: [61.31.128.158] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:40:54 combo sendmail[26805]: j6Q6es5R026805: [61.31.128.158] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:40:54 combo sendmail[26807]: j6Q6esCL026807: [61.31.128.158] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:40:54 combo sendmail[26803]: j6Q6esIA026803: [61.31.128.158] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:40:54 combo sendmail[26808]: j6Q6esl9026808: [61.31.128.158] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:40:54 combo sendmail[26806]: j6Q6esJ1026806: [61.31.128.158] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:40:54 combo sendmail[26809]: j6Q6esfX026809: [61.31.128.158] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:40:54 combo sendmail[26810]: j6Q6esIK026810: [61.31.128.158] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:40:57 combo sendmail[26811]: j6Q6evYO026811: [61.31.128.158] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:40:58 combo sendmail[26812]: j6Q6ewDp026812: [61.31.128.158] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:40:58 combo sendmail[26813]: j6Q6ewPR026813: [61.31.128.158] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:40:58 combo sendmail[26814]: j6Q6ewXe026814: [61.31.128.158] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:41:02 combo sendmail[26815]: j6Q6f2DH026815: [61.31.128.158] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 02:41:04 combo sendmail[26816]: j6Q6f4DH026816: [61.31.128.158] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 04:02:04 combo sendmail[27254]: j6Q8241C027254: from=root, size=4752, class=0, nrcpts=1, msgid=<200507260802.j6Q8241C027254@combo.bkwconsulting.com>, relay=root@localhost
+Jul 26 04:03:00 combo sendmail[27256]: j6Q824vk027256: from=<root@combo.bkwconsulting.com>, size=5068, class=0, nrcpts=1, msgid=<200507260802.j6Q8241C027254@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul 26 04:03:00 combo sendmail[27254]: j6Q8241C027254: to=root, ctladdr=root (0/0), delay=00:00:56, xdelay=00:00:56, mailer=relay, pri=34752, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6Q824vk027256 Message accepted for delivery)
+Jul 26 04:03:01 combo sendmail[27257]: j6Q824vk027256: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=35313, dsn=2.0.0, stat=Sent
+Jul 26 04:05:22 combo ctl_mboxlist[27287]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Jul 26 04:05:23 combo ctl_mboxlist[27287]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Jul 26 04:11:24 combo sendmail[27299]: j6Q85Odb027299: from=root, size=524, class=0, nrcpts=1, msgid=<200507260805.j6Q85Odb027299@combo.bkwconsulting.com>, relay=root@localhost
+Jul 26 04:12:21 combo sendmail[28562]: j6Q8BOsk028562: from=<root@combo.bkwconsulting.com>, size=822, class=0, nrcpts=1, msgid=<200507260805.j6Q85Odb027299@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul 26 04:12:21 combo sendmail[27299]: j6Q85Odb027299: to=root, ctladdr=root (0/0), delay=00:06:57, xdelay=00:00:57, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6Q8BOsk028562 Message accepted for delivery)
+Jul 26 04:12:21 combo sendmail[28563]: j6Q8BOsk028562: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31062, dsn=2.0.0, stat=Sent
+Jul 26 18:40:01 combo sendmail[29835]: j6QMe1WA029835: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:57 combo sendmail[29836]: j6QMevMH029836: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:57 combo sendmail[29837]: j6QMevGh029837: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:57 combo sendmail[29838]: j6QMev66029838: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:57 combo sendmail[29840]: j6QMevC3029840: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:57 combo sendmail[29839]: j6QMeviR029839: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:57 combo sendmail[29841]: j6QMevh8029841: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:57 combo sendmail[29842]: j6QMevxf029842: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:58 combo sendmail[29843]: j6QMevui029843: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:58 combo sendmail[29844]: j6QMewSi029844: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:58 combo sendmail[29845]: j6QMewPs029845: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:58 combo sendmail[29846]: j6QMewRl029846: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:58 combo sendmail[29847]: j6QMewum029847: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:58 combo sendmail[29848]: j6QMewCO029848: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:58 combo sendmail[29849]: j6QMewhl029849: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:58 combo sendmail[29850]: j6QMewEw029850: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:58 combo sendmail[29851]: j6QMewmR029851: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:58 combo sendmail[29852]: j6QMewnE029852: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:58 combo sendmail[29853]: j6QMewJp029853: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:58 combo sendmail[29854]: j6QMewke029854: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:58 combo sendmail[29855]: j6QMewMF029855: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:58 combo sendmail[29856]: j6QMew1O029856: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 26 18:40:58 combo sendmail[29857]: j6QMewor029857: [221.140.55.40] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 04:10:57 combo sendmail[30968]: j6R8Av3c030968: from=root, size=3395, class=0, nrcpts=1, msgid=<200507270810.j6R8Av3c030968@combo.bkwconsulting.com>, relay=root@localhost
+Jul 27 04:11:53 combo sendmail[30970]: j6R8Avud030970: from=<root@combo.bkwconsulting.com>, size=3711, class=0, nrcpts=1, msgid=<200507270810.j6R8Av3c030968@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul 27 04:11:53 combo sendmail[30968]: j6R8Av3c030968: to=root, ctladdr=root (0/0), delay=00:00:56, xdelay=00:00:56, mailer=relay, pri=33395, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6R8Avud030970 Message accepted for delivery)
+Jul 27 04:11:54 combo sendmail[30971]: j6R8Avud030970: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=33956, dsn=2.0.0, stat=Sent
+Jul 27 04:16:08 combo ctl_mboxlist[31001]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Jul 27 04:16:08 combo ctl_mboxlist[31001]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Jul 27 04:21:40 combo sendmail[31013]: j6R8G99n031013: from=root, size=524, class=0, nrcpts=1, msgid=<200507270816.j6R8G99n031013@combo.bkwconsulting.com>, relay=root@localhost
+Jul 27 04:22:37 combo sendmail[31421]: j6R8LfFG031421: from=<root@combo.bkwconsulting.com>, size=822, class=0, nrcpts=1, msgid=<200507270816.j6R8G99n031013@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul 27 04:22:37 combo sendmail[31013]: j6R8G99n031013: to=root, ctladdr=root (0/0), delay=00:06:28, xdelay=00:00:57, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6R8LfFG031421 Message accepted for delivery)
+Jul 27 04:22:38 combo sendmail[31422]: j6R8LfFG031421: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=31062, dsn=2.0.0, stat=Sent
+Jul 27 05:26:45 combo sendmail[31510]: j6R9QjGK031510: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:41 combo sendmail[31511]: j6R9RfGB031511: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:41 combo sendmail[31512]: j6R9RfSX031512: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:41 combo sendmail[31514]: j6R9RfDw031514: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:41 combo sendmail[31513]: j6R9RfTb031513: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:41 combo sendmail[31515]: j6R9Rf9C031515: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:41 combo sendmail[31516]: j6R9Rf1l031516: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:42 combo sendmail[31517]: j6R9RgM7031517: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:42 combo sendmail[31518]: j6R9RgBl031518: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:42 combo sendmail[31520]: j6R9RgqR031520: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:42 combo sendmail[31519]: j6R9Rgrj031519: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:42 combo sendmail[31522]: j6R9Rgar031522: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:42 combo sendmail[31521]: j6R9RgNo031521: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:42 combo sendmail[31523]: j6R9Rgc0031523: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:42 combo sendmail[31525]: j6R9RgpU031525: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:42 combo sendmail[31524]: j6R9RgKZ031524: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:42 combo sendmail[31526]: j6R9Rgnl031526: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:42 combo sendmail[31527]: j6R9RgYE031527: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:42 combo sendmail[31528]: j6R9RgmI031528: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:42 combo sendmail[31529]: j6R9Rg2B031529: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:42 combo sendmail[31530]: j6R9RgI1031530: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:42 combo sendmail[31531]: j6R9Rg3G031531: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 05:27:42 combo sendmail[31532]: j6R9RgaU031532: [59.112.82.73] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul 27 14:42:14 combo sendmail[2030]: alias database /etc/aliases rebuilt by root
+Jul 27 14:42:14 combo sendmail[2030]: /etc/aliases: 69 aliases, longest 10 bytes, 679 bytes total
+Jul 27 14:42:15 combo sendmail[2035]: starting daemon (8.12.11): SMTP+queueing@01:00:00
+Jul 27 14:42:15 combo sendmail[2035]: STARTTLS=server: file /etc/mail/certs/cert.pem unsafe: No such file or directory
+Jul 27 14:42:15 combo sm-msp-queue[2044]: starting daemon (8.12.11): queueing@01:00:00
+Jul 27 14:43:22 combo spamd[2056]: server started on port 783/tcp (running version 2.63) 
+Jul 28 04:02:05 combo sendmail[4278]: j6S8252f004278: from=root, size=2405, class=0, nrcpts=1, msgid=<200507280802.j6S8252f004278@combo.bkwconsulting.com>, relay=root@localhost
+Jul 28 04:03:01 combo sendmail[4280]: j6S825Bo004280: from=<root@combo.bkwconsulting.com>, size=2721, class=0, nrcpts=1, msgid=<200507280802.j6S8252f004278@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul 28 04:03:01 combo sendmail[4278]: j6S8252f004278: to=root, ctladdr=root (0/0), delay=00:00:56, xdelay=00:00:56, mailer=relay, pri=32405, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6S825Bo004280 Message accepted for delivery)
+Jul 28 04:03:02 combo sendmail[4281]: j6S825Bo004280: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=32966, dsn=2.0.0, stat=Sent
+Jul 28 04:08:40 combo ctl_mboxlist[4312]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Jul 28 04:08:40 combo ctl_mboxlist[4312]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Jul 28 04:15:26 combo sendmail[4322]: j6S88fBw004322: from=root, size=524, class=0, nrcpts=1, msgid=<200507280808.j6S88fBw004322@combo.bkwconsulting.com>, relay=root@localhost
+Jul 28 04:16:22 combo sendmail[5591]: j6S8FQvE005591: from=<root@combo.bkwconsulting.com>, size=822, class=0, nrcpts=1, msgid=<200507280808.j6S88fBw004322@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul 28 04:16:22 combo sendmail[4322]: j6S88fBw004322: to=root, ctladdr=root (0/0), delay=00:07:41, xdelay=00:00:56, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6S8FQvE005591 Message accepted for delivery)
+Jul 28 04:16:23 combo sendmail[5592]: j6S8FQvE005591: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=31062, dsn=2.0.0, stat=Sent
+Jul 29 04:02:04 combo sendmail[7868]: j6T824U7007868: from=root, size=1340, class=0, nrcpts=1, msgid=<200507290802.j6T824U7007868@combo.bkwconsulting.com>, relay=root@localhost
+Jul 29 04:03:00 combo sendmail[7870]: j6T824lP007870: from=<root@combo.bkwconsulting.com>, size=1656, class=0, nrcpts=1, msgid=<200507290802.j6T824U7007868@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul 29 04:03:00 combo sendmail[7868]: j6T824U7007868: to=root, ctladdr=root (0/0), delay=00:00:56, xdelay=00:00:56, mailer=relay, pri=31340, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6T824lP007870 Message accepted for delivery)
+Jul 29 04:03:01 combo sendmail[7871]: j6T824lP007870: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=31901, dsn=2.0.0, stat=Sent
+Jul 29 04:08:39 combo ctl_mboxlist[7901]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Jul 29 04:08:39 combo ctl_mboxlist[7901]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Jul 29 04:14:31 combo sendmail[7911]: j6T88ehF007911: from=root, size=524, class=0, nrcpts=1, msgid=<200507290808.j6T88ehF007911@combo.bkwconsulting.com>, relay=root@localhost
+Jul 29 04:15:27 combo sendmail[8321]: j6T8EViU008321: from=<root@combo.bkwconsulting.com>, size=822, class=0, nrcpts=1, msgid=<200507290808.j6T88ehF007911@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul 29 04:15:28 combo sendmail[7911]: j6T88ehF007911: to=root, ctladdr=root (0/0), delay=00:06:48, xdelay=00:00:57, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6T8EViU008321 Message accepted for delivery)
+Jul 29 04:15:28 combo sendmail[8326]: j6T8EViU008321: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=31062, dsn=2.0.0, stat=Sent
+Jul 30 04:02:05 combo sendmail[10582]: j6U825Cn010582: from=root, size=1116, class=0, nrcpts=1, msgid=<200507300802.j6U825Cn010582@combo.bkwconsulting.com>, relay=root@localhost
+Jul 30 04:03:01 combo sendmail[10584]: j6U825Fg010584: from=<root@combo.bkwconsulting.com>, size=1432, class=0, nrcpts=1, msgid=<200507300802.j6U825Cn010582@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul 30 04:03:01 combo sendmail[10582]: j6U825Cn010582: to=root, ctladdr=root (0/0), delay=00:00:56, xdelay=00:00:56, mailer=relay, pri=31116, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6U825Fg010584 Message accepted for delivery)
+Jul 30 04:03:01 combo sendmail[10585]: j6U825Fg010584: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31677, dsn=2.0.0, stat=Sent
+Jul 30 04:08:39 combo ctl_mboxlist[10615]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Jul 30 04:08:40 combo ctl_mboxlist[10615]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Jul 30 04:15:05 combo sendmail[10625]: j6U88ewU010625: from=root, size=524, class=0, nrcpts=1, msgid=<200507300808.j6U88ewU010625@combo.bkwconsulting.com>, relay=root@localhost
+Jul 30 04:16:02 combo sendmail[11894]: j6U8F5J5011894: from=<root@combo.bkwconsulting.com>, size=822, class=0, nrcpts=1, msgid=<200507300808.j6U88ewU010625@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul 30 04:16:02 combo sendmail[10625]: j6U88ewU010625: to=root, ctladdr=root (0/0), delay=00:07:22, xdelay=00:00:57, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6U8F5J5011894 Message accepted for delivery)
+Jul 30 04:16:03 combo sendmail[11895]: j6U8F5J5011894: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=31062, dsn=2.0.0, stat=Sent
+Jul 31 04:02:05 combo sendmail[14151]: j6V825Mi014151: from=root, size=1116, class=0, nrcpts=1, msgid=<200507310802.j6V825Mi014151@combo.bkwconsulting.com>, relay=root@localhost
+Jul 31 04:03:01 combo sendmail[14153]: j6V825D4014153: from=<root@combo.bkwconsulting.com>, size=1432, class=0, nrcpts=1, msgid=<200507310802.j6V825Mi014151@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul 31 04:03:01 combo sendmail[14151]: j6V825Mi014151: to=root, ctladdr=root (0/0), delay=00:00:56, xdelay=00:00:56, mailer=relay, pri=31116, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6V825D4014153 Message accepted for delivery)
+Jul 31 04:03:01 combo sendmail[14154]: j6V825D4014153: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31677, dsn=2.0.0, stat=Sent
+Jul 31 04:08:39 combo ctl_mboxlist[14184]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Jul 31 04:08:40 combo ctl_mboxlist[14184]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds

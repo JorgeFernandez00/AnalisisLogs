@@ -1,0 +1,639 @@
+Aug 21 04:11:21 combo sendmail[3803]: j7L83YWf003803: from=root, size=628, class=0, nrcpts=1, msgid=<200508210803.j7L83YWf003803@combo.bkwconsulting.com>, relay=root@localhost
+Aug 21 04:11:38 combo sendmail[8733]: j7L8BLmL008733: from=<root@combo.bkwconsulting.com>, size=926, class=0, nrcpts=1, msgid=<200508210803.j7L83YWf003803@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 21 04:11:38 combo sendmail[3803]: j7L83YWf003803: to=root, ctladdr=root (0/0), delay=00:08:04, xdelay=00:00:17, mailer=relay, pri=30628, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j7L8BLmL008733 Message accepted for delivery)
+Aug 21 04:11:39 combo sendmail[8734]: j7L8BLmL008733: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=31166, dsn=2.0.0, stat=Sent
+Aug 22 03:31:09 combo sendmail[13722]: j7M7V6aG013722: [219.133.175.14] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 22 03:31:09 combo sendmail[13721]: j7M7V6tV013721: [219.133.175.14] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 22 03:31:09 combo sendmail[13724]: j7M7V6BV013724: [219.133.175.14] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 22 03:31:09 combo sendmail[13725]: j7M7V7GK013725: [219.133.175.14] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 22 03:31:10 combo sendmail[13726]: j7M7V8kr013726: [219.133.175.14] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 22 03:31:11 combo sendmail[13720]: j7M7V6V2013720: [219.133.175.14] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 22 03:31:12 combo sendmail[13723]: j7M7V6HI013723: [219.133.175.14] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 22 03:31:13 combo sendmail[13727]: j7M7V9qT013727: [219.133.175.14] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 22 03:31:15 combo sendmail[13728]: j7M7VFLC013728: [219.133.175.14] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 22 03:31:28 combo sendmail[13729]: j7M7VQLT013729: [219.133.175.14] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 22 04:02:04 combo sendmail[14112]: j7M824F0014112: from=root, size=1544, class=0, nrcpts=1, msgid=<200508220802.j7M824F0014112@combo.bkwconsulting.com>, relay=root@localhost
+Aug 22 04:02:26 combo sendmail[14114]: j7M824UH014114: from=<root@combo.bkwconsulting.com>, size=1860, class=0, nrcpts=1, msgid=<200508220802.j7M824F0014112@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 22 04:02:26 combo sendmail[14112]: j7M824F0014112: to=root, ctladdr=root (0/0), delay=00:00:22, xdelay=00:00:22, mailer=relay, pri=31544, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j7M824UH014114 Message accepted for delivery)
+Aug 22 04:02:26 combo sendmail[14115]: j7M824UH014114: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=32105, dsn=2.0.0, stat=Sent
+Aug 22 04:02:59 combo ctl_mboxlist[14141]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Aug 22 04:03:00 combo ctl_mboxlist[14141]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Aug 22 04:08:33 combo sendmail[14153]: j7M831uJ014153: from=root, size=524, class=0, nrcpts=1, msgid=<200508220803.j7M831uJ014153@combo.bkwconsulting.com>, relay=root@localhost
+Aug 22 04:08:50 combo sendmail[14558]: j7M88YRt014558: from=<root@combo.bkwconsulting.com>, size=822, class=0, nrcpts=1, msgid=<200508220803.j7M831uJ014153@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 22 04:08:50 combo sendmail[14153]: j7M831uJ014153: to=root, ctladdr=root (0/0), delay=00:05:49, xdelay=00:00:17, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j7M88YRt014558 Message accepted for delivery)
+Aug 22 04:08:51 combo sendmail[14559]: j7M88YRt014558: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=31062, dsn=2.0.0, stat=Sent
+Aug 22 21:36:49 combo sendmail[16059]: j7N1ZuTN016059: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:36:49 combo sendmail[16060]: j7N1ZuLT016060: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:36:53 combo sendmail[16062]: j7N1a0em016062: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:36:53 combo sendmail[16063]: j7N1a3PA016063: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:36:54 combo sendmail[16061]: j7N1Zw9g016061: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:37:24 combo sendmail[16068]: j7N1am8C016068: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:37:29 combo sendmail[16067]: j7N1au9X016067: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:37:30 combo sendmail[16070]: j7N1auLq016070: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:37:31 combo sendmail[16073]: j7N1avn4016073: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:37:32 combo sendmail[16065]: j7N1au8J016065: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:37:46 combo sendmail[16072]: j7N1avmP016072: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:37:46 combo sendmail[16071]: j7N1avg6016071: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:37:47 combo sendmail[16076]: j7N1avAe016076: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:37:48 combo sendmail[16081]: j7N1b6iE016081: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:37:48 combo sendmail[16066]: j7N1auws016066: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:37:49 combo sendmail[16069]: j7N1auDa016069: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:37:50 combo sendmail[16077]: j7N1b0qb016077: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:37:50 combo sendmail[16078]: j7N1b0f4016078: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:37:50 combo sendmail[16075]: j7N1avOA016075: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:37:50 combo sendmail[16074]: j7N1av4F016074: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:37:50 combo sendmail[16060]: j7N1ZuLT016060: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:37:50 combo sendmail[16060]: j7N1ZuLT016060: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:37:51 combo sendmail[16064]: j7N1auMs016064: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:37:52 combo sendmail[16059]: j7N1ZuTN016059: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:37:52 combo sendmail[16059]: j7N1ZuTN016059: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:37:53 combo sendmail[16079]: j7N1b0q4016079: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:37:54 combo sendmail[16062]: j7N1a0em016062: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:37:54 combo sendmail[16062]: j7N1a0em016062: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:37:54 combo sendmail[16063]: j7N1a3PA016063: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:37:54 combo sendmail[16063]: j7N1a3PA016063: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:37:55 combo sendmail[16061]: j7N1Zw9g016061: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:37:55 combo sendmail[16061]: j7N1Zw9g016061: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:37:56 combo sendmail[16080]: j7N1b3Sr016080: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.175.117], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.175.117]
+Aug 22 21:38:25 combo sendmail[16068]: j7N1am8C016068: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:38:25 combo sendmail[16068]: j7N1am8C016068: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:38:30 combo sendmail[16067]: j7N1au9X016067: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:38:30 combo sendmail[16067]: j7N1au9X016067: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:38:31 combo sendmail[16070]: j7N1auLq016070: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:38:31 combo sendmail[16070]: j7N1auLq016070: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:38:32 combo sendmail[16073]: j7N1avn4016073: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:38:32 combo sendmail[16073]: j7N1avn4016073: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:38:47 combo sendmail[16072]: j7N1avmP016072: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:38:47 combo sendmail[16072]: j7N1avmP016072: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:38:47 combo sendmail[16071]: j7N1avg6016071: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:38:47 combo sendmail[16071]: j7N1avg6016071: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:38:49 combo sendmail[16076]: j7N1avAe016076: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:38:49 combo sendmail[16076]: j7N1avAe016076: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:38:49 combo sendmail[16066]: j7N1auws016066: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:38:49 combo sendmail[16066]: j7N1auws016066: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:38:50 combo sendmail[16065]: j7N1au8J016065: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:38:50 combo sendmail[16065]: j7N1au8J016065: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:38:51 combo sendmail[16078]: j7N1b0f4016078: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:38:51 combo sendmail[16078]: j7N1b0f4016078: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:38:51 combo sendmail[16077]: j7N1b0qb016077: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:38:51 combo sendmail[16077]: j7N1b0qb016077: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:38:51 combo sendmail[16075]: j7N1avOA016075: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:38:51 combo sendmail[16075]: j7N1avOA016075: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:38:52 combo sendmail[16081]: j7N1b6iE016081: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:38:52 combo sendmail[16081]: j7N1b6iE016081: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:38:52 combo sendmail[16069]: j7N1auDa016069: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:38:52 combo sendmail[16069]: j7N1auDa016069: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:38:53 combo sendmail[16074]: j7N1av4F016074: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:38:53 combo sendmail[16074]: j7N1av4F016074: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:38:54 combo sendmail[16079]: j7N1b0q4016079: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:38:54 combo sendmail[16079]: j7N1b0q4016079: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:38:57 combo sendmail[16080]: j7N1b3Sr016080: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:38:57 combo sendmail[16080]: j7N1b3Sr016080: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 22 21:38:58 combo sendmail[16064]: j7N1auMs016064: lost input channel from [219.133.175.117] to MTA after rcpt
+Aug 22 21:38:58 combo sendmail[16064]: j7N1auMs016064: from=<rgerger@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.175.117]
+Aug 23 02:50:26 combo sendmail[16541]: j7N6oQ3Z016541: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:34 combo sendmail[16546]: j7N6oYOK016546: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:34 combo sendmail[16545]: j7N6oYqH016545: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:34 combo sendmail[16544]: j7N6oYfu016544: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:34 combo sendmail[16543]: j7N6oYGx016543: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:34 combo sendmail[16542]: j7N6oYV5016542: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:34 combo sendmail[16549]: j7N6oYrh016549: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:34 combo sendmail[16553]: j7N6oYij016553: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:34 combo sendmail[16550]: j7N6oYJZ016550: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:34 combo sendmail[16547]: j7N6oYCE016547: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:34 combo sendmail[16548]: j7N6oY65016548: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:34 combo sendmail[16554]: j7N6oYOX016554: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:34 combo sendmail[16555]: j7N6oYSg016555: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:34 combo sendmail[16556]: j7N6oYTW016556: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:34 combo sendmail[16557]: j7N6oYJw016557: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:34 combo sendmail[16558]: j7N6oYas016558: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:35 combo sendmail[16552]: j7N6oYYV016552: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:35 combo sendmail[16551]: j7N6oY1d016551: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:38 combo sendmail[16559]: j7N6och8016559: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:38 combo sendmail[16560]: j7N6ocRg016560: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:41 combo sendmail[16561]: j7N6of4q016561: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:44 combo sendmail[16562]: j7N6ohHQ016562: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 02:50:44 combo sendmail[16563]: j7N6oiGk016563: 61-224-68-46.dynamic.hinet.net [61.224.68.46] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 04:05:11 combo sendmail[16987]: j7N85BPb016987: from=root, size=4634, class=0, nrcpts=1, msgid=<200508230805.j7N85BPb016987@combo.bkwconsulting.com>, relay=root@localhost
+Aug 23 04:05:28 combo sendmail[16989]: j7N85B98016989: from=<root@combo.bkwconsulting.com>, size=4950, class=0, nrcpts=1, msgid=<200508230805.j7N85BPb016987@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 23 04:05:28 combo sendmail[16987]: j7N85BPb016987: to=root, ctladdr=root (0/0), delay=00:00:17, xdelay=00:00:17, mailer=relay, pri=34634, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j7N85B98016989 Message accepted for delivery)
+Aug 23 04:05:28 combo sendmail[16990]: j7N85B98016989: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=35195, dsn=2.0.0, stat=Sent
+Aug 23 04:06:03 combo ctl_mboxlist[17016]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Aug 23 04:06:03 combo ctl_mboxlist[17016]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Aug 23 04:12:06 combo sendmail[17026]: j7N864xn017026: from=root, size=524, class=0, nrcpts=1, msgid=<200508230806.j7N864xn017026@combo.bkwconsulting.com>, relay=root@localhost
+Aug 23 04:12:23 combo sendmail[18291]: j7N8C7RS018291: from=<root@combo.bkwconsulting.com>, size=822, class=0, nrcpts=1, msgid=<200508230806.j7N864xn017026@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 23 04:12:23 combo sendmail[17026]: j7N864xn017026: to=root, ctladdr=root (0/0), delay=00:06:19, xdelay=00:00:16, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j7N8C7RS018291 Message accepted for delivery)
+Aug 23 04:12:24 combo sendmail[18292]: j7N8C7RS018291: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=31062, dsn=2.0.0, stat=Sent
+Aug 23 05:31:08 combo sendmail[18415]: j7N9V5Y3018415: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:13 combo sendmail[18405]: j7N9VDXR018405: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:13 combo sendmail[18411]: j7N9VDHf018411: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:13 combo sendmail[18413]: j7N9VDeK018413: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:13 combo sendmail[18407]: j7N9VDMd018407: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:13 combo sendmail[18410]: j7N9VDKj018410: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:13 combo sendmail[18414]: j7N9VDJL018414: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:13 combo sendmail[18412]: j7N9VDDe018412: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:14 combo sendmail[18416]: j7N9VEAv018416: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:15 combo sendmail[18418]: j7N9VFmb018418: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:15 combo sendmail[18417]: j7N9VFTk018417: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:15 combo sendmail[18419]: j7N9VFeT018419: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:22 combo sendmail[18420]: j7N9VMnj018420: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:25 combo sendmail[18402]: j7N9VPGU018402: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:25 combo sendmail[18400]: j7N9VP8W018400: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:25 combo sendmail[18403]: j7N9VPqk018403: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:25 combo sendmail[18404]: j7N9VPso018404: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:25 combo sendmail[18408]: j7N9VPBa018408: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:25 combo sendmail[18409]: j7N9VPJv018409: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:25 combo sendmail[18399]: j7N9VP1j018399: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:25 combo sendmail[18401]: j7N9VP5N018401: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:25 combo sendmail[18406]: j7N9VP9j018406: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 05:31:25 combo sendmail[18398]: j7N9VPDJ018398: [221.220.244.100] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:17 combo sendmail[19405]: j7NKfHBN019405: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19410]: j7NKfLK6019410: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19411]: j7NKfLPO019411: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19407]: j7NKfLHR019407: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19412]: j7NKfLsO019412: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19406]: j7NKfL9U019406: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19418]: j7NKfLfY019418: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19422]: j7NKfLS1019422: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19416]: j7NKfLOe019416: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19415]: j7NKfL2u019415: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19423]: j7NKfL0Q019423: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19425]: j7NKfLmk019425: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19424]: j7NKfLv8019424: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19413]: j7NKfLXP019413: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19427]: j7NKfLue019427: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19414]: j7NKfLD1019414: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19420]: j7NKfLmo019420: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19409]: j7NKfLQu019409: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19426]: j7NKfLI8019426: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19419]: j7NKfLJU019419: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19408]: j7NKfLGG019408: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19417]: j7NKfLTV019417: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 23 16:41:21 combo sendmail[19421]: j7NKfLbB019421: mail.1-service.net [205.196.178.24] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 04:05:03 combo sendmail[20699]: j7O8532Q020699: from=root, size=4780, class=0, nrcpts=1, msgid=<200508240805.j7O8532Q020699@combo.bkwconsulting.com>, relay=root@localhost
+Aug 24 04:05:20 combo sendmail[20701]: j7O853Ew020701: from=<root@combo.bkwconsulting.com>, size=5096, class=0, nrcpts=1, msgid=<200508240805.j7O8532Q020699@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 24 04:05:20 combo sendmail[20699]: j7O8532Q020699: to=root, ctladdr=root (0/0), delay=00:00:17, xdelay=00:00:17, mailer=relay, pri=34780, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j7O853Ew020701 Message accepted for delivery)
+Aug 24 04:05:20 combo sendmail[20702]: j7O853Ew020701: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=35341, dsn=2.0.0, stat=Sent
+Aug 24 04:06:03 combo ctl_mboxlist[20728]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Aug 24 04:06:04 combo ctl_mboxlist[20728]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Aug 24 04:11:41 combo sendmail[20738]: j7O8658R020738: from=root, size=524, class=0, nrcpts=1, msgid=<200508240806.j7O8658R020738@combo.bkwconsulting.com>, relay=root@localhost
+Aug 24 04:11:58 combo sendmail[21148]: j7O8BfNL021148: from=<root@combo.bkwconsulting.com>, size=822, class=0, nrcpts=1, msgid=<200508240806.j7O8658R020738@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 24 04:11:58 combo sendmail[20738]: j7O8658R020738: to=root, ctladdr=root (0/0), delay=00:05:53, xdelay=00:00:17, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j7O8BfNL021148 Message accepted for delivery)
+Aug 24 04:11:59 combo sendmail[21149]: j7O8BfNL021148: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=31062, dsn=2.0.0, stat=Sent
+Aug 24 05:30:38 combo sendmail[21457]: j7O9UcGZ021457: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:46 combo sendmail[21461]: j7O9Uk6P021461: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:46 combo sendmail[21459]: j7O9Ukr7021459: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:46 combo sendmail[21470]: j7O9UkN7021470: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:46 combo sendmail[21472]: j7O9Ukv8021472: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:46 combo sendmail[21460]: j7O9Uk5C021460: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:46 combo sendmail[21471]: j7O9UkPZ021471: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:46 combo sendmail[21473]: j7O9UkBt021473: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:46 combo sendmail[21458]: j7O9UkPu021458: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:46 combo sendmail[21467]: j7O9UkSh021467: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:46 combo sendmail[21465]: j7O9UkkC021465: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:46 combo sendmail[21469]: j7O9Uki7021469: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:46 combo sendmail[21464]: j7O9UkFt021464: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:46 combo sendmail[21463]: j7O9UkGZ021463: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:46 combo sendmail[21474]: j7O9UkoF021474: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:46 combo sendmail[21466]: j7O9UkWp021466: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:46 combo sendmail[21462]: j7O9UkSi021462: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:46 combo sendmail[21468]: j7O9Uk6I021468: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:46 combo sendmail[21475]: j7O9UkCV021475: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:46 combo sendmail[21476]: j7O9UkrT021476: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:47 combo sendmail[21477]: j7O9Ultb021477: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:47 combo sendmail[21478]: j7O9Ul1L021478: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 05:30:47 combo sendmail[21479]: j7O9UlGW021479: 59-112-87-19.dynamic.hinet.net [59.112.87.19] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 24 20:40:10 combo sendmail[22784]: j7P0dK1m022784: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:40:13 combo sendmail[22783]: j7P0dKNd022783: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:40:52 combo sendmail[22808]: j7P0eF20022808: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:40:53 combo sendmail[22792]: j7P0eJDe022792: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:40:53 combo sendmail[22796]: j7P0eJDG022796: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:40:53 combo sendmail[22795]: j7P0eJuC022795: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:40:54 combo sendmail[22797]: j7P0eKT9022797: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:40:54 combo sendmail[22802]: j7P0eKVT022802: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:40:54 combo sendmail[22800]: j7P0eK88022800: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:40:54 combo sendmail[22803]: j7P0eKar022803: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:41:10 combo sendmail[22805]: j7P0eKXH022805: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:41:11 combo sendmail[22804]: j7P0eKKR022804: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:41:11 combo sendmail[22806]: j7P0eK8v022806: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:41:11 combo sendmail[22784]: j7P0dK1m022784: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:41:11 combo sendmail[22784]: j7P0dK1m022784: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:41:12 combo sendmail[22794]: j7P0eJ5m022794: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:41:12 combo sendmail[22793]: j7P0eJwH022793: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:41:13 combo sendmail[22801]: j7P0eKHx022801: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:41:13 combo sendmail[22799]: j7P0eKP4022799: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:41:13 combo sendmail[22809]: j7P0eN17022809: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:41:15 combo sendmail[22798]: j7P0eKCl022798: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:41:16 combo sendmail[22811]: j7P0eQB0022811: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:41:17 combo sendmail[22810]: j7P0eONI022810: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:41:19 combo sendmail[22807]: j7P0eKdA022807: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:41:20 combo sendmail[22783]: j7P0dKNd022783: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:41:20 combo sendmail[22783]: j7P0dKNd022783: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:41:23 combo sendmail[22812]: j7P0eVQg022812: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.220], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.220]
+Aug 24 20:41:53 combo sendmail[22808]: j7P0eF20022808: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:41:53 combo sendmail[22808]: j7P0eF20022808: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:41:54 combo sendmail[22796]: j7P0eJDG022796: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:41:54 combo sendmail[22796]: j7P0eJDG022796: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:41:54 combo sendmail[22795]: j7P0eJuC022795: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:41:54 combo sendmail[22795]: j7P0eJuC022795: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:41:55 combo sendmail[22802]: j7P0eKVT022802: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:41:55 combo sendmail[22802]: j7P0eKVT022802: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:41:55 combo sendmail[22797]: j7P0eKT9022797: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:41:55 combo sendmail[22797]: j7P0eKT9022797: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:41:55 combo sendmail[22800]: j7P0eK88022800: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:41:55 combo sendmail[22800]: j7P0eK88022800: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:41:55 combo sendmail[22803]: j7P0eKar022803: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:41:55 combo sendmail[22803]: j7P0eKar022803: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:41:56 combo sendmail[22792]: j7P0eJDe022792: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:41:56 combo sendmail[22792]: j7P0eJDe022792: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:42:12 combo sendmail[22805]: j7P0eKXH022805: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:42:12 combo sendmail[22805]: j7P0eKXH022805: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:42:12 combo sendmail[22804]: j7P0eKKR022804: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:42:12 combo sendmail[22804]: j7P0eKKR022804: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:42:12 combo sendmail[22806]: j7P0eK8v022806: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:42:12 combo sendmail[22806]: j7P0eK8v022806: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:42:13 combo sendmail[22793]: j7P0eJwH022793: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:42:13 combo sendmail[22793]: j7P0eJwH022793: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:42:14 combo sendmail[22801]: j7P0eKHx022801: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:42:14 combo sendmail[22801]: j7P0eKHx022801: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:42:14 combo sendmail[22809]: j7P0eN17022809: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:42:14 combo sendmail[22809]: j7P0eN17022809: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:42:16 combo sendmail[22794]: j7P0eJ5m022794: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:42:16 combo sendmail[22794]: j7P0eJ5m022794: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:42:17 combo sendmail[22799]: j7P0eKP4022799: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:42:17 combo sendmail[22799]: j7P0eKP4022799: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:42:18 combo sendmail[22810]: j7P0eONI022810: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:42:18 combo sendmail[22810]: j7P0eONI022810: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:42:19 combo sendmail[22811]: j7P0eQB0022811: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:42:19 combo sendmail[22811]: j7P0eQB0022811: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:42:20 combo sendmail[22807]: j7P0eKdA022807: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:42:20 combo sendmail[22807]: j7P0eKdA022807: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:42:22 combo sendmail[22798]: j7P0eKCl022798: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:42:22 combo sendmail[22798]: j7P0eKCl022798: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 24 20:42:25 combo sendmail[22812]: j7P0eVQg022812: lost input channel from [219.133.246.220] to MTA after rcpt
+Aug 24 20:42:25 combo sendmail[22812]: j7P0eVQg022812: from=<drhaerhexf@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.220]
+Aug 25 04:05:11 combo sendmail[23748]: j7P85BMD023748: from=root, size=27856, class=0, nrcpts=1, msgid=<200508250805.j7P85BMD023748@combo.bkwconsulting.com>, relay=root@localhost
+Aug 25 04:05:29 combo sendmail[23750]: j7P85B6I023750: from=<root@combo.bkwconsulting.com>, size=28220, class=0, nrcpts=1, msgid=<200508250805.j7P85BMD023748@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 25 04:05:29 combo sendmail[23748]: j7P85BMD023748: to=root, ctladdr=root (0/0), delay=00:00:18, xdelay=00:00:18, mailer=relay, pri=57856, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j7P85B6I023750 Message accepted for delivery)
+Aug 25 04:05:30 combo sendmail[23751]: j7P85B6I023750: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=58465, dsn=2.0.0, stat=Sent
+Aug 25 04:06:35 combo ctl_mboxlist[23778]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Aug 25 04:06:36 combo ctl_mboxlist[23778]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Aug 25 04:12:35 combo sendmail[23767]: j7P86YWb023767: from=root, size=591, class=0, nrcpts=1, msgid=<200508250806.j7P86YWb023767@combo.bkwconsulting.com>, relay=root@localhost
+Aug 25 04:12:52 combo sendmail[25058]: j7P8CaMt025058: from=<root@combo.bkwconsulting.com>, size=889, class=0, nrcpts=1, msgid=<200508250806.j7P86YWb023767@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 25 04:12:52 combo sendmail[23767]: j7P86YWb023767: to=root, ctladdr=root (0/0), delay=00:06:18, xdelay=00:00:16, mailer=relay, pri=30591, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j7P8CaMt025058 Message accepted for delivery)
+Aug 25 04:12:53 combo sendmail[25059]: j7P8CaMt025058: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=31129, dsn=2.0.0, stat=Sent
+Aug 25 05:27:06 combo sendmail[25162]: j7P9R163025162: [61.141.233.117] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 25 05:27:12 combo sendmail[25161]: j7P9RAwQ025161: [61.141.233.117] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 25 05:27:12 combo sendmail[25159]: j7P9RA4g025159: [61.141.233.117] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 25 05:27:12 combo sendmail[25160]: j7P9R92H025160: [61.141.233.117] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 25 05:27:14 combo sendmail[25166]: j7P9RB4E025166: [61.141.233.117] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 25 05:27:16 combo sendmail[25167]: j7P9RF6F025167: [61.141.233.117] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 25 05:27:17 combo sendmail[25165]: j7P9RBrh025165: [61.141.233.117] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 25 05:27:19 combo sendmail[25168]: j7P9RIxV025168: [61.141.233.117] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 25 05:27:20 combo sendmail[25158]: j7P9RAGv025158: [61.141.233.117] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 25 05:27:21 combo sendmail[25164]: j7P9RA7v025164: [61.141.233.117] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 25 05:27:22 combo sendmail[25163]: j7P9RA4f025163: [61.141.233.117] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 25 05:27:32 combo sendmail[25170]: j7P9RO5N025170: [61.141.233.117] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 25 05:28:08 combo sendmail[25169]: j7P9RN0Q025169: [61.141.233.117] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 25 22:30:07 combo sendmail[26960]: j7Q2TnL5026960: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:08 combo sendmail[26960]: j7Q2TnL5026960: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:08 combo sendmail[26960]: j7Q2TnL5026960: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26952]: j7Q2TvSe026952: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26953]: j7Q2TvDE026953: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26954]: j7Q2TvUR026954: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26956]: j7Q2TvH5026956: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26959]: j7Q2TvNO026959: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26955]: j7Q2TvMf026955: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26957]: j7Q2Tv1u026957: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26958]: j7Q2TvxY026958: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26965]: j7Q2Tvvb026965: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26966]: j7Q2Tv5o026966: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26952]: j7Q2TvSe026952: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:14 combo sendmail[26952]: j7Q2TvSe026952: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26953]: j7Q2TvDE026953: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:14 combo sendmail[26953]: j7Q2TvDE026953: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26956]: j7Q2TvH5026956: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:14 combo sendmail[26956]: j7Q2TvH5026956: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26954]: j7Q2TvUR026954: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:14 combo sendmail[26954]: j7Q2TvUR026954: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26959]: j7Q2TvNO026959: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:14 combo sendmail[26959]: j7Q2TvNO026959: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26969]: j7Q2TvSj026969: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26955]: j7Q2TvMf026955: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:14 combo sendmail[26955]: j7Q2TvMf026955: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26965]: j7Q2Tvvb026965: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:14 combo sendmail[26965]: j7Q2Tvvb026965: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26957]: j7Q2Tv1u026957: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:14 combo sendmail[26957]: j7Q2Tv1u026957: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26958]: j7Q2TvxY026958: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:14 combo sendmail[26958]: j7Q2TvxY026958: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26966]: j7Q2Tv5o026966: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:14 combo sendmail[26966]: j7Q2Tv5o026966: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:14 combo sendmail[26968]: j7Q2Tw3t026968: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:15 combo sendmail[26969]: j7Q2TvSj026969: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:15 combo sendmail[26969]: j7Q2TvSj026969: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:15 combo sendmail[26961]: j7Q2Tv8V026961: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:15 combo sendmail[26968]: j7Q2Tw3t026968: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:15 combo sendmail[26968]: j7Q2Tw3t026968: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:15 combo sendmail[26962]: j7Q2TvmR026962: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:15 combo sendmail[26963]: j7Q2Tv8w026963: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:15 combo sendmail[26964]: j7Q2Tv9c026964: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:15 combo sendmail[26973]: j7Q2TwNR026973: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:15 combo sendmail[26967]: j7Q2TvMC026967: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:15 combo sendmail[26974]: j7Q2Tw0X026974: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:15 combo sendmail[26970]: j7Q2Twd9026970: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:15 combo sendmail[26961]: j7Q2Tv8V026961: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:15 combo sendmail[26961]: j7Q2Tv8V026961: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:15 combo sendmail[26971]: j7Q2Tw8b026971: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:15 combo sendmail[26973]: j7Q2TwNR026973: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:15 combo sendmail[26973]: j7Q2TwNR026973: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:15 combo sendmail[26962]: j7Q2TvmR026962: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:15 combo sendmail[26962]: j7Q2TvmR026962: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:15 combo sendmail[26974]: j7Q2Tw0X026974: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:15 combo sendmail[26974]: j7Q2Tw0X026974: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:15 combo sendmail[26963]: j7Q2Tv8w026963: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:15 combo sendmail[26963]: j7Q2Tv8w026963: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:15 combo sendmail[26972]: j7Q2TwGs026972: ruleset=check_rcpt, arg1=<gjwns_22@daum.net>, relay=[221.140.55.77], reject=550 5.7.1 <gjwns_22@daum.net>... Relaying denied. IP name lookup failed [221.140.55.77]
+Aug 25 22:30:15 combo sendmail[26964]: j7Q2Tv9c026964: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:15 combo sendmail[26964]: j7Q2Tv9c026964: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:15 combo sendmail[26967]: j7Q2TvMC026967: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:15 combo sendmail[26967]: j7Q2TvMC026967: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:16 combo sendmail[26970]: j7Q2Twd9026970: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:16 combo sendmail[26970]: j7Q2Twd9026970: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:16 combo sendmail[26971]: j7Q2Tw8b026971: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:16 combo sendmail[26971]: j7Q2Tw8b026971: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 25 22:30:16 combo sendmail[26972]: j7Q2TwGs026972: lost input channel from [221.140.55.77] to MTA after rcpt
+Aug 25 22:30:16 combo sendmail[26972]: j7Q2TwGs026972: from=<yahihiyaiq470@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.77]
+Aug 26 04:04:28 combo sendmail[27820]: j7Q84SUr027820: from=root, size=3804, class=0, nrcpts=1, msgid=<200508260804.j7Q84SUr027820@combo.bkwconsulting.com>, relay=root@localhost
+Aug 26 04:04:45 combo sendmail[27822]: j7Q84SLa027822: from=<root@combo.bkwconsulting.com>, size=4120, class=0, nrcpts=1, msgid=<200508260804.j7Q84SUr027820@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 26 04:04:45 combo sendmail[27820]: j7Q84SUr027820: to=root, ctladdr=root (0/0), delay=00:00:17, xdelay=00:00:17, mailer=relay, pri=33804, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j7Q84SLa027822 Message accepted for delivery)
+Aug 26 04:04:45 combo sendmail[27823]: j7Q84SLa027822: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=34365, dsn=2.0.0, stat=Sent
+Aug 26 04:05:48 combo ctl_mboxlist[27854]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Aug 26 04:05:48 combo ctl_mboxlist[27854]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Aug 26 04:11:22 combo sendmail[27843]: j7Q85ls4027843: from=root, size=591, class=0, nrcpts=1, msgid=<200508260805.j7Q85ls4027843@combo.bkwconsulting.com>, relay=root@localhost
+Aug 26 04:11:39 combo sendmail[28273]: j7Q8BMVP028273: from=<root@combo.bkwconsulting.com>, size=889, class=0, nrcpts=1, msgid=<200508260805.j7Q85ls4027843@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 26 04:11:39 combo sendmail[27843]: j7Q85ls4027843: to=root, ctladdr=root (0/0), delay=00:05:52, xdelay=00:00:17, mailer=relay, pri=30591, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j7Q8BMVP028273 Message accepted for delivery)
+Aug 26 04:11:40 combo sendmail[28274]: j7Q8BMVP028273: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=31129, dsn=2.0.0, stat=Sent
+Aug 26 20:38:13 combo sendmail[20721]: j7R0b8sG020721: from=<am.v@ms8.hinet.net>, size=2253, class=0, nrcpts=1, msgid=<0D0347EF687DBBF@astride>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 26 20:38:46 combo sendmail[20723]: j7R0b8sG020721: SYSERR(root): localhost.fabulous.com. config error: mail loops back to me (MX problem?)
+Aug 26 20:38:46 combo sendmail[20724]: j7R0cbPo020724: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 26 20:38:46 combo sendmail[20723]: j7R0b8sG020721: to=<prophecy@tno.kick.ass.com>, delay=00:00:53, xdelay=00:00:33, mailer=esmtp, pri=32253, relay=localhost.fabulous.com. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Aug 26 20:38:54 combo sendmail[20723]: j7R0b8sG020721: j7R0cssG020723: DSN: Local configuration error
+Aug 26 20:39:27 combo sendmail[20723]: j7R0cssG020723: to=root, delay=00:00:33, xdelay=00:00:00, mailer=local, pri=63277, dsn=2.0.0, stat=Sent
+Aug 26 20:41:52 combo sendmail[20723]: j7R0cssG020723: to=<am.v@ms8.hinet.net>, delay=00:02:58, xdelay=00:02:25, mailer=esmtp, pri=63277, relay=ms8a.hinet.net. [168.95.5.8], dsn=4.0.0, stat=Deferred: Connection timed out with ms8a.hinet.net.
+Aug 26 20:45:06 combo sendmail[20733]: j7R0cssG020723: to=<am.v@ms8.hinet.net>, delay=00:06:12, xdelay=00:02:32, mailer=esmtp, pri=153277, relay=ms8a.hinet.net. [168.95.5.8], dsn=4.0.0, stat=Deferred: Connection timed out with ms8a.hinet.net.
+Aug 26 21:07:58 combo sendmail[20775]: j7R16Bbe020775: lost input channel from localhost.localdomain [127.0.0.1] to MTA after mail
+Aug 26 21:07:58 combo sendmail[20775]: j7R16Bbe020775: from=<YB.6@ms73.hinet.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 26 21:10:49 combo sendmail[20776]: j7R1ADrm020776: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:10:56 combo sendmail[20784]: j7R1AJC8020784: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:11:38 combo sendmail[20800]: j7R1B58u020800: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:11:44 combo sendmail[20785]: j7R1BAh3020785: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:11:44 combo sendmail[20787]: j7R1BAPM020787: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:11:44 combo sendmail[20788]: j7R1BADU020788: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:11:44 combo sendmail[20791]: j7R1BA1I020791: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:11:44 combo sendmail[20789]: j7R1BAV1020789: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:11:45 combo sendmail[20796]: j7R1BBQ3020796: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:11:45 combo sendmail[20797]: j7R1BB36020797: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:11:47 combo sendmail[20795]: j7R1BBAo020795: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:11:47 combo sendmail[20792]: j7R1BBGR020792: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:11:47 combo sendmail[20801]: j7R1BEge020801: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:11:48 combo sendmail[20798]: j7R1BBKS020798: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:11:48 combo sendmail[20799]: j7R1BCNe020799: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:11:49 combo sendmail[20803]: j7R1BFbf020803: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:11:50 combo sendmail[20802]: j7R1BEDS020802: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:11:50 combo sendmail[20776]: j7R1ADrm020776: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:11:50 combo sendmail[20776]: j7R1ADrm020776: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:11:53 combo sendmail[20793]: j7R1BBba020793: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:11:53 combo sendmail[20790]: j7R1BASK020790: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:11:54 combo sendmail[20805]: j7R1BH7v020805: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:11:56 combo sendmail[20786]: j7R1BA8K020786: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:11:56 combo sendmail[20794]: j7R1BB8G020794: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:12:00 combo sendmail[20784]: j7R1AJC8020784: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:12:00 combo sendmail[20784]: j7R1AJC8020784: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:12:13 combo sendmail[20804]: j7R1BF7f020804: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.178.8], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.178.8]
+Aug 26 21:12:39 combo sendmail[20800]: j7R1B58u020800: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:12:39 combo sendmail[20800]: j7R1B58u020800: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:12:45 combo sendmail[20785]: j7R1BAh3020785: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:12:45 combo sendmail[20785]: j7R1BAh3020785: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:12:45 combo sendmail[20787]: j7R1BAPM020787: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:12:45 combo sendmail[20787]: j7R1BAPM020787: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:12:45 combo sendmail[20789]: j7R1BAV1020789: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:12:45 combo sendmail[20789]: j7R1BAV1020789: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:12:46 combo sendmail[20796]: j7R1BBQ3020796: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:12:46 combo sendmail[20796]: j7R1BBQ3020796: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:12:46 combo sendmail[20788]: j7R1BADU020788: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:12:46 combo sendmail[20788]: j7R1BADU020788: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:12:48 combo sendmail[20792]: j7R1BBGR020792: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:12:48 combo sendmail[20792]: j7R1BBGR020792: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:12:48 combo sendmail[20801]: j7R1BEge020801: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:12:48 combo sendmail[20801]: j7R1BEge020801: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:12:49 combo sendmail[20797]: j7R1BB36020797: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:12:49 combo sendmail[20797]: j7R1BB36020797: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:12:49 combo sendmail[20798]: j7R1BBKS020798: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:12:49 combo sendmail[20798]: j7R1BBKS020798: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:12:49 combo sendmail[20799]: j7R1BCNe020799: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:12:49 combo sendmail[20799]: j7R1BCNe020799: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:12:50 combo sendmail[20803]: j7R1BFbf020803: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:12:50 combo sendmail[20803]: j7R1BFbf020803: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:12:51 combo sendmail[20802]: j7R1BEDS020802: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:12:51 combo sendmail[20802]: j7R1BEDS020802: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:12:52 combo sendmail[20791]: j7R1BA1I020791: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:12:52 combo sendmail[20791]: j7R1BA1I020791: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:12:54 combo sendmail[20793]: j7R1BBba020793: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:12:54 combo sendmail[20793]: j7R1BBba020793: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:12:54 combo sendmail[20790]: j7R1BASK020790: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:12:54 combo sendmail[20790]: j7R1BASK020790: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:12:58 combo sendmail[20805]: j7R1BH7v020805: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:12:58 combo sendmail[20805]: j7R1BH7v020805: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:12:59 combo sendmail[20786]: j7R1BA8K020786: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:12:59 combo sendmail[20786]: j7R1BA8K020786: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:13:09 combo sendmail[20794]: j7R1BB8G020794: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:13:09 combo sendmail[20794]: j7R1BB8G020794: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:13:14 combo sendmail[20804]: j7R1BF7f020804: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:13:14 combo sendmail[20804]: j7R1BF7f020804: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:13:20 combo sendmail[20795]: j7R1BBAo020795: lost input channel from [219.134.178.8] to MTA after rcpt
+Aug 26 21:13:20 combo sendmail[20795]: j7R1BBAo020795: from=<dfghrtjrjr@aol.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.178.8]
+Aug 26 21:45:06 combo sendmail[20839]: j7R0cssG020723: to=<am.v@ms8.hinet.net>, delay=01:06:12, xdelay=00:02:32, mailer=esmtp, pri=243277, relay=ms8a.hinet.net. [168.95.5.8], dsn=4.0.0, stat=Deferred: Connection timed out with ms8a.hinet.net.
+Aug 26 22:43:08 combo sendmail[20921]: j7R0cssG020723: to=<am.v@ms8.hinet.net>, delay=02:04:14, xdelay=00:00:34, mailer=esmtp, pri=333277, relay=ms8a.hinet.net. [168.95.5.8], dsn=2.0.0, stat=Sent (PAA10093 Message accepted for delivery)
+Aug 27 04:02:04 combo sendmail[21695]: j7R824TJ021695: from=root, size=1563, class=0, nrcpts=1, msgid=<200508270802.j7R824TJ021695@combo.bkwconsulting.com>, relay=root@localhost
+Aug 27 04:02:21 combo sendmail[21697]: j7R824eS021697: from=<root@combo.bkwconsulting.com>, size=1879, class=0, nrcpts=1, msgid=<200508270802.j7R824TJ021695@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 27 04:02:21 combo sendmail[21695]: j7R824TJ021695: to=root, ctladdr=root (0/0), delay=00:00:17, xdelay=00:00:17, mailer=relay, pri=31563, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j7R824eS021697 Message accepted for delivery)
+Aug 27 04:02:21 combo sendmail[21698]: j7R824eS021697: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=32124, dsn=2.0.0, stat=Sent
+Aug 27 04:03:39 combo ctl_mboxlist[21725]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Aug 27 04:03:39 combo ctl_mboxlist[21725]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Aug 27 04:09:47 combo sendmail[21714]: j7R83cv2021714: from=root, size=591, class=0, nrcpts=1, msgid=<200508270803.j7R83cv2021714@combo.bkwconsulting.com>, relay=root@localhost
+Aug 27 04:10:03 combo sendmail[22996]: j7R89lV9022996: from=<root@combo.bkwconsulting.com>, size=889, class=0, nrcpts=1, msgid=<200508270803.j7R83cv2021714@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 27 04:10:04 combo sendmail[21714]: j7R83cv2021714: to=root, ctladdr=root (0/0), delay=00:06:26, xdelay=00:00:17, mailer=relay, pri=30591, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j7R89lV9022996 Message accepted for delivery)
+Aug 27 04:10:05 combo sendmail[23004]: j7R89lV9022996: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:02, xdelay=00:00:01, mailer=local, pri=31129, dsn=2.0.0, stat=Sent
+Aug 27 15:52:43 combo sendmail[24068]: j7RJqh8U024068: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24072]: j7RJqpDk024072: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24071]: j7RJqp2l024071: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24077]: j7RJqpad024077: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24078]: j7RJqpb9024078: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24080]: j7RJqp7f024080: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24069]: j7RJqplu024069: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24088]: j7RJqpqt024088: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24076]: j7RJqpt1024076: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24075]: j7RJqpPs024075: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24079]: j7RJqpsN024079: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24082]: j7RJqptf024082: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24081]: j7RJqppL024081: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24084]: j7RJqpEn024084: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24070]: j7RJqp2Y024070: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24087]: j7RJqper024087: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24086]: j7RJqpKp024086: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24089]: j7RJqpfJ024089: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24090]: j7RJqpoP024090: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24085]: j7RJqpnn024085: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24083]: j7RJqpA0024083: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24074]: j7RJqpgR024074: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 15:52:51 combo sendmail[24073]: j7RJqpQ6024073: 59-104-102-170.adsl.dynamic.seed.net.tw [59.104.102.170] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:39 combo sendmail[24285]: j7RLndDx024285: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:43 combo sendmail[24273]: j7RLnhBp024273: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:43 combo sendmail[24274]: j7RLnh5r024274: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:43 combo sendmail[24270]: j7RLnh3r024270: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:43 combo sendmail[24275]: j7RLnhKQ024275: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:43 combo sendmail[24277]: j7RLnhdf024277: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:43 combo sendmail[24272]: j7RLnh3P024272: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:43 combo sendmail[24276]: j7RLnhKL024276: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:43 combo sendmail[24268]: j7RLnh1p024268: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:43 combo sendmail[24269]: j7RLnh9q024269: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:43 combo sendmail[24271]: j7RLnhPP024271: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:45 combo sendmail[24278]: j7RLnj8q024278: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:45 combo sendmail[24279]: j7RLnj90024279: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:46 combo sendmail[24281]: j7RLnkYw024281: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:46 combo sendmail[24280]: j7RLnjrR024280: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:46 combo sendmail[24282]: j7RLnkbJ024282: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:46 combo sendmail[24283]: j7RLnk5D024283: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:46 combo sendmail[24284]: j7RLnkTx024284: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:47 combo sendmail[24286]: j7RLnlSE024286: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:47 combo sendmail[24288]: j7RLnl7W024288: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:49 combo sendmail[24289]: j7RLnm5R024289: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:49 combo sendmail[24290]: j7RLnn5u024290: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 27 17:49:56 combo sendmail[24287]: j7RLnlOM024287: 218-168-72-83.dynamic.hinet.net [218.168.72.83] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 28 00:41:16 combo sendmail[24893]: j7S4ebHW024893: from=<3n.g@ms22.hinet.net>, size=2005, class=0, nrcpts=5, msgid=<790932954718.46932653239122130759@ms51.hinet.net>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 00:41:49 combo sendmail[24895]: j7S4ebHW024893: SYSERR(root): localhost.fabulous.com. config error: mail loops back to me (MX problem?)
+Aug 28 00:41:49 combo sendmail[24896]: j7S4ffKH024896: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 28 00:41:49 combo sendmail[24895]: j7S4ebHW024893: to=<ab710620@yaoo.com.tw>,<abu3636@yaoo.com.tw>,<abcdefg33382@yaoo.com.tw>,<aa55443@yaoo.com.tw>,<aacc0232@yaoo.com.tw>, delay=00:00:37, xdelay=00:00:33, mailer=esmtp, pri=152005, relay=localhost.fabulous.com. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Aug 28 00:41:57 combo sendmail[24895]: j7S4ebHW024893: j7S4fvHW024895: DSN: Local configuration error
+Aug 28 00:42:31 combo sendmail[24895]: j7S4fvHW024895: to=root, delay=00:00:34, xdelay=00:00:00, mailer=local, pri=63029, dsn=2.0.0, stat=Sent
+Aug 28 00:44:56 combo sendmail[24895]: j7S4fvHW024895: to=<3n.g@ms22.hinet.net>, delay=00:02:59, xdelay=00:02:25, mailer=esmtp, pri=63029, relay=ms22a.hinet.net. [168.95.5.22], dsn=4.0.0, stat=Deferred: Connection timed out with ms22a.hinet.net.
+Aug 28 00:57:46 combo sendmail[24915]: j7S4ustj024915: from=<tT.3@ms31.hinet.net>, size=1675, class=0, nrcpts=2, msgid=<8157851348415.54596511629766132438680@ms52.hinet.net>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 00:58:18 combo sendmail[24917]: j7S4ustj024915: SYSERR(root): localhost.fabulous.com. config error: mail loops back to me (MX problem?)
+Aug 28 00:58:18 combo sendmail[24918]: j7S4wAcN024918: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 28 00:58:18 combo sendmail[24917]: j7S4ustj024915: to=<akjs147258@yaoo.com.tw>,<adgjl166@yaoo.com.tw>, delay=00:00:36, xdelay=00:00:32, mailer=esmtp, pri=61675, relay=localhost.fabulous.com. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Aug 28 00:58:27 combo sendmail[24917]: j7S4ustj024915: j7S4wRtj024917: DSN: Local configuration error
+Aug 28 00:59:00 combo sendmail[24917]: j7S4wRtj024917: to=root, delay=00:00:33, xdelay=00:00:00, mailer=local, pri=62699, dsn=2.0.0, stat=Sent
+Aug 28 01:00:27 combo sendmail[24920]: j7S4xql2024920: lost input channel from localhost.localdomain [127.0.0.1] to MTA after mail
+Aug 28 01:00:27 combo sendmail[24920]: j7S4xql2024920: from=<0j.K@ms69.hinet.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 01:01:09 combo sendmail[24921]: j7S4xvYX024921: from=<wO.m@ms54.hinet.net>, size=1994, class=0, nrcpts=8, msgid=<yss3pghd92Qr@ms21.hinet.net>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 01:01:24 combo sendmail[24917]: j7S4wRtj024917: to=<tT.3@ms31.hinet.net>, delay=00:02:57, xdelay=00:02:24, mailer=esmtp, pri=62699, relay=ms31a.hinet.net. [168.95.5.31], dsn=4.0.0, stat=Deferred: Connection timed out with ms31a.hinet.net.
+Aug 28 01:01:59 combo sendmail[24921]: j7S4xvYZ024921: lost input channel from localhost.localdomain [127.0.0.1] to MTA after rcpt
+Aug 28 01:01:59 combo sendmail[24921]: j7S4xvYZ024921: from=<vL.E@ms28.hinet.net>, size=0, class=0, nrcpts=1, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 01:22:17 combo sendmail[24967]: j7S5L65Z024967: lost input channel from localhost.localdomain [127.0.0.1] to MTA after rcpt
+Aug 28 01:22:17 combo sendmail[24967]: j7S5L65Z024967: from=<6t.3@ms62.hinet.net>, size=0, class=0, nrcpts=3, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 01:45:07 combo sendmail[24990]: j7S4wRtj024917: to=<tT.3@ms31.hinet.net>, delay=00:46:40, xdelay=00:02:33, mailer=esmtp, pri=152699, relay=ms31a.hinet.net. [168.95.5.31], dsn=4.0.0, stat=Deferred: Connection timed out with ms31a.hinet.net.
+Aug 28 01:47:55 combo sendmail[24990]: j7S4fvHW024895: to=<3n.g@ms22.hinet.net>, delay=01:05:58, xdelay=00:02:32, mailer=esmtp, pri=153029, relay=ms22a.hinet.net. [168.95.5.22], dsn=4.0.0, stat=Deferred: Connection timed out with ms22a.hinet.net.
+Aug 28 01:51:41 combo sendmail[25003]: j7S5oobR025003: lost input channel from localhost.localdomain [127.0.0.1] to MTA after rcpt
+Aug 28 01:51:41 combo sendmail[25003]: j7S5oobR025003: from=<2e.o@ms34.hinet.net>, size=0, class=0, nrcpts=1, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 02:04:46 combo sendmail[25029]: j7S649aO025029: from=<hT.Q@ms23.hinet.net>, size=1295, class=0, nrcpts=1, msgid=<xMO16B1rObEGzOU@>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 02:05:18 combo sendmail[25031]: j7S649aO025029: SYSERR(root): localhost.fabulous.com. config error: mail loops back to me (MX problem?)
+Aug 28 02:05:18 combo sendmail[25036]: j7S65A1J025036: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 28 02:05:18 combo sendmail[25031]: j7S649aO025029: to=<aran@gild.wath.com>, delay=00:00:34, xdelay=00:00:32, mailer=esmtp, pri=31295, relay=localhost.fabulous.com. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Aug 28 02:05:26 combo sendmail[25031]: j7S649aO025029: j7S65QaO025031: DSN: Local configuration error
+Aug 28 02:06:00 combo sendmail[25031]: j7S65QaO025031: to=root, delay=00:00:34, xdelay=00:00:00, mailer=local, pri=62319, dsn=2.0.0, stat=Sent
+Aug 28 02:06:31 combo sendmail[25037]: j7S65kfL025037: lost input channel from localhost.localdomain [127.0.0.1] to MTA after rcpt
+Aug 28 02:06:31 combo sendmail[25037]: j7S65kfL025037: from=<jI.c@ms34.hinet.net>, size=0, class=0, nrcpts=1, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 02:08:13 combo sendmail[25059]: j7S67Xlf025059: from=<5b.A@ms6.hinet.net>, size=1428, class=0, nrcpts=1, msgid=<78867866964.83517450838042085887@>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 02:08:25 combo sendmail[25031]: j7S65QaO025031: to=<hT.Q@ms23.hinet.net>, delay=00:02:59, xdelay=00:02:25, mailer=esmtp, pri=62319, relay=ms23a.hinet.net. [168.95.5.23], dsn=4.0.0, stat=Deferred: Connection timed out with ms23a.hinet.net.
+Aug 28 02:08:45 combo sendmail[25061]: j7S67Xlf025059: SYSERR(root): mx1.sure.net. config error: mail loops back to me (MX problem?)
+Aug 28 02:08:45 combo sendmail[25062]: j7S68boa025062: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 28 02:08:45 combo sendmail[25061]: j7S67Xlf025059: to=<arkham@sure.net>, delay=00:00:36, xdelay=00:00:32, mailer=esmtp, pri=31428, relay=mx1.sure.net. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Aug 28 02:08:54 combo sendmail[25061]: j7S67Xlf025059: j7S68slf025061: DSN: Local configuration error
+Aug 28 02:09:27 combo sendmail[25061]: j7S68slf025061: to=root, delay=00:00:33, xdelay=00:00:00, mailer=local, pri=62452, dsn=2.0.0, stat=Sent
+Aug 28 02:11:51 combo sendmail[25061]: j7S68slf025061: to=<5b.A@ms6.hinet.net>, delay=00:02:57, xdelay=00:02:24, mailer=esmtp, pri=62452, relay=ms6a.hinet.net. [168.95.5.6], dsn=4.0.0, stat=Deferred: Connection timed out with ms6a.hinet.net.
+Aug 28 02:15:23 combo sendmail[25071]: j7S6ELd4025071: lost input channel from localhost.localdomain [127.0.0.1] to MTA after rcpt
+Aug 28 02:15:23 combo sendmail[25071]: j7S6ELd4025071: from=<KQ.7@ms35.hinet.net>, size=0, class=0, nrcpts=1, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 02:15:43 combo sendmail[25076]: j7S6F3dQ025076: from=<Vn.V@ms63.hinet.net>, size=1867, class=0, nrcpts=1, msgid=<9210085658.91715855447475527459846@ms13.hinet.net>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 02:15:59 combo sendmail[25077]: j7S6FMB3025077: from=<8E.h@ms64.hinet.net>, size=1795, class=0, nrcpts=1, msgid=<45577178884.66263765190101077879@ms2.hinet.net>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 02:16:16 combo sendmail[25079]: j7S6F3dQ025076: SYSERR(root): mail.dhg.com. config error: mail loops back to me (MX problem?)
+Aug 28 02:16:16 combo sendmail[25082]: j7S6G7jH025082: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 28 02:16:16 combo sendmail[25079]: j7S6F3dQ025076: to=<asdgf@dhg.com>, delay=00:00:34, xdelay=00:00:33, mailer=esmtp, pri=31867, relay=mail.dhg.com. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Aug 28 02:16:24 combo sendmail[25079]: j7S6F3dQ025076: j7S6GOdQ025079: DSN: Local configuration error
+Aug 28 02:16:31 combo sendmail[25081]: j7S6FMB3025077: SYSERR(root): nomail.bluegravity.com. config error: mail loops back to me (MX problem?)
+Aug 28 02:16:31 combo sendmail[25083]: j7S6GNJ7025083: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 28 02:16:31 combo sendmail[25081]: j7S6FMB3025077: to=<asd@222.com>, delay=00:00:35, xdelay=00:00:32, mailer=esmtp, pri=31795, relay=nomail.bluegravity.com. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Aug 28 02:16:40 combo sendmail[25081]: j7S6FMB3025077: j7S6GeB3025081: DSN: Local configuration error
+Aug 28 02:16:57 combo sendmail[25079]: j7S6GOdQ025079: to=root, delay=00:00:33, xdelay=00:00:00, mailer=local, pri=62891, dsn=2.0.0, stat=Sent
+Aug 28 02:17:13 combo sendmail[25081]: j7S6GeB3025081: to=root, delay=00:00:33, xdelay=00:00:00, mailer=local, pri=62819, dsn=2.0.0, stat=Sent
+Aug 28 02:17:16 combo sendmail[25084]: j7S6GVJt025084: from=<4g.F@ms9.hinet.net>, size=1433, class=0, nrcpts=2, msgid=<5Mr05pTwI2oJ@ms57.hinet.net>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 02:17:48 combo sendmail[25088]: j7S6GVJt025084: SYSERR(root): mail.one.net.au. config error: mail loops back to me (MX problem?)
+Aug 28 02:17:48 combo sendmail[25089]: j7S6HeeA025089: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 28 02:17:48 combo sendmail[25088]: j7S6GVJt025084: to=<askus@one.net.au>,<ashwoodspl@one.net.au>, delay=00:00:34, xdelay=00:00:32, mailer=esmtp, pri=61433, relay=mail.one.net.au. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Aug 28 02:17:57 combo sendmail[25088]: j7S6GVJt025084: j7S6HvJt025088: DSN: Local configuration error
+Aug 28 02:18:30 combo sendmail[25088]: j7S6HvJt025088: to=root, delay=00:00:33, xdelay=00:00:00, mailer=local, pri=62457, dsn=2.0.0, stat=Sent
+Aug 28 02:19:21 combo sendmail[25079]: j7S6GOdQ025079: to=<Vn.V@ms63.hinet.net>, delay=00:02:57, xdelay=00:02:24, mailer=esmtp, pri=62891, relay=ms63a.hinet.net. [168.95.5.63], dsn=4.0.0, stat=Deferred: Connection timed out with ms63a.hinet.net.
+Aug 28 02:19:38 combo sendmail[25081]: j7S6GeB3025081: to=<8E.h@ms64.hinet.net>, delay=00:02:58, xdelay=00:02:25, mailer=esmtp, pri=62819, relay=ms64a.hinet.net. [168.95.5.64], dsn=4.0.0, stat=Deferred: Connection timed out with ms64a.hinet.net.
+Aug 28 02:20:55 combo sendmail[25088]: j7S6HvJt025088: to=<4g.F@ms9.hinet.net>, delay=00:02:58, xdelay=00:02:25, mailer=esmtp, pri=62457, relay=ms9a.hinet.net. [168.95.5.9], dsn=4.0.0, stat=Deferred: Connection timed out with ms9a.hinet.net.
+Aug 28 02:25:31 combo sendmail[25098]: j7S6OcwQ025098: ruleset=check_rcpt, arg1=<auggie@crazedanddazed.com>, relay=[127.0.1.50], reject=550 5.7.1 <auggie@crazedanddazed.com>... Relaying denied. IP name lookup failed [127.0.1.50]
+Aug 28 02:25:31 combo sendmail[25098]: j7S6OcwQ025098: lost input channel from [127.0.1.50] to MTA after rcpt
+Aug 28 02:25:31 combo sendmail[25098]: j7S6OcwQ025098: from=<bD.X@ms14.hinet.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[127.0.1.50]
+Aug 28 02:26:40 combo sendmail[25104]: j7S6PkHT025104: lost input channel from localhost.localdomain [127.0.0.1] to MTA after rcpt
+Aug 28 02:26:40 combo sendmail[25104]: j7S6PkHT025104: from=<9v.I@ms63.hinet.net>, size=0, class=0, nrcpts=1, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 02:27:30 combo sendmail[25105]: j7S6RU3e025105: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 28 02:31:01 combo sendmail[25113]: j7S6UKAj025113: from=<1P.d@ms68.hinet.net>, size=1389, class=0, nrcpts=1, msgid=<C9D24D6E5E86B49@>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 02:31:33 combo sendmail[25115]: j7S6UKAj025113: SYSERR(root): mx1.sure.net. config error: mail loops back to me (MX problem?)
+Aug 28 02:31:33 combo sendmail[25116]: j7S6VPVS025116: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 28 02:31:33 combo sendmail[25115]: j7S6UKAj025113: to=<avntgrd1@sure.net>, delay=00:00:40, xdelay=00:00:32, mailer=esmtp, pri=31389, relay=mx1.sure.net. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Aug 28 02:31:41 combo sendmail[25115]: j7S6UKAj025113: j7S6VfAj025115: DSN: Local configuration error
+Aug 28 02:32:14 combo sendmail[25115]: j7S6VfAj025115: to=root, delay=00:00:33, xdelay=00:00:00, mailer=local, pri=62413, dsn=2.0.0, stat=Sent
+Aug 28 02:32:42 combo sendmail[25117]: j7S6VxHk025117: lost input channel from localhost.localdomain [127.0.0.1] to MTA after rcpt
+Aug 28 02:32:42 combo sendmail[25117]: j7S6VxHk025117: from=<Qo.D@ms15.hinet.net>, size=0, class=0, nrcpts=1, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 02:34:38 combo sendmail[25115]: j7S6VfAj025115: to=<1P.d@ms68.hinet.net>, delay=00:02:57, xdelay=00:02:24, mailer=esmtp, pri=62413, relay=ms68a.hinet.net. [168.95.5.68], dsn=4.0.0, stat=Deferred: Connection timed out with ms68a.hinet.net.
+Aug 28 02:39:36 combo sendmail[25099]: j7S6Ocek025099: lost input channel from localhost.localdomain [127.0.0.1] to MTA after rcpt
+Aug 28 02:39:36 combo sendmail[25099]: j7S6Ocek025099: from=<4h.J@ms28.hinet.net>, size=0, class=0, nrcpts=4, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 02:45:06 combo sendmail[25130]: j7S65QaO025031: to=<hT.Q@ms23.hinet.net>, delay=00:39:40, xdelay=00:02:32, mailer=esmtp, pri=152319, relay=ms23a.hinet.net. [168.95.5.23], dsn=4.0.0, stat=Deferred: Connection timed out with ms23a.hinet.net.
+Aug 28 02:47:55 combo sendmail[25130]: j7S6VfAj025115: to=<1P.d@ms68.hinet.net>, delay=00:16:14, xdelay=00:02:32, mailer=esmtp, pri=152413, relay=ms68a.hinet.net. [168.95.5.68], dsn=4.0.0, stat=Deferred: Connection timed out with ms68a.hinet.net.
+Aug 28 02:48:41 combo sendmail[25136]: j7S6lnL0025136: from=<FU.I@ms29.hinet.net>, size=1941, class=0, nrcpts=6, msgid=<923807.724N238nq@replicate>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 02:49:07 combo sendmail[25136]: j7S6lnL2025136: from=<Wn.H@msa.hinet.net>, size=1715, class=0, nrcpts=6, msgid=<57691482335.7911558906523161527344@ms62.hinet.net>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 02:49:13 combo sendmail[25138]: j7S6lnL0025136: SYSERR(root): localhost.fabulous.com. config error: mail loops back to me (MX problem?)
+Aug 28 02:49:13 combo sendmail[25139]: j7S6n5Oq025139: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 28 02:49:13 combo sendmail[25138]: j7S6lnL0025136: to=<lamter80130@yaoo.com.tw>,<k68017@yaoo.com.tw>,<kolin@yaoo.com.tw>,<kok082001@yaoo.com.tw>,<km5852@yaoo.com.tw>,<kissk180@yaoo.com.tw>, delay=00:00:50, xdelay=00:00:32, mailer=esmtp, pri=181941, relay=localhost.fabulous.com. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Aug 28 02:49:22 combo sendmail[25138]: j7S6lnL0025136: j7S6nML0025138: DSN: Local configuration error
+Aug 28 02:49:32 combo sendmail[25136]: j7S6lnL4025136: from=<gW.m@ms53.hinet.net>, size=1596, class=0, nrcpts=4, msgid=<145635925027.02935011511581302243@bedimmed>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 02:49:39 combo sendmail[25141]: j7S6lnL2025136: SYSERR(root): localhost.fabulous.com. config error: mail loops back to me (MX problem?)
+Aug 28 02:49:39 combo sendmail[25142]: j7S6nVNE025142: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 28 02:49:39 combo sendmail[25141]: j7S6lnL2025136: to=<loloz95@yaoo.com.tw>,<liny021@yaoo.com.tw>,<likektv97@yaoo.com.tw>,<licrae@yaoo.com.tw>,<lf2at889@yaoo.com.tw>,<lb00783241@yaoo.com.tw>, delay=00:00:41, xdelay=00:00:32, mailer=esmtp, pri=181715, relay=localhost.fabulous.com. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Aug 28 02:49:48 combo sendmail[25141]: j7S6lnL2025136: j7S6nmL0025141: DSN: Local configuration error
+Aug 28 02:49:55 combo sendmail[25138]: j7S6nML0025138: to=root, delay=00:00:33, xdelay=00:00:00, mailer=local, pri=62965, dsn=2.0.0, stat=Sent
+Aug 28 02:50:04 combo sendmail[25144]: j7S6lnL4025136: SYSERR(root): localhost.fabulous.com. config error: mail loops back to me (MX problem?)
+Aug 28 02:50:04 combo sendmail[25146]: j7S6nuCm025146: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Aug 28 02:50:04 combo sendmail[25144]: j7S6lnL4025136: to=<lu186075jk@yaoo.com.tw>,<lozbaedwinf@yaoo.com.tw>,<love-pei@yaoo.com.tw>,<look383@yaoo.com.tw>, delay=00:00:39, xdelay=00:00:32, mailer=esmtp, pri=121596, relay=localhost.fabulous.com. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Aug 28 02:50:12 combo sendmail[25144]: j7S6lnL4025136: j7S6oCL0025144: DSN: Local configuration error
+Aug 28 02:50:22 combo sendmail[25141]: j7S6nmL0025141: to=root, delay=00:00:34, xdelay=00:00:00, mailer=local, pri=62739, dsn=2.0.0, stat=Sent
+Aug 28 02:50:43 combo sendmail[25130]: j7S68slf025061: to=<5b.A@ms6.hinet.net>, delay=00:41:49, xdelay=00:02:32, mailer=esmtp, pri=152452, relay=ms6a.hinet.net. [168.95.5.6], dsn=4.0.0, stat=Deferred: Connection timed out with ms6a.hinet.net.
+Aug 28 02:50:47 combo sendmail[25144]: j7S6oCL0025144: to=root, delay=00:00:35, xdelay=00:00:00, mailer=local, pri=62620, dsn=2.0.0, stat=Sent
+Aug 28 02:52:19 combo sendmail[25138]: j7S6nML0025138: to=<FU.I@ms29.hinet.net>, delay=00:02:57, xdelay=00:02:24, mailer=esmtp, pri=62965, relay=ms29a.hinet.net. [168.95.5.29], dsn=4.0.0, stat=Deferred: Connection timed out with ms29a.hinet.net.
+Aug 28 02:53:11 combo sendmail[25144]: j7S6oCL0025144: to=<gW.m@ms53.hinet.net>, delay=00:02:59, xdelay=00:02:24, mailer=esmtp, pri=62620, relay=ms53a.hinet.net. [168.95.5.53], dsn=4.0.0, stat=Deferred: Connection timed out with ms53a.hinet.net.
+Aug 28 02:53:32 combo sendmail[25130]: j7S6HvJt025088: to=<4g.F@ms9.hinet.net>, delay=00:35:35, xdelay=00:02:32, mailer=esmtp, pri=152457, relay=ms9a.hinet.net. [168.95.5.9], dsn=4.0.0, stat=Deferred: Connection timed out with ms9a.hinet.net.
+Aug 28 02:56:20 combo sendmail[25130]: j7S6GeB3025081: to=<8E.h@ms64.hinet.net>, delay=00:39:40, xdelay=00:02:32, mailer=esmtp, pri=152819, relay=ms64a.hinet.net. [168.95.5.64], dsn=4.0.0, stat=Deferred: Connection timed out with ms64a.hinet.net.
+Aug 28 02:59:09 combo sendmail[25130]: j7S6GOdQ025079: to=<Vn.V@ms63.hinet.net>, delay=00:42:45, xdelay=00:02:33, mailer=esmtp, pri=152891, relay=ms63a.hinet.net. [168.95.5.63], dsn=4.0.0, stat=Deferred: Connection timed out with ms63a.hinet.net.
+Aug 28 03:01:57 combo sendmail[25130]: j7S4wRtj024917: to=<tT.3@ms31.hinet.net>, delay=02:03:30, xdelay=00:02:32, mailer=esmtp, pri=242699, relay=ms31a.hinet.net. [168.95.5.31], dsn=4.0.0, stat=Deferred: Connection timed out with ms31a.hinet.net.
+Aug 28 03:03:19 combo sendmail[24944]: j7S4xvYX024921: to=<awdsxz@yahoo.com.tw>,<awds142@yahoo.com.tw>,<awdrgyjilp1204@yahoo.com.tw>,<awdrg121@yahoo.com.tw>,<awdrg112329@yahoo.com.tw>,<awdr78321@yahoo.com.tw>,<awdr151@yahoo.com.tw>,<awdcvbhuk@yahoo.com.tw>, delay=02:02:24, xdelay=02:02:10, mailer=esmtp, pri=241994, relay=mx8.mail.tw.yahoo.com. [202.43.200.40], dsn=4.0.0, stat=Deferred: Connection timed out with mx8.mail.tw.yahoo.com.
+Aug 28 03:04:46 combo sendmail[25130]: j7S4fvHW024895: to=<3n.g@ms22.hinet.net>, delay=02:22:49, xdelay=00:02:33, mailer=esmtp, pri=243029, relay=ms22a.hinet.net. [168.95.5.22], dsn=4.0.0, stat=Deferred: Connection timed out with ms22a.hinet.net.
+Aug 28 03:45:06 combo sendmail[25227]: j7S6oCL0025144: to=<gW.m@ms53.hinet.net>, delay=00:54:54, xdelay=00:02:32, mailer=esmtp, pri=152620, relay=ms53a.hinet.net. [168.95.5.53], dsn=4.0.0, stat=Deferred: Connection timed out with ms53a.hinet.net.
+Aug 28 03:47:55 combo sendmail[25227]: j7S6nML0025138: to=<FU.I@ms29.hinet.net>, delay=00:58:33, xdelay=00:02:33, mailer=esmtp, pri=152965, relay=ms29a.hinet.net. [168.95.5.29], dsn=4.0.0, stat=Deferred: Connection timed out with ms29a.hinet.net.
+Aug 28 03:50:43 combo sendmail[25227]: j7S65QaO025031: to=<hT.Q@ms23.hinet.net>, delay=01:45:17, xdelay=00:02:32, mailer=esmtp, pri=242319, relay=ms23a.hinet.net. [168.95.5.23], dsn=4.0.0, stat=Deferred: Connection timed out with ms23a.hinet.net.
+Aug 28 03:53:32 combo sendmail[25227]: j7S6VfAj025115: to=<1P.d@ms68.hinet.net>, delay=01:21:51, xdelay=00:02:33, mailer=esmtp, pri=242413, relay=ms68a.hinet.net. [168.95.5.68], dsn=4.0.0, stat=Deferred: Connection timed out with ms68a.hinet.net.
+Aug 28 03:56:20 combo sendmail[25227]: j7S68slf025061: to=<5b.A@ms6.hinet.net>, delay=01:47:26, xdelay=00:02:32, mailer=esmtp, pri=242452, relay=ms6a.hinet.net. [168.95.5.6], dsn=4.0.0, stat=Deferred: Connection timed out with ms6a.hinet.net.
+Aug 28 03:59:09 combo sendmail[25227]: j7S6HvJt025088: to=<4g.F@ms9.hinet.net>, delay=01:41:12, xdelay=00:02:32, mailer=esmtp, pri=242457, relay=ms9a.hinet.net. [168.95.5.9], dsn=4.0.0, stat=Deferred: Connection timed out with ms9a.hinet.net.
+Aug 28 04:01:58 combo sendmail[25227]: j7S6GeB3025081: to=<8E.h@ms64.hinet.net>, delay=01:45:18, xdelay=00:02:33, mailer=esmtp, pri=242819, relay=ms64a.hinet.net. [168.95.5.64], dsn=4.0.0, stat=Deferred: Connection timed out with ms64a.hinet.net.
+Aug 28 04:04:46 combo sendmail[25227]: j7S6GOdQ025079: to=<Vn.V@ms63.hinet.net>, delay=01:48:22, xdelay=00:02:32, mailer=esmtp, pri=242891, relay=ms63a.hinet.net. [168.95.5.63], dsn=4.0.0, stat=Deferred: Connection timed out with ms63a.hinet.net.
+Aug 28 04:07:35 combo sendmail[25227]: j7S4wRtj024917: to=<tT.3@ms31.hinet.net>, delay=03:09:08, xdelay=00:02:33, mailer=esmtp, pri=332699, relay=ms31a.hinet.net. [168.95.5.31], dsn=4.0.0, stat=Deferred: Connection timed out with ms31a.hinet.net.
+Aug 28 04:08:17 combo sendmail[25579]: j7S88HXv025579: from=root, size=6113, class=0, nrcpts=1, msgid=<200508280808.j7S88HXv025579@combo.bkwconsulting.com>, relay=root@localhost
+Aug 28 04:08:35 combo sendmail[25581]: j7S88HgP025581: from=<root@combo.bkwconsulting.com>, size=6429, class=0, nrcpts=1, msgid=<200508280808.j7S88HXv025579@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Aug 28 04:08:35 combo sendmail[25579]: j7S88HXv025579: to=root, ctladdr=root (0/0), delay=00:00:18, xdelay=00:00:18, mailer=relay, pri=36113, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j7S88HgP025581 Message accepted for delivery)
+Aug 28 04:08:36 combo sendmail[25582]: j7S88HgP025581: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=36674, dsn=2.0.0, stat=Sent
+Aug 28 04:10:24 combo sendmail[25227]: j7S4fvHW024895: to=<3n.g@ms22.hinet.net>, delay=03:28:27, xdelay=00:02:32, mailer=esmtp, pri=333029, relay=ms22a.hinet.net. [168.95.5.22], dsn=4.0.0, stat=Deferred: Connection timed out with ms22a.hinet.net.
+Aug 28 04:10:24 combo ctl_mboxlist[25616]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Aug 28 04:10:25 combo ctl_mboxlist[25616]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds

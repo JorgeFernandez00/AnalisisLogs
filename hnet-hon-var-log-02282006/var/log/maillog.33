@@ -1,0 +1,96 @@
+Jun  9 06:06:39 combo sendmail[2017]: alias database /etc/aliases rebuilt by root
+Jun  9 06:06:40 combo sendmail[2017]: /etc/aliases: 69 aliases, longest 10 bytes, 679 bytes total
+Jun  9 06:06:40 combo sendmail[2022]: starting daemon (8.12.11): SMTP+queueing@01:00:00
+Jun  9 06:06:40 combo sendmail[2022]: STARTTLS=server: file /etc/mail/certs/cert.pem unsafe: No such file or directory
+Jun  9 06:06:40 combo sm-msp-queue[2031]: starting daemon (8.12.11): queueing@01:00:00
+Jun  9 06:07:47 combo spamd[2043]: server started on port 783/tcp (running version 2.63) 
+Jun  9 07:24:08 combo sendmail[3020]: j59BNGlI003020: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:08 combo sendmail[3020]: j59BNGlI003020: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:13 combo sendmail[3035]: j59BNOFL003035: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3034]: j59BNOeK003034: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3042]: j59BNOA3003042: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3036]: j59BNOuH003036: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3039]: j59BNOmg003039: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3041]: j59BNOOL003041: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3037]: j59BNOIU003037: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3038]: j59BNO5f003038: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3021]: j59BNOrO003021: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3022]: j59BNO6P003022: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3025]: j59BNO6x003025: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3040]: j59BNOhf003040: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3027]: j59BNOWk003027: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3026]: j59BNOTd003026: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3028]: j59BNOLY003028: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3030]: j59BNOW3003030: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3031]: j59BNO4r003031: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3032]: j59BNOXq003032: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3033]: j59BNOSH003033: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3029]: j59BNOX8003029: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3024]: j59BNORE003024: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:13 combo sendmail[3023]: j59BNOaa003023: ruleset=check_rcpt, arg1=<a231.b233@msa.hinet.net>, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3], reject=550 5.7.1 <a231.b233@msa.hinet.net>... Relaying denied
+Jun  9 07:24:14 combo sendmail[3035]: j59BNOFL003035: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3034]: j59BNOeK003034: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3042]: j59BNOA3003042: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3036]: j59BNOuH003036: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3039]: j59BNOmg003039: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3041]: j59BNOOL003041: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3037]: j59BNOIU003037: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3038]: j59BNO5f003038: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3021]: j59BNOrO003021: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3022]: j59BNO6P003022: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3025]: j59BNO6x003025: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3040]: j59BNOhf003040: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3027]: j59BNOWk003027: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3026]: j59BNOTd003026: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3028]: j59BNOLY003028: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3030]: j59BNOW3003030: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3031]: j59BNO4r003031: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3032]: j59BNOXq003032: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3033]: j59BNOSH003033: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3029]: j59BNOX8003029: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3024]: j59BNORE003024: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun  9 07:24:14 combo sendmail[3023]: j59BNOaa003023: from=<smtp2001soho@yahoo.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=61-31-170-3.dynamic.tfn.net.tw [61.31.170.3]
+Jun 10 01:31:44 combo sendmail[4567]: j5A5V0rt004567: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.176], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.176]
+Jun 10 01:31:44 combo sendmail[4568]: j5A5V0eI004568: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.246.176], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.246.176]
+Jun 10 01:32:25 combo sendmail[4567]: j5A5V0rt004567: lost input channel from [219.133.246.176] to MTA after rcpt
+Jun 10 01:32:25 combo sendmail[4567]: j5A5V0rt004567: from=<dlafdksaie@ms1.hinet.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.176]
+Jun 10 01:32:25 combo sendmail[4568]: j5A5V0eI004568: lost input channel from [219.133.246.176] to MTA after rcpt
+Jun 10 01:32:25 combo sendmail[4568]: j5A5V0eI004568: from=<dlafdksaie@ms1.hinet.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.246.176]
+Jun 10 04:02:05 combo sendmail[5092]: j5A8253h005092: from=root, size=2082, class=0, nrcpts=1, msgid=<200506100802.j5A8253h005092@combo.bkwconsulting.com>, relay=root@localhost
+Jun 10 04:02:22 combo sendmail[5094]: j5A825mg005094: from=<root@combo.bkwconsulting.com>, size=2398, class=0, nrcpts=1, msgid=<200506100802.j5A8253h005092@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jun 10 04:02:22 combo sendmail[5092]: j5A8253h005092: to=root, ctladdr=root (0/0), delay=00:00:17, xdelay=00:00:17, mailer=relay, pri=32082, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j5A825mg005094 Message accepted for delivery)
+Jun 10 04:02:22 combo sendmail[5095]: j5A825mg005094: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=32643, dsn=2.0.0, stat=Sent
+Jun 10 04:03:01 combo ctl_mboxlist[5122]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Jun 10 04:03:01 combo ctl_mboxlist[5122]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Jun 10 04:09:17 combo sendmail[5134]: j5A832lq005134: from=root, size=524, class=0, nrcpts=1, msgid=<200506100803.j5A832lq005134@combo.bkwconsulting.com>, relay=root@localhost
+Jun 10 04:09:33 combo sendmail[5541]: j5A89H6Q005541: from=<root@combo.bkwconsulting.com>, size=822, class=0, nrcpts=1, msgid=<200506100803.j5A832lq005134@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jun 10 04:09:33 combo sendmail[5134]: j5A832lq005134: to=root, ctladdr=root (0/0), delay=00:06:31, xdelay=00:00:16, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j5A89H6Q005541 Message accepted for delivery)
+Jun 10 04:09:34 combo sendmail[5542]: j5A89H6Q005541: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=31062, dsn=2.0.0, stat=Sent
+Jun 10 11:32:00 combo sendmail[2048]: alias database /etc/aliases rebuilt by root
+Jun 10 11:32:00 combo sendmail[2048]: /etc/aliases: 69 aliases, longest 10 bytes, 679 bytes total
+Jun 10 11:32:01 combo sendmail[2053]: starting daemon (8.12.11): SMTP+queueing@01:00:00
+Jun 10 11:32:01 combo sendmail[2053]: STARTTLS=server: file /etc/mail/certs/cert.pem unsafe: No such file or directory
+Jun 10 11:32:01 combo sm-msp-queue[2062]: starting daemon (8.12.11): queueing@01:00:00
+Jun 10 11:33:08 combo spamd[2074]: server started on port 783/tcp (running version 2.63) 
+Jun 11 02:33:06 combo sendmail[4161]: j5B6WTDG004161: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.19], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.19]
+Jun 11 02:33:44 combo sendmail[4162]: j5B6X8df004162: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.19], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.19]
+Jun 11 02:33:47 combo sendmail[4161]: j5B6WTDG004161: lost input channel from [219.134.73.19] to MTA after rcpt
+Jun 11 02:33:47 combo sendmail[4161]: j5B6WTDG004161: from=<dsagdsh@ms1.hinet.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.19]
+Jun 11 02:34:26 combo sendmail[4162]: j5B6X8df004162: lost input channel from [219.134.73.19] to MTA after rcpt
+Jun 11 02:34:26 combo sendmail[4162]: j5B6X8df004162: from=<dsagdsh@ms1.hinet.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.19]
+Jun 11 04:02:15 combo sendmail[4690]: j5B82F5J004690: from=root, size=2990, class=0, nrcpts=1, msgid=<200506110802.j5B82F5J004690@combo.bkwconsulting.com>, relay=root@localhost
+Jun 11 04:02:32 combo sendmail[4692]: j5B82FVL004692: from=<root@combo.bkwconsulting.com>, size=3306, class=0, nrcpts=1, msgid=<200506110802.j5B82F5J004690@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jun 11 04:02:32 combo sendmail[4690]: j5B82F5J004690: to=root, ctladdr=root (0/0), delay=00:00:17, xdelay=00:00:17, mailer=relay, pri=32990, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j5B82FVL004692 Message accepted for delivery)
+Jun 11 04:02:32 combo sendmail[4693]: j5B82FVL004692: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=33551, dsn=2.0.0, stat=Sent
+Jun 11 04:03:19 combo ctl_mboxlist[4720]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Jun 11 04:03:19 combo ctl_mboxlist[4720]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Jun 11 04:09:54 combo sendmail[4731]: j5B83K4I004731: from=root, size=524, class=0, nrcpts=1, msgid=<200506110803.j5B83K4I004731@combo.bkwconsulting.com>, relay=root@localhost
+Jun 11 04:10:10 combo sendmail[6009]: j5B89sII006009: from=<root@combo.bkwconsulting.com>, size=822, class=0, nrcpts=1, msgid=<200506110803.j5B83K4I004731@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jun 11 04:10:11 combo sendmail[4731]: j5B83K4I004731: to=root, ctladdr=root (0/0), delay=00:06:51, xdelay=00:00:17, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j5B89sII006009 Message accepted for delivery)
+Jun 11 04:10:11 combo sendmail[6017]: j5B89sII006009: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=31062, dsn=2.0.0, stat=Sent
+Jun 12 04:02:46 combo sendmail[8459]: j5C82kFB008459: from=root, size=3688, class=0, nrcpts=1, msgid=<200506120802.j5C82kFB008459@combo.bkwconsulting.com>, relay=root@localhost
+Jun 12 04:03:03 combo sendmail[8461]: j5C82lUm008461: from=<root@combo.bkwconsulting.com>, size=4004, class=0, nrcpts=1, msgid=<200506120802.j5C82kFB008459@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jun 12 04:03:03 combo sendmail[8459]: j5C82kFB008459: to=root, ctladdr=root (0/0), delay=00:00:17, xdelay=00:00:17, mailer=relay, pri=33688, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j5C82lUm008461 Message accepted for delivery)
+Jun 12 04:03:04 combo sendmail[8462]: j5C82lUm008461: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=34249, dsn=2.0.0, stat=Sent
+Jun 12 04:04:07 combo ctl_mboxlist[8488]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Jun 12 04:04:07 combo ctl_mboxlist[8488]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds

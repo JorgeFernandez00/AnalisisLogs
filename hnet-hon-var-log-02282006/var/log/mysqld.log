@@ -1,0 +1,12 @@
+060126 12:23:26  mysqld started
+Cannot initialize InnoDB as 'innodb_data_file_path' is not set.
+If you do not want to use transactional InnoDB tables, add a line
+skip-innodb
+to the [mysqld] section of init parameters in your my.cnf
+or my.ini. If you want to use InnoDB tables, add to the [mysqld]
+section, for example,
+innodb_data_file_path = ibdata1:10M:autoextend
+But to get good performance you should adjust for your hardware
+the InnoDB startup options listed in section 2 at
+http://www.innodb.com/ibman.html
+/usr/libexec/mysqld: ready for connections

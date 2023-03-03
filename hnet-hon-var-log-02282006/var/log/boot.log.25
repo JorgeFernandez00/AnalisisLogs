@@ -1,0 +1,4 @@
+Aug  2 07:46:28 combo mysqld: Stopping MySQL:  succeeded
+Aug  2 07:46:32 combo mysqld: Starting MySQL:  succeeded
+Aug  7 04:03:39 combo cups: cupsd shutdown succeeded
+Aug  7 04:03:45 combo cups: cupsd startup succeeded

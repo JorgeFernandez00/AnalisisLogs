@@ -1,0 +1,1204 @@
+050802 07:46:29  mysqld ended
+
+050802 07:46:31  mysqld started
+Cannot initialize InnoDB as 'innodb_data_file_path' is not set.
+If you do not want to use transactional InnoDB tables, add a line
+skip-innodb
+to the [mysqld] section of init parameters in your my.cnf
+or my.ini. If you want to use InnoDB tables, add to the [mysqld]
+section, for example,
+innodb_data_file_path = ibdata1:10M:autoextend
+But to get good performance you should adjust for your hardware
+the InnoDB startup options listed in section 2 at
+http://www.innodb.com/ibman.html
+/usr/libexec/mysqld: ready for connections
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+lock: 94990c4:
+
+lock: 94975c4:
+
+lock: 9495eac:
+
+lock: 94944b4:
+
+lock: 9492e14:
+
+lock: 9491724:
+
+lock: 94901a4:
+
+lock: 948eaec:
+
+lock: 948caf4:
+
+lock: 948b66c:
+
+lock: 948a08c:
+
+lock: 94762ec:
+
+lock: 9474574:
+
+lock: 944b36c:
+
+lock: 9470f54:
+
+lock: 946f95c:
+
+lock: 946e474:
+
+lock: 946c57c:
+
+lock: 946894c:
+
+lock: 9465634:
+
+lock: 9463e0c:
+
+lock: 94621fc:
+
+lock: 946020c:
+
+lock: 945eae4:
+
+lock: 945d08c:
+
+lock: 945b044:
+
+lock: 945665c:
+
+lock: 944d9cc:
+
+lock: 944cf2c:
+
+key_cache status:
+blocks used:        36
+not flushed:         0
+w_requests:        197
+writes:            252
+r_requests:        270
+reads:               0
+
+handler status:
+read_key:           33
+read_next:           4
+read_rnd             0
+read_first:         60
+write:             143
+delete               0
+update:             12
+
+Table status:
+Opened tables:         64
+Open tables:           29
+Open files:            58
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+lock: 94990c4:
+
+lock: 94975c4:
+
+lock: 9495eac:
+
+lock: 94944b4:
+
+lock: 9492e14:
+
+lock: 9491724:
+
+lock: 94901a4:
+
+lock: 948eaec:
+
+lock: 948caf4:
+
+lock: 948b66c:
+
+lock: 948a08c:
+
+lock: 94762ec:
+
+lock: 9474574:
+
+lock: 944b36c:
+
+lock: 9470f54:
+
+lock: 946f95c:
+
+lock: 946e474:
+
+lock: 946c57c:
+
+lock: 946894c:
+
+lock: 9465634:
+
+lock: 9463e0c:
+
+lock: 94621fc:
+
+lock: 946020c:
+
+lock: 945eae4:
+
+lock: 945d08c:
+
+lock: 945b044:
+
+lock: 945665c:
+
+lock: 944d9cc:
+
+lock: 944cf2c:
+
+key_cache status:
+blocks used:        36
+not flushed:         0
+w_requests:        197
+writes:            252
+r_requests:        270
+reads:               0
+
+handler status:
+read_key:           33
+read_next:           4
+read_rnd             0
+read_first:         60
+write:             143
+delete               0
+update:             12
+
+Table status:
+Opened tables:         64
+Open tables:           29
+Open files:            58
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+lock: 94990c4:
+
+lock: 94975c4:
+
+lock: 9495eac:
+
+lock: 94944b4:
+
+lock: 9492e14:
+
+lock: 9491724:
+
+lock: 94901a4:
+
+lock: 948eaec:
+
+lock: 948caf4:
+
+lock: 948b66c:
+
+lock: 948a08c:
+
+lock: 94762ec:
+
+lock: 9474574:
+
+lock: 944b36c:
+
+lock: 9470f54:
+
+lock: 946f95c:
+
+lock: 946e474:
+
+lock: 946c57c:
+
+lock: 946894c:
+
+lock: 9465634:
+
+lock: 9463e0c:
+
+lock: 94621fc:
+
+lock: 946020c:
+
+lock: 945eae4:
+
+lock: 945d08c:
+
+lock: 945b044:
+
+lock: 945665c:
+
+lock: 944d9cc:
+
+lock: 944cf2c:
+
+key_cache status:
+blocks used:        36
+not flushed:         0
+w_requests:        197
+writes:            252
+r_requests:        270
+reads:               0
+
+handler status:
+read_key:           33
+read_next:           4
+read_rnd             0
+read_first:         60
+write:             143
+delete               0
+update:             12
+
+Table status:
+Opened tables:         64
+Open tables:           29
+Open files:            58
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+lock: 94990c4:
+
+lock: 94975c4:
+
+lock: 9495eac:
+
+lock: 94944b4:
+
+lock: 9492e14:
+
+lock: 9491724:
+
+lock: 94901a4:
+
+lock: 948eaec:
+
+lock: 948caf4:
+
+lock: 948b66c:
+
+lock: 948a08c:
+
+lock: 94762ec:
+
+lock: 9474574:
+
+lock: 944b36c:
+
+lock: 9470f54:
+
+lock: 946f95c:
+
+lock: 946e474:
+
+lock: 946c57c:
+
+lock: 946894c:
+
+lock: 9465634:
+
+lock: 9463e0c:
+
+lock: 94621fc:
+
+lock: 946020c:
+
+lock: 945eae4:
+
+lock: 945d08c:
+
+lock: 945b044:
+
+lock: 945665c:
+
+lock: 944d9cc:
+
+lock: 944cf2c:
+
+key_cache status:
+blocks used:        36
+not flushed:         0
+w_requests:        197
+writes:            252
+r_requests:        270
+reads:               0
+
+handler status:
+read_key:           33
+read_next:           4
+read_rnd             0
+read_first:         60
+write:             143
+delete               0
+update:             12
+
+Table status:
+Opened tables:         64
+Open tables:           29
+Open files:            58
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+lock: 94990c4:
+
+lock: 94975c4:
+
+lock: 9495eac:
+
+lock: 94944b4:
+
+lock: 9492e14:
+
+lock: 9491724:
+
+lock: 94901a4:
+
+lock: 948eaec:
+
+lock: 948caf4:
+
+lock: 948b66c:
+
+lock: 948a08c:
+
+lock: 94762ec:
+
+lock: 9474574:
+
+lock: 944b36c:
+
+lock: 9470f54:
+
+lock: 946f95c:
+
+lock: 946e474:
+
+lock: 946c57c:
+
+lock: 946894c:
+
+lock: 9465634:
+
+lock: 9463e0c:
+
+lock: 94621fc:
+
+lock: 946020c:
+
+lock: 945eae4:
+
+lock: 945d08c:
+
+lock: 945b044:
+
+lock: 945665c:
+
+lock: 944d9cc:
+
+lock: 944cf2c:
+
+key_cache status:
+blocks used:        36
+not flushed:         0
+w_requests:        197
+writes:            252
+r_requests:        270
+reads:               0
+
+handler status:
+read_key:           33
+read_next:           4
+read_rnd             0
+read_first:         60
+write:             143
+delete               0
+update:             12
+
+Table status:
+Opened tables:         64
+Open tables:           29
+Open files:            58
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+lock: 94990c4:
+
+lock: 94975c4:
+
+lock: 9495eac:
+
+lock: 94944b4:
+
+lock: 9492e14:
+
+lock: 9491724:
+
+lock: 94901a4:
+
+lock: 948eaec:
+
+lock: 948caf4:
+
+lock: 948b66c:
+
+lock: 948a08c:
+
+lock: 94762ec:
+
+lock: 9474574:
+
+lock: 944b36c:
+
+lock: 9470f54:
+
+lock: 946f95c:
+
+lock: 946e474:
+
+lock: 946c57c:
+
+lock: 946894c:
+
+lock: 9465634:
+
+lock: 9463e0c:
+
+lock: 94621fc:
+
+lock: 946020c:
+
+lock: 945eae4:
+
+lock: 945d08c:
+
+lock: 945b044:
+
+lock: 945665c:
+
+lock: 944d9cc:
+
+lock: 944cf2c:
+
+key_cache status:
+blocks used:        36
+not flushed:         0
+w_requests:        197
+writes:            252
+r_requests:        270
+reads:               0
+
+handler status:
+read_key:           33
+read_next:           4
+read_rnd             0
+read_first:         60
+write:             143
+delete               0
+update:             12
+
+Table status:
+Opened tables:         64
+Open tables:           29
+Open files:            58
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+lock: 94990c4:
+
+lock: 94975c4:
+
+lock: 9495eac:
+
+lock: 94944b4:
+
+lock: 9492e14:
+
+lock: 9491724:
+
+lock: 94901a4:
+
+lock: 948eaec:
+
+lock: 948caf4:
+
+lock: 948b66c:
+
+lock: 948a08c:
+
+lock: 94762ec:
+
+lock: 9474574:
+
+lock: 944b36c:
+
+lock: 9470f54:
+
+lock: 946f95c:
+
+lock: 946e474:
+
+lock: 946c57c:
+
+lock: 946894c:
+
+lock: 9465634:
+
+lock: 9463e0c:
+
+lock: 94621fc:
+
+lock: 946020c:
+
+lock: 945eae4:
+
+lock: 945d08c:
+
+lock: 945b044:
+
+lock: 945665c:
+
+lock: 944d9cc:
+
+lock: 944cf2c:
+
+key_cache status:
+blocks used:        36
+not flushed:         0
+w_requests:        197
+writes:            252
+r_requests:        270
+reads:               0
+
+handler status:
+read_key:           33
+read_next:           4
+read_rnd             0
+read_first:         60
+write:             143
+delete               0
+update:             12
+
+Table status:
+Opened tables:         64
+Open tables:           29
+Open files:            58
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+lock: 94990c4:
+
+lock: 94975c4:
+
+lock: 9495eac:
+
+lock: 94944b4:
+
+lock: 9492e14:
+
+lock: 9491724:
+
+lock: 94901a4:
+
+lock: 948eaec:
+
+lock: 948caf4:
+
+lock: 948b66c:
+
+lock: 948a08c:
+
+lock: 94762ec:
+
+lock: 9474574:
+
+lock: 944b36c:
+
+lock: 9470f54:
+
+lock: 946f95c:
+
+lock: 946e474:
+
+lock: 946c57c:
+
+lock: 946894c:
+
+lock: 9465634:
+
+lock: 9463e0c:
+
+lock: 94621fc:
+
+lock: 946020c:
+
+lock: 945eae4:
+
+lock: 945d08c:
+
+lock: 945b044:
+
+lock: 945665c:
+
+lock: 944d9cc:
+
+lock: 944cf2c:
+
+key_cache status:
+blocks used:        36
+not flushed:         0
+w_requests:        197
+writes:            252
+r_requests:        270
+reads:               0
+
+handler status:
+read_key:           33
+read_next:           4
+read_rnd             0
+read_first:         60
+write:             143
+delete               0
+update:             12
+
+Table status:
+Opened tables:         64
+Open tables:           29
+Open files:            58
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+lock: 94990c4:
+
+lock: 94975c4:
+
+lock: 9495eac:
+
+lock: 94944b4:
+
+lock: 9492e14:
+
+lock: 9491724:
+
+lock: 94901a4:
+
+lock: 948eaec:
+
+lock: 948caf4:
+
+lock: 948b66c:
+
+lock: 948a08c:
+
+lock: 94762ec:
+
+lock: 9474574:
+
+lock: 944b36c:
+
+lock: 9470f54:
+
+lock: 946f95c:
+
+lock: 946e474:
+
+lock: 946c57c:
+
+lock: 946894c:
+
+lock: 9465634:
+
+lock: 9463e0c:
+
+lock: 94621fc:
+
+lock: 946020c:
+
+lock: 945eae4:
+
+lock: 945d08c:
+
+lock: 945b044:
+
+lock: 945665c:
+
+lock: 944d9cc:
+
+lock: 944cf2c:
+
+key_cache status:
+blocks used:        36
+not flushed:         0
+w_requests:        197
+writes:            252
+r_requests:        270
+reads:               0
+
+handler status:
+read_key:           33
+read_next:           4
+read_rnd             0
+read_first:         60
+write:             143
+delete               0
+update:             12
+
+Table status:
+Opened tables:         64
+Open tables:           29
+Open files:            58
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+lock: 94990c4:
+
+lock: 94975c4:
+
+lock: 9495eac:
+
+lock: 94944b4:
+
+lock: 9492e14:
+
+lock: 9491724:
+
+lock: 94901a4:
+
+lock: 948eaec:
+
+lock: 948caf4:
+
+lock: 948b66c:
+
+lock: 948a08c:
+
+lock: 94762ec:
+
+lock: 9474574:
+
+lock: 944b36c:
+
+lock: 9470f54:
+
+lock: 946f95c:
+
+lock: 946e474:
+
+lock: 946c57c:
+
+lock: 946894c:
+
+lock: 9465634:
+
+lock: 9463e0c:
+
+lock: 94621fc:
+
+lock: 946020c:
+
+lock: 945eae4:
+
+lock: 945d08c:
+
+lock: 945b044:
+
+lock: 945665c:
+
+lock: 944d9cc:
+
+lock: 944cf2c:
+
+key_cache status:
+blocks used:        36
+not flushed:         0
+w_requests:        197
+writes:            252
+r_requests:        270
+reads:               0
+
+handler status:
+read_key:           33
+read_next:           4
+read_rnd             0
+read_first:         60
+write:             143
+delete               0
+update:             12
+
+Table status:
+Opened tables:         64
+Open tables:           29
+Open files:            58
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+lock: 94990c4:
+
+lock: 94975c4:
+
+lock: 9495eac:
+
+lock: 94944b4:
+
+lock: 9492e14:
+
+lock: 9491724:
+
+lock: 94901a4:
+
+lock: 948eaec:
+
+lock: 948caf4:
+
+lock: 948b66c:
+
+lock: 948a08c:
+
+lock: 94762ec:
+
+lock: 9474574:
+
+lock: 944b36c:
+
+lock: 9470f54:
+
+lock: 946f95c:
+
+lock: 946e474:
+
+lock: 946c57c:
+
+lock: 946894c:
+
+lock: 9465634:
+
+lock: 9463e0c:
+
+lock: 94621fc:
+
+lock: 946020c:
+
+lock: 945eae4:
+
+lock: 945d08c:
+
+lock: 945b044:
+
+lock: 945665c:
+
+lock: 944d9cc:
+
+lock: 944cf2c:
+
+key_cache status:
+blocks used:        36
+not flushed:         0
+w_requests:        197
+writes:            252
+r_requests:        270
+reads:               0
+
+handler status:
+read_key:           33
+read_next:           4
+read_rnd             0
+read_first:         60
+write:             143
+delete               0
+update:             12
+
+Table status:
+Opened tables:         64
+Open tables:           29
+Open files:            58
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+lock: 94990c4:
+
+lock: 94975c4:
+
+lock: 9495eac:
+
+lock: 94944b4:
+
+lock: 9492e14:
+
+lock: 9491724:
+
+lock: 94901a4:
+
+lock: 948eaec:
+
+lock: 948caf4:
+
+lock: 948b66c:
+
+lock: 948a08c:
+
+lock: 94762ec:
+
+lock: 9474574:
+
+lock: 944b36c:
+
+lock: 9470f54:
+
+lock: 946f95c:
+
+lock: 946e474:
+
+lock: 946c57c:
+
+lock: 946894c:
+
+lock: 9465634:
+
+lock: 9463e0c:
+
+lock: 94621fc:
+
+lock: 946020c:
+
+lock: 945eae4:
+
+lock: 945d08c:
+
+lock: 945b044:
+
+lock: 945665c:
+
+lock: 944d9cc:
+
+lock: 944cf2c:
+
+key_cache status:
+blocks used:        36
+not flushed:         0
+w_requests:        197
+writes:            252
+r_requests:        270
+reads:               0
+
+handler status:
+read_key:           33
+read_next:           4
+read_rnd             0
+read_first:         60
+write:             143
+delete               0
+update:             12
+
+Table status:
+Opened tables:         64
+Open tables:           29
+Open files:            58
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+lock: 94990c4:
+
+lock: 94975c4:
+
+lock: 9495eac:
+
+lock: 94944b4:
+
+lock: 9492e14:
+
+lock: 9491724:
+
+lock: 94901a4:
+
+lock: 948eaec:
+
+lock: 948caf4:
+
+lock: 948b66c:
+
+lock: 948a08c:
+
+lock: 94762ec:
+
+lock: 9474574:
+
+lock: 944b36c:
+
+lock: 9470f54:
+
+lock: 946f95c:
+
+lock: 946e474:
+
+lock: 946c57c:
+
+lock: 946894c:
+
+lock: 9465634:
+
+lock: 9463e0c:
+
+lock: 94621fc:
+
+lock: 946020c:
+
+lock: 945eae4:
+
+lock: 945d08c:
+
+lock: 945b044:
+
+lock: 945665c:
+
+lock: 944d9cc:
+
+lock: 944cf2c:
+
+key_cache status:
+blocks used:        36
+not flushed:         0
+w_requests:        197
+writes:            252
+r_requests:        270
+reads:               0
+
+handler status:
+read_key:           33
+read_next:           4
+read_rnd             0
+read_first:         60
+write:             143
+delete               0
+update:             12
+
+Table status:
+Opened tables:         64
+Open tables:           29
+Open files:            58
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+lock: 94990c4:
+
+lock: 94975c4:
+
+lock: 9495eac:
+
+lock: 94944b4:
+
+lock: 9492e14:
+
+lock: 9491724:
+
+lock: 94901a4:
+
+lock: 948eaec:
+
+lock: 948caf4:
+
+lock: 948b66c:
+
+lock: 948a08c:
+
+lock: 94762ec:
+
+lock: 9474574:
+
+lock: 944b36c:
+
+lock: 9470f54:
+
+lock: 946f95c:
+
+lock: 946e474:
+
+lock: 946c57c:
+
+lock: 946894c:
+
+lock: 9465634:
+
+lock: 9463e0c:
+
+lock: 94621fc:
+
+lock: 946020c:
+
+lock: 945eae4:
+
+lock: 945d08c:
+
+lock: 945b044:
+
+lock: 945665c:
+
+lock: 944d9cc:
+
+lock: 944cf2c:
+
+key_cache status:
+blocks used:        36
+not flushed:         0
+w_requests:        197
+writes:            252
+r_requests:        270
+reads:               0
+
+handler status:
+read_key:           33
+read_next:           4
+read_rnd             0
+read_first:         60
+write:             143
+delete               0
+update:             12
+
+Table status:
+Opened tables:         64
+Open tables:           29
+Open files:            58
+Open streams:           0

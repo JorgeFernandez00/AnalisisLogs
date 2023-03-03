@@ -1,0 +1,79 @@
+Sep 28 09:03:45 combo sendmail: sendmail shutdown failed
+Sep 28 09:03:55 combo sendmail: sm-client shutdown succeeded
+Sep 28 09:08:35 combo messagebus: messagebus -TERM succeeded
+Sep 28 09:08:36 combo atd: atd shutdown succeeded
+Sep 28 09:08:38 combo privoxy: privoxy shutdown succeeded
+Sep 28 09:08:39 combo cups: cupsd shutdown succeeded
+Sep 28 09:08:40 combo xfs: xfs shutdown succeeded
+Sep 28 09:08:41 combo FreeWnn: jserver shutdown succeeded
+Sep 28 09:08:42 combo canna: Stopping Canna server: succeeded
+Sep 28 09:08:42 combo mysqld: Stopping MySQL:  succeeded
+Sep 28 09:08:44 combo gpm: gpm shutdown succeeded
+Sep 28 09:08:48 combo httpd: httpd shutdown succeeded
+Sep 28 09:08:49 combo squid: Stopping squid: 
+Sep 28 09:08:52 combo squid: .
+Sep 28 09:08:56 combo last message repeated 2 times
+Sep 28 09:08:56 combo squid: 
+Sep 28 09:08:57 combo rc: Stopping squid:  succeeded
+Sep 28 09:08:57 combo sshd: sshd -TERM succeeded
+Sep 28 09:08:58 combo sendmail: sendmail shutdown failed
+Sep 28 09:09:03 combo spamassassin: spamd shutdown succeeded
+Sep 28 09:09:04 combo smartd: smartd shutdown succeeded
+Sep 28 09:09:08 combo named: named shutdown succeeded
+Sep 28 09:09:12 combo snmpd: snmpd shutdown succeeded
+Sep 28 09:09:14 combo xinetd: xinetd shutdown succeeded
+Sep 28 09:09:14 combo crond: crond shutdown succeeded
+Sep 28 09:09:15 combo apmd: apmd shutdown succeeded
+Sep 28 09:09:15 combo ntpd: ntpd shutdown succeeded
+Sep 28 09:09:15 combo dd: 1+0 records in
+Sep 28 09:09:15 combo dd: 1+0 records out
+Sep 28 09:09:16 combo random: Saving random seed:  succeeded
+Sep 28 09:09:17 combo nfslock: rpc.statd shutdown succeeded
+Sep 28 09:09:17 combo portmap: portmap shutdown succeeded
+Sep 28 09:10:48 combo syslog: syslogd startup succeeded
+Sep 28 09:10:48 combo syslog: klogd startup succeeded
+Sep 28 09:10:49 combo irqbalance: irqbalance startup succeeded
+Sep 28 09:10:49 combo portmap: portmap startup succeeded
+Sep 28 09:10:49 combo nfslock: rpc.statd startup succeeded
+Sep 28 09:10:50 combo rpcidmapd: rpc.idmapd startup succeeded
+Sep 28 09:10:50 combo random: Initializing random number generator:  succeeded
+Sep 28 09:10:50 combo rc: Starting pcmcia:  succeeded
+Sep 28 09:10:50 combo bluetooth: hcid startup succeeded
+Sep 28 09:10:48 combo network: Bringing up interface eth0:  succeeded 
+Sep 28 09:10:51 combo bluetooth: sdpd startup succeeded
+Sep 28 09:10:51 combo netfs: Mounting other filesystems:  succeeded
+Sep 28 09:10:51 combo apmd: apmd startup succeeded
+Sep 28 09:10:52 combo autofs: automount startup succeeded
+Sep 28 09:10:53 combo smartd: smartd startup succeeded
+Sep 28 09:10:55 combo rc: Starting hpoj:  succeeded
+Sep 28 09:11:06 combo cups: cupsd startup succeeded
+Sep 28 09:11:06 combo sshd:  succeeded
+Sep 28 09:11:06 combo xinetd: xinetd startup succeeded
+Sep 28 09:11:09 combo sendmail: sendmail startup succeeded
+Sep 28 09:11:09 combo sendmail: sm-client startup succeeded
+Sep 28 09:11:18 combo spamassassin: spamd startup succeeded
+Sep 28 09:11:18 combo privoxy: Sep 28 09:11:18 Privoxy(-150880128) Info: loading configuration file '/etc/privoxy/config':
+Sep 28 09:11:19 combo privoxy: privoxy startup succeeded
+Sep 28 09:11:20 combo gpm: gpm startup succeeded
+Sep 28 09:11:21 combo IIim: htt startup succeeded
+Sep 28 09:11:25 combo canna:  succeeded
+Sep 28 09:11:25 combo crond: crond startup succeeded
+Sep 28 09:11:30 combo xfs: xfs startup succeeded
+Sep 28 09:11:30 combo anacron: anacron startup succeeded
+Sep 28 09:11:30 combo atd: atd startup succeeded
+Sep 28 09:11:31 combo readahead: Starting background readahead: 
+Sep 28 09:11:31 combo rc: Starting readahead:  succeeded
+Sep 28 09:11:32 combo messagebus: messagebus startup succeeded
+Sep 28 09:11:52 combo httpd: httpd startup succeeded
+Sep 28 09:12:04 combo named: named startup succeeded
+Sep 28 09:12:07 combo snmpd: snmpd startup succeeded
+Sep 28 09:12:10 combo ntpd: ntpd startup succeeded
+Sep 28 09:12:20 combo mysqld: Starting MySQL:  succeeded
+Sep 28 09:12:22 combo mdmonitor: mdadm succeeded
+Sep 28 09:12:22 combo mdmpd: mdmpd failed
+Sep 29 12:28:40 combo sendmail: sendmail shutdown failed
+Sep 29 12:28:40 combo sendmail: sm-client shutdown failed
+Sep 29 12:32:04 combo sendmail: sendmail startup succeeded
+Sep 29 12:32:04 combo sendmail: sm-client startup succeeded
+Oct  2 04:06:29 combo cups: cupsd shutdown succeeded
+Oct  2 04:06:35 combo cups: cupsd startup succeeded
