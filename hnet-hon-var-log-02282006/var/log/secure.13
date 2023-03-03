@@ -1,0 +1,79 @@
+Oct 23 06:20:19 combo sshd[21949]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 06:20:19 combo sshd[21945]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 06:20:19 combo sshd[21947]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 06:20:19 combo sshd[21948]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 06:20:19 combo sshd[21946]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 06:20:19 combo sshd[21950]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 06:20:19 combo sshd[21952]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 06:20:19 combo sshd[21953]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 06:20:19 combo sshd[21954]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 06:20:19 combo sshd[21951]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 06:20:20 combo sshd[21956]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 06:20:20 combo sshd[21955]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 06:20:20 combo sshd[21957]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 06:20:20 combo sshd[21959]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 06:20:20 combo sshd[21958]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 06:20:21 combo sshd[21962]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 06:20:21 combo sshd[21961]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 06:20:21 combo sshd[21963]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 06:20:21 combo sshd[21960]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 06:20:21 combo sshd[21964]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 06:20:21 combo sshd[21965]: Did not receive identification string from ::ffff:61.81.108.108
+Oct 23 12:39:39 combo xinetd[2006]: START: echo-stream pid=22505 from=81.181.213.88
+Oct 23 12:39:39 combo sshd[22506]: Did not receive identification string from ::ffff:81.181.213.88
+Oct 23 12:39:40 combo xinetd[2006]: START: daytime-stream pid=0 from=81.181.213.88
+Oct 23 12:39:40 combo xinetd[2006]: START: chargen-stream pid=22507 from=81.181.213.88
+Oct 23 12:39:40 combo xinetd[2006]: START: finger pid=22508 from=81.181.213.88
+Oct 23 12:39:40 combo xinetd[2006]: START: ftp pid=22509 from=81.181.213.88
+Oct 23 12:39:40 combo xinetd[2006]: START: telnet pid=22510 from=81.181.213.88
+Oct 23 12:39:40 combo xinetd[2006]: START: time-stream pid=0 from=81.181.213.88
+Oct 23 12:39:41 combo xinetd[2006]: START: exec pid=22511 from=81.181.213.88
+Oct 23 12:39:41 combo xinetd[2006]: START: login pid=22512 from=81.181.213.88
+Oct 23 12:39:41 combo xinetd[2006]: START: shell pid=22513 from=81.181.213.88
+Oct 23 12:39:41 combo xinetd[2006]: START: printer pid=22514 from=81.181.213.88
+Oct 23 12:39:41 combo xinetd[2006]: START: kshell pid=22515 from=81.181.213.88
+Oct 23 12:39:42 combo xinetd[22516]: FAIL: skkserv address from=81.181.213.88
+Oct 23 12:39:42 combo xinetd[2006]: START: skkserv pid=22516 from=81.181.213.88
+Oct 23 12:39:46 combo xinetd[2006]: START: rsync pid=22517 from=81.181.213.88
+Oct 23 12:39:51 combo xinetd[22518]: FAIL: swat address from=81.181.213.88
+Oct 23 12:39:51 combo xinetd[2006]: START: swat pid=22518 from=81.181.213.88
+Oct 23 12:39:54 combo xinetd[2006]: START: eklogin pid=22519 from=81.181.213.88
+Oct 23 12:40:02 combo xinetd[2006]: START: klogin pid=22527 from=81.181.213.88
+Oct 23 21:03:26 combo xinetd[2006]: START: telnet pid=23220 from=193.109.122.11
+Oct 24 06:06:43 combo sshd[24728]: Failed password for root from ::ffff:81.181.213.88 port 1432 ssh2
+Oct 24 06:06:49 combo sshd[24728]: Failed password for root from ::ffff:81.181.213.88 port 1432 ssh2
+Oct 24 06:08:18 combo sshd[24727]: fatal: Timeout before authentication for ::ffff:61.152.159.226
+Oct 24 12:38:17 combo sshd[25263]: Failed password for fax from ::ffff:201.134.69.250 port 37305 ssh2
+Oct 24 12:38:27 combo sshd[25265]: Failed password for fax from ::ffff:201.134.69.250 port 37997 ssh2
+Oct 24 12:38:30 combo sshd[25267]: Failed password for fax from ::ffff:201.134.69.250 port 38214 ssh2
+Oct 24 12:38:37 combo sshd[25269]: Failed password for fax from ::ffff:201.134.69.250 port 38681 ssh2
+Oct 24 12:38:40 combo sshd[25271]: Failed password for fax from ::ffff:201.134.69.250 port 38897 ssh2
+Oct 24 12:38:47 combo sshd[25273]: Failed password for fax from ::ffff:201.134.69.250 port 39341 ssh2
+Oct 24 12:38:50 combo sshd[25275]: Failed password for fax from ::ffff:201.134.69.250 port 39549 ssh2
+Oct 24 12:38:57 combo sshd[25277]: Failed password for fax from ::ffff:201.134.69.250 port 40032 ssh2
+Oct 24 12:39:00 combo sshd[25279]: Failed password for fax from ::ffff:201.134.69.250 port 40265 ssh2
+Oct 24 12:39:07 combo sshd[25281]: Failed password for fax from ::ffff:201.134.69.250 port 40788 ssh2
+Oct 24 12:39:10 combo sshd[25283]: Failed password for fax from ::ffff:201.134.69.250 port 41050 ssh2
+Oct 24 12:39:17 combo sshd[25285]: Failed password for fax from ::ffff:201.134.69.250 port 41557 ssh2
+Oct 24 12:39:20 combo sshd[25287]: Failed password for fax from ::ffff:201.134.69.250 port 41810 ssh2
+Oct 24 12:39:26 combo sshd[25289]: Failed password for fax from ::ffff:201.134.69.250 port 42300 ssh2
+Oct 24 12:39:30 combo sshd[25291]: Failed password for fax from ::ffff:201.134.69.250 port 42516 ssh2
+Oct 24 12:39:31 combo sshd[25293]: Failed password for fax from ::ffff:201.134.69.250 port 42579 ssh2
+Oct 24 12:39:36 combo sshd[25295]: Failed password for fax from ::ffff:201.134.69.250 port 42966 ssh2
+Oct 24 12:39:40 combo sshd[25297]: Failed password for fax from ::ffff:201.134.69.250 port 43186 ssh2
+Oct 24 12:39:41 combo sshd[25299]: Failed password for fax from ::ffff:201.134.69.250 port 43247 ssh2
+Oct 24 12:39:47 combo sshd[25301]: Failed password for fax from ::ffff:201.134.69.250 port 43680 ssh2
+Oct 24 12:39:48 combo sshd[25303]: Failed password for fax from ::ffff:201.134.69.250 port 43759 ssh2
+Oct 24 12:39:50 combo sshd[25305]: Failed password for fax from ::ffff:201.134.69.250 port 43906 ssh2
+Oct 24 12:39:50 combo sshd[25307]: Failed password for fax from ::ffff:201.134.69.250 port 43949 ssh2
+Oct 25 08:09:06 combo sshd[28540]: Accepted password for root from ::ffff:63.126.79.65 port 32768 ssh2
+Oct 25 08:09:06 combo sshd[28540]: lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+Oct 25 08:09:06 combo sshd[28540]: lastlog_openseek: /var/log/lastlog is not a file or directory!
+Oct 25 08:09:06 combo sshd[28542]: lastlog_perform_login: Couldn't stat /var/log/lastlog: No such file or directory
+Oct 25 08:09:06 combo sshd[28542]: lastlog_openseek: /var/log/lastlog is not a file or directory!
+Oct 25 08:11:47 combo su: pam_succeed_if: requirement "uid < 100" not met by user "test"
+Oct 25 10:06:54 combo sshd[1991]: Received signal 15; terminating.
+Oct 25 10:09:06 combo sshd[1988]: Server listening on :: port 22.
+Oct 25 10:09:06 combo sshd[1988]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Oct 25 10:09:18 combo su: pam_succeed_if: requirement "uid < 100" not met by user "htt"
+Oct 26 04:03:30 combo xinetd[2003]: START: comsat pid=4715 from=127.0.0.1

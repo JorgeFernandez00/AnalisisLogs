@@ -1,0 +1,45 @@
+Jul 27 14:41:57 combo syslog: syslogd startup succeeded
+Jul 27 14:41:57 combo syslog: klogd startup succeeded
+Jul 27 14:41:57 combo irqbalance: irqbalance startup succeeded
+Jul 27 14:41:57 combo portmap: portmap startup succeeded
+Jul 27 14:41:58 combo nfslock: rpc.statd startup succeeded
+Jul 27 14:41:58 combo rpcidmapd: rpc.idmapd startup succeeded
+Jul 27 14:41:58 combo random: Initializing random number generator:  succeeded
+Jul 27 14:41:58 combo rc: Starting pcmcia:  succeeded
+Jul 27 14:41:54 combo sysctl: kernel.core_uses_pid = 1 
+Jul 27 14:41:59 combo bluetooth: hcid startup succeeded
+Jul 27 14:41:54 combo network: Setting network parameters:  succeeded 
+Jul 27 14:41:59 combo bluetooth: sdpd startup succeeded
+Jul 27 14:41:54 combo network: Bringing up loopback interface:  succeeded 
+Jul 27 14:42:00 combo netfs: Mounting other filesystems:  succeeded
+Jul 27 14:42:00 combo apmd: apmd startup succeeded
+Jul 27 14:42:00 combo autofs: automount startup succeeded
+Jul 27 14:42:01 combo smartd: smartd startup succeeded
+Jul 27 14:42:02 combo rc: Starting hpoj:  succeeded
+Jul 27 14:42:13 combo cups: cupsd startup succeeded
+Jul 27 14:42:13 combo sshd:  succeeded
+Jul 27 14:42:13 combo xinetd: xinetd startup succeeded
+Jul 27 14:42:15 combo sendmail: sendmail startup succeeded
+Jul 27 14:42:15 combo sendmail: sm-client startup succeeded
+Jul 27 14:42:18 combo spamassassin: spamd startup succeeded
+Jul 27 14:42:19 combo privoxy: Jul 27 14:42:19 Privoxy(-150806400) Info: loading configuration file '/etc/privoxy/config':
+Jul 27 14:42:20 combo privoxy: privoxy startup succeeded
+Jul 27 14:42:20 combo gpm: gpm startup succeeded
+Jul 27 14:42:21 combo IIim: htt startup succeeded
+Jul 27 14:42:23 combo canna:  succeeded
+Jul 27 14:42:23 combo crond: crond startup succeeded
+Jul 27 14:42:25 combo xfs: xfs startup succeeded
+Jul 27 14:42:25 combo anacron: anacron startup succeeded
+Jul 27 14:42:25 combo atd: atd startup succeeded
+Jul 27 14:42:25 combo readahead: Starting background readahead: 
+Jul 27 14:42:26 combo rc: Starting readahead:  succeeded
+Jul 27 14:42:27 combo messagebus: messagebus startup succeeded
+Jul 27 14:42:40 combo httpd: httpd startup succeeded
+Jul 27 14:42:48 combo named: named startup succeeded
+Jul 27 14:42:50 combo snmpd: snmpd startup succeeded
+Jul 27 14:42:53 combo ntpd: ntpd startup succeeded
+Jul 27 14:42:58 combo mysqld: Starting MySQL:  succeeded
+Jul 27 14:42:59 combo mdmonitor: mdadm succeeded
+Jul 27 14:43:00 combo mdmpd: mdmpd failed
+Jul 31 04:08:42 combo cups: cupsd shutdown succeeded
+Jul 31 04:08:48 combo cups: cupsd startup succeeded

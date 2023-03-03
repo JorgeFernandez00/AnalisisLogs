@@ -1,0 +1,87 @@
+Jun  9 06:06:20 combo syslog: syslogd startup succeeded
+Jun  9 06:06:20 combo syslog: klogd startup succeeded
+Jun  9 06:06:20 combo irqbalance: irqbalance startup succeeded
+Jun  9 06:06:20 combo portmap: portmap startup succeeded
+Jun  9 06:06:20 combo nfslock: rpc.statd startup succeeded
+Jun  9 06:06:21 combo rpcidmapd: rpc.idmapd startup succeeded
+Jun  9 06:06:21 combo random: Initializing random number generator:  succeeded
+Jun  9 06:06:21 combo rc: Starting pcmcia:  succeeded
+Jun  9 06:06:22 combo bluetooth: hcid startup succeeded
+Jun  9 06:06:17 combo network: Setting network parameters:  succeeded 
+Jun  9 06:06:22 combo bluetooth: sdpd startup succeeded
+Jun  9 06:06:17 combo network: Bringing up loopback interface:  succeeded 
+Jun  9 06:06:23 combo netfs: Mounting other filesystems:  succeeded
+Jun  9 06:06:23 combo apmd: apmd startup succeeded
+Jun  9 06:06:24 combo autofs: automount startup succeeded
+Jun  9 06:06:24 combo smartd: smartd startup succeeded
+Jun  9 06:06:26 combo rc: Starting hpoj:  succeeded
+Jun  9 06:06:37 combo cups: cupsd startup succeeded
+Jun  9 06:06:38 combo sshd:  succeeded
+Jun  9 06:06:38 combo xinetd: xinetd startup succeeded
+Jun  9 06:06:40 combo sendmail: sendmail startup succeeded
+Jun  9 06:06:41 combo sendmail: sm-client startup succeeded
+Jun  9 06:06:44 combo spamassassin: spamd startup succeeded
+Jun  9 06:06:44 combo privoxy: Jun 09 06:06:44 Privoxy(-150093696) Info: loading configuration file '/etc/privoxy/config':
+Jun  9 06:06:45 combo privoxy: privoxy startup succeeded
+Jun  9 06:06:46 combo gpm: gpm startup succeeded
+Jun  9 06:06:46 combo IIim: htt startup succeeded
+Jun  9 06:06:49 combo canna:  succeeded
+Jun  9 06:06:49 combo crond: crond startup succeeded
+Jun  9 06:06:50 combo xfs: xfs startup succeeded
+Jun  9 06:06:51 combo anacron: anacron startup succeeded
+Jun  9 06:06:51 combo atd: atd startup succeeded
+Jun  9 06:06:51 combo readahead: Starting background readahead: 
+Jun  9 06:06:51 combo rc: Starting readahead:  succeeded
+Jun  9 06:06:52 combo messagebus: messagebus startup succeeded
+Jun  9 06:07:06 combo httpd: httpd startup succeeded
+Jun  9 06:07:13 combo named: named startup succeeded
+Jun  9 06:07:15 combo snmpd: snmpd startup succeeded
+Jun  9 06:07:17 combo ntpd: ntpd startup succeeded
+Jun  9 06:07:22 combo mysqld: Starting MySQL:  succeeded
+Jun  9 06:07:23 combo mdmonitor: mdadm succeeded
+Jun  9 06:07:24 combo mdmpd: mdmpd failed
+Jun 10 11:31:44 combo syslog: syslogd startup succeeded
+Jun 10 11:31:44 combo syslog: klogd startup succeeded
+Jun 10 11:31:44 combo irqbalance: irqbalance startup succeeded
+Jun 10 11:31:44 combo portmap: portmap startup succeeded
+Jun 10 11:31:44 combo nfslock: rpc.statd startup succeeded
+Jun 10 11:31:45 combo rpcidmapd: rpc.idmapd startup succeeded
+Jun 10 11:31:45 combo random: Initializing random number generator:  succeeded
+Jun 10 11:31:45 combo rc: Starting pcmcia:  succeeded
+Jun 10 11:31:41 combo sysctl: kernel.core_uses_pid = 1 
+Jun 10 11:31:46 combo bluetooth: hcid startup succeeded
+Jun 10 11:31:41 combo network: Setting network parameters:  succeeded 
+Jun 10 11:31:46 combo bluetooth: sdpd startup succeeded
+Jun 10 11:31:41 combo network: Bringing up loopback interface:  succeeded 
+Jun 10 11:31:46 combo netfs: Mounting other filesystems:  succeeded
+Jun 10 11:31:47 combo apmd: apmd startup succeeded
+Jun 10 11:31:47 combo autofs: automount startup succeeded
+Jun 10 11:31:48 combo smartd: smartd startup succeeded
+Jun 10 11:31:49 combo rc: Starting hpoj:  succeeded
+Jun 10 11:32:00 combo cups: cupsd startup succeeded
+Jun 10 11:32:00 combo sshd:  succeeded
+Jun 10 11:32:00 combo xinetd: xinetd startup succeeded
+Jun 10 11:32:01 combo sendmail: sendmail startup succeeded
+Jun 10 11:32:01 combo sendmail: sm-client startup succeeded
+Jun 10 11:32:05 combo spamassassin: spamd startup succeeded
+Jun 10 11:32:05 combo privoxy: Jun 10 11:32:05 Privoxy(-150769536) Info: loading configuration file '/etc/privoxy/config':
+Jun 10 11:32:06 combo privoxy: privoxy startup succeeded
+Jun 10 11:32:07 combo gpm: gpm startup succeeded
+Jun 10 11:32:07 combo IIim: htt startup succeeded
+Jun 10 11:32:10 combo canna:  succeeded
+Jun 10 11:32:10 combo crond: crond startup succeeded
+Jun 10 11:32:12 combo xfs: xfs startup succeeded
+Jun 10 11:32:12 combo anacron: anacron startup succeeded
+Jun 10 11:32:12 combo atd: atd startup succeeded
+Jun 10 11:32:12 combo readahead: Starting background readahead: 
+Jun 10 11:32:13 combo rc: Starting readahead:  succeeded
+Jun 10 11:32:14 combo messagebus: messagebus startup succeeded
+Jun 10 11:32:26 combo httpd: httpd startup succeeded
+Jun 10 11:32:34 combo named: named startup succeeded
+Jun 10 11:32:36 combo snmpd: snmpd startup succeeded
+Jun 10 11:32:37 combo ntpd: ntpd startup succeeded
+Jun 10 11:32:45 combo mysqld: Starting MySQL:  succeeded
+Jun 10 11:32:47 combo mdmonitor: mdadm succeeded
+Jun 10 11:32:47 combo mdmpd: mdmpd failed
+Jun 12 04:04:09 combo cups: cupsd shutdown succeeded
+Jun 12 04:04:15 combo cups: cupsd startup succeeded

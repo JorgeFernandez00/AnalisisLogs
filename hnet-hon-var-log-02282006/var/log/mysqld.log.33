@@ -1,0 +1,404 @@
+050609 06:04:30  mysqld ended
+
+050609 06:07:19  mysqld started
+Cannot initialize InnoDB as 'innodb_data_file_path' is not set.
+If you do not want to use transactional InnoDB tables, add a line
+skip-innodb
+to the [mysqld] section of init parameters in your my.cnf
+or my.ini. If you want to use InnoDB tables, add to the [mysqld]
+section, for example,
+innodb_data_file_path = ibdata1:10M:autoextend
+But to get good performance you should adjust for your hardware
+the InnoDB startup options listed in section 2 at
+http://www.innodb.com/ibman.html
+/usr/libexec/mysqld: ready for connections
+050610 11:32:40  mysqld started
+Cannot initialize InnoDB as 'innodb_data_file_path' is not set.
+If you do not want to use transactional InnoDB tables, add a line
+skip-innodb
+to the [mysqld] section of init parameters in your my.cnf
+or my.ini. If you want to use InnoDB tables, add to the [mysqld]
+section, for example,
+innodb_data_file_path = ibdata1:10M:autoextend
+But to get good performance you should adjust for your hardware
+the InnoDB startup options listed in section 2 at
+http://www.innodb.com/ibman.html
+/usr/libexec/mysqld: ready for connections
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+key_cache status:
+blocks used:         0
+not flushed:         0
+w_requests:          0
+writes:              0
+r_requests:          0
+reads:               0
+
+handler status:
+read_key:            0
+read_next:           0
+read_rnd             0
+read_first:          1
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:          6
+Open tables:            0
+Open files:             0
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+key_cache status:
+blocks used:         0
+not flushed:         0
+w_requests:          0
+writes:              0
+r_requests:          0
+reads:               0
+
+handler status:
+read_key:            0
+read_next:           0
+read_rnd             0
+read_first:          1
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:          6
+Open tables:            0
+Open files:             0
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+key_cache status:
+blocks used:         0
+not flushed:         0
+w_requests:          0
+writes:              0
+r_requests:          0
+reads:               0
+
+handler status:
+read_key:            0
+read_next:           0
+read_rnd             0
+read_first:          1
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:          6
+Open tables:            0
+Open files:             0
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+key_cache status:
+blocks used:         0
+not flushed:         0
+w_requests:          0
+writes:              0
+r_requests:          0
+reads:               0
+
+handler status:
+read_key:            0
+read_next:           0
+read_rnd             0
+read_first:          1
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:          6
+Open tables:            0
+Open files:             0
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+key_cache status:
+blocks used:         0
+not flushed:         0
+w_requests:          0
+writes:              0
+r_requests:          0
+reads:               0
+
+handler status:
+read_key:            0
+read_next:           0
+read_rnd             0
+read_first:          1
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:          6
+Open tables:            0
+Open files:             0
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+key_cache status:
+blocks used:         0
+not flushed:         0
+w_requests:          0
+writes:              0
+r_requests:          0
+reads:               0
+
+handler status:
+read_key:            0
+read_next:           0
+read_rnd             0
+read_first:          1
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:          6
+Open tables:            0
+Open files:             0
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+key_cache status:
+blocks used:         0
+not flushed:         0
+w_requests:          0
+writes:              0
+r_requests:          0
+reads:               0
+
+handler status:
+read_key:            0
+read_next:           0
+read_rnd             0
+read_first:          1
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:          6
+Open tables:            0
+Open files:             0
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+key_cache status:
+blocks used:         0
+not flushed:         0
+w_requests:          0
+writes:              0
+r_requests:          0
+reads:               0
+
+handler status:
+read_key:            0
+read_next:           0
+read_rnd             0
+read_first:          1
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:          6
+Open tables:            0
+Open files:             0
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+key_cache status:
+blocks used:         0
+not flushed:         0
+w_requests:          0
+writes:              0
+r_requests:          0
+reads:               0
+
+handler status:
+read_key:            0
+read_next:           0
+read_rnd             0
+read_first:          1
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:          6
+Open tables:            0
+Open files:             0
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+key_cache status:
+blocks used:         0
+not flushed:         0
+w_requests:          0
+writes:              0
+r_requests:          0
+reads:               0
+
+handler status:
+read_key:            0
+read_next:           0
+read_rnd             0
+read_first:          1
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:          6
+Open tables:            0
+Open files:             0
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+key_cache status:
+blocks used:         0
+not flushed:         0
+w_requests:          0
+writes:              0
+r_requests:          0
+reads:               0
+
+handler status:
+read_key:            0
+read_next:           0
+read_rnd             0
+read_first:          1
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:          6
+Open tables:            0
+Open files:             0
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+key_cache status:
+blocks used:         0
+not flushed:         0
+w_requests:          0
+writes:              0
+r_requests:          0
+reads:               0
+
+handler status:
+read_key:            0
+read_next:           0
+read_rnd             0
+read_first:          1
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:          6
+Open tables:            0
+Open files:             0
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+key_cache status:
+blocks used:         0
+not flushed:         0
+w_requests:          0
+writes:              0
+r_requests:          0
+reads:               0
+
+handler status:
+read_key:            0
+read_next:           0
+read_rnd             0
+read_first:          1
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:          6
+Open tables:            0
+Open files:             0
+Open streams:           0
+
+Status information:
+
+Current dir: /var/lib/mysql/
+Current locks:
+key_cache status:
+blocks used:         0
+not flushed:         0
+w_requests:          0
+writes:              0
+r_requests:          0
+reads:               0
+
+handler status:
+read_key:            0
+read_next:           0
+read_rnd             0
+read_first:          1
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:          6
+Open tables:            0
+Open files:             0
+Open streams:           0

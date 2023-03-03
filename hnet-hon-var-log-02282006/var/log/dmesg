@@ -1,0 +1,305 @@
+Linux version 2.6.5-1.358 (bhcompile@bugs.build.redhat.com) (gcc version 3.3.3 20040412 (Red Hat Linux 3.3.3-7)) #1 Sat May 8 09:04:50 EDT 2004
+BIOS-provided physical RAM map:
+ BIOS-e820: 0000000000000000 - 00000000000a0000 (usable)
+ BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+ BIOS-e820: 0000000000100000 - 0000000007eae000 (usable)
+ BIOS-e820: 0000000007eae000 - 0000000008000000 (reserved)
+ BIOS-e820: 00000000ffb00000 - 0000000100000000 (reserved)
+0MB HIGHMEM available.
+126MB LOWMEM available.
+zapping low mappings.
+On node 0 totalpages: 32430
+  DMA zone: 4096 pages, LIFO batch:1
+  Normal zone: 28334 pages, LIFO batch:6
+  HighMem zone: 0 pages, LIFO batch:1
+DMI 2.3 present.
+ACPI disabled because your bios is from 2000 and too old
+You can enable it with acpi=force
+Built 1 zonelists
+Kernel command line: ro root=LABEL=/ rhgb quiet audit=1
+audit: enabled (after initialization)
+mapped 4G/4G trampoline to ffff3000.
+Initializing CPU#0
+CPU 0 irqstacks, hard=02345000 soft=02344000
+PID hash table entries: 512 (order 9: 4096 bytes)
+Detected 731.214 MHz processor.
+Using tsc for high-res timesource
+Console: colour VGA+ 80x25
+Memory: 125312k/129720k available (1540k kernel code, 3860k reserved, 599k data, 144k init, 0k highmem)
+Calibrating delay loop... 1441.79 BogoMIPS
+Security Scaffold v1.0.0 initialized
+SELinux:  Initializing.
+SELinux:  Starting in permissive mode
+There is already a security framework initialized, register_security failed.
+Failure registering capabilities with the kernel
+selinux_register_security:  Registering secondary module capability
+Capability LSM initialized
+Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Mount-cache hash table entries: 512 (order: 0, 4096 bytes)
+CPU:     After generic identify, caps: 0383f9ff 00000000 00000000 00000000
+CPU:     After vendor identify, caps: 0383f9ff 00000000 00000000 00000000
+CPU: L1 I cache: 16K, L1 D cache: 16K
+CPU: L2 cache: 256K
+CPU:     After all inits, caps: 0383f1ff 00000000 00000000 00000040
+Intel machine check architecture supported.
+Intel machine check reporting enabled on CPU#0.
+CPU: Intel Pentium III (Coppermine) stepping 06
+Enabling fast FPU save and restore... done.
+Enabling unmasked SIMD FPU exception support... done.
+Checking 'hlt' instruction... OK.
+POSIX conformance testing by UNIFIX
+NET: Registered protocol family 16
+PCI: PCI BIOS revision 2.10 entry at 0xfc0ce, last bus=1
+PCI: Using configuration type 1
+mtrr: v2.0 (20020519)
+ACPI: Subsystem revision 20040326
+ACPI: Interpreter disabled.
+Linux Plug and Play Support v0.97 (c) Adam Belay
+usbcore: registered new driver usbfs
+usbcore: registered new driver hub
+ACPI: ACPI tables contain no PCI IRQ routing entries
+PCI: Invalid ACPI-PCI IRQ routing table
+PCI: Probing PCI hardware
+PCI: Probing PCI hardware (bus 00)
+Transparent bridge - 0000:00:1e.0
+PCI: Using IRQ router PIIX/ICH [8086/2410] at 0000:00:1f.0
+apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16ac)
+audit: initializing netlink socket (enabled)
+audit(1138278081.612:0): initialized
+Total HugeTLB memory allocated, 0
+VFS: Disk quotas dquot_6.5.1
+Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+SELinux:  Registering netfilter hooks
+Initializing Cryptographic API
+pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+isapnp: Scanning for PnP cards...
+isapnp: No Plug & Play device found
+Real Time Clock Driver v1.12
+Linux agpgart interface v0.100 (c) Dave Jones
+agpgart: Detected an Intel i810 E Chipset.
+agpgart: Maximum main memory to use for agp memory: 93M
+agpgart: detected 4MB dedicated video ram.
+agpgart: AGP aperture is 64M @ 0xf4000000
+Serial: 8250/16550 driver $Revision: 1.90 $ 8 ports, IRQ sharing enabled
+ttyS0 at I/O 0x3f8 (irq = 4) is a 16550A
+ttyS1 at I/O 0x2f8 (irq = 3) is a 16550A
+RAMDISK driver initialized: 16 RAM disks of 16384K size 1024 blocksize
+divert: not allocating divert_blk for non-ethernet device lo
+Uniform Multi-Platform E-IDE driver Revision: 7.00alpha2
+ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+ICH: IDE controller at PCI slot 0000:00:1f.1
+ICH: chipset revision 2
+ICH: not 100% native mode: will probe irqs later
+    ide0: BM-DMA at 0xffa0-0xffa7, BIOS settings: hda:DMA, hdb:pio
+    ide1: BM-DMA at 0xffa8-0xffaf, BIOS settings: hdc:DMA, hdd:pio
+hda: IBM-DTLA-307015, ATA DISK drive
+Using cfq io scheduler
+ide0 at 0x1f0-0x1f7,0x3f6 on irq 14
+hdc: SAMSUNG CD-ROM SN-124, ATAPI CD/DVD-ROM drive
+hdc: Disabling (U)DMA for SAMSUNG CD-ROM SN-124 (blacklisted)
+ide1 at 0x170-0x177,0x376 on irq 15
+hda: max request size: 128KiB
+hda: 29336832 sectors (15020 MB) w/1916KiB Cache, CHS=29104/16/63, UDMA(66)
+ hda: hda1 hda2 hda3
+hdc: ATAPI 24X CD-ROM drive, 128kB Cache
+Uniform CD-ROM driver Revision: 3.20
+ide-floppy driver 0.99.newide
+usbcore: registered new driver hiddev
+usbcore: registered new driver hid
+drivers/usb/input/hid-core.c: v2.0:USB HID core driver
+mice: PS/2 mouse device common for all mice
+serio: i8042 AUX port at 0x60,0x64 irq 12
+input: ImPS/2 Logitech Wheel Mouse on isa0060/serio1
+serio: i8042 KBD port at 0x60,0x64 irq 1
+input: AT Translated Set 2 keyboard on isa0060/serio0
+md: md driver 0.90.0 MAX_MD_DEVS=256, MD_SB_DISKS=27
+NET: Registered protocol family 2
+IP: routing cache hash table of 512 buckets, 4Kbytes
+TCP: Hash tables configured (established 8192 bind 16384)
+Initializing IPsec netlink socket
+NET: Registered protocol family 1
+NET: Registered protocol family 17
+checking if image is initramfs...it isn't (no cpio magic); looks like an initrd
+Freeing initrd memory: 186k freed
+md: Autodetecting RAID arrays.
+md: autorun ...
+md: ... autorun DONE.
+RAMDISK: Compressed image found at block 0
+VFS: Mounted root (ext2 filesystem).
+kjournald starting.  Commit interval 5 seconds
+EXT3-fs: mounted filesystem with ordered data mode.
+Freeing unused kernel memory: 144k freed
+security:  5 users, 7 roles, 1244 types, 1 bools
+security:  30 classes, 303377 rules
+SELinux:  Completing initialization.
+SELinux:  Setting up existing superblocks.
+SELinux: initialized (dev , type selinuxfs), uses genfs_contexts
+SELinux: initialized (dev hda2, type ext3), uses xattr
+SELinux: initialized (dev ram0, type ext2), uses xattr
+SELinux: initialized (dev , type mqueue), not configured for labeling
+SELinux: initialized (dev , type hugetlbfs), not configured for labeling
+SELinux: initialized (dev , type devpts), uses transition SIDs
+SELinux: initialized (dev , type eventpollfs), uses genfs_contexts
+SELinux: initialized (dev , type pipefs), uses task SIDs
+SELinux: initialized (dev , type tmpfs), uses transition SIDs
+SELinux: initialized (dev , type futexfs), uses genfs_contexts
+SELinux: initialized (dev , type sockfs), uses task SIDs
+SELinux: initialized (dev , type proc), uses genfs_contexts
+SELinux: initialized (dev , type bdev), uses genfs_contexts
+SELinux: initialized (dev , type rootfs), uses genfs_contexts
+SELinux: initialized (dev , type sysfs), uses genfs_contexts
+audit(1138278089.855:0): avc:  denied  { getattr } for  pid=1 exe=/sbin/init path=/dev/initctl dev=hda2 ino=1031635 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:file_t tclass=fifo_file
+audit(1138278089.855:0): avc:  denied  { read write } for  pid=1 exe=/sbin/init name=initctl dev=hda2 ino=1031635 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:file_t tclass=fifo_file
+audit(1138278091.510:111925): avc:  denied  { syslog_console } for  pid=506 exe=/bin/dmesg scontext=system_u:system_r:kernel_t tcontext=system_u:system_r:kernel_t tclass=system
+audit(1138278091.510:111925): syscall=103 exit=0 a0=8 a1=0 a2=3 a3=3 items=0 pid=506 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+SELinux: initialized (dev , type ramfs), uses genfs_contexts
+audit(1138278092.486:112647): avc:  denied  { setattr } for  pid=509 exe=/usr/bin/rhgb name=/ dev= ino=1021 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:ramfs_t tclass=dir
+audit(1138278092.486:112647): syscall=15 exit=0 a0=805ccbd a1=1c0 a2=9a397c8 a3=1c0 items=1 pid=509 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138278092.486:112647): item=0 name=/initrd inode=1021 dev=00:00
+audit(1138278092.509:112888): avc:  denied  { search } for  pid=512 exe=/sbin/ifconfig name=net dev= ino=-268435354 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysctl_net_t tclass=dir
+audit(1138278092.509:112888): syscall=33 exit=4294967294 a0=8051f0f a1=4 a2=80545a0 a3=8054460 items=1 pid=512 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138278092.509:112888): item=0 name=/proc/sys/net/econet
+audit(1138278092.594:113949): avc:  denied  { search } for  pid=511 exe=/usr/bin/rhgb dev= ino=1021 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:ramfs_t tclass=dir
+audit(1138278092.594:113949): avc:  denied  { write } for  pid=511 exe=/usr/bin/rhgb dev= ino=1021 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:ramfs_t tclass=dir
+audit(1138278092.594:113949): avc:  denied  { add_name } for  pid=511 exe=/usr/bin/rhgb name=rhgb-socket scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:ramfs_t tclass=dir
+audit(1138278092.594:113949): avc:  denied  { create } for  pid=511 exe=/usr/bin/rhgb name=rhgb-socket scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:ramfs_t tclass=sock_file
+audit(1138278092.594:113949): syscall=102 exit=0 a0=2 a1=feee2dd0 a2=2 a3=1 items=1 pid=511 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138278092.594:113949): item=0 inode=1021 dev=00:00
+audit(1138278092.594:113951): avc:  denied  { setattr } for  pid=511 exe=/usr/bin/rhgb name=rhgb-socket dev= ino=1026 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:ramfs_t tclass=sock_file
+audit(1138278092.594:113951): syscall=15 exit=0 a0=805cd2b a1=1c0 a2=2 a3=1 items=1 pid=511 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138278092.594:113951): item=0 name=/initrd/rhgb-socket inode=1026 dev=00:00
+audit(1138278092.998:114103): avc:  denied  { create } for  pid=513 exe=/usr/X11R6/bin/Xorg name=XFree86.0.log scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:ramfs_t tclass=file
+audit(1138278092.998:114103): syscall=5 exit=0 a0=8fea430 a1=241 a2=1b6 a3=1b6 items=1 pid=513 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138278092.998:114103): item=0 name=/initrd/XFree86.0.log inode=1021 dev=00:00
+NET: Registered protocol family 10
+Disabled Privacy Extensions on device 022db720(lo)
+IPv6 over IPv4 tunneling driver
+divert: not allocating divert_blk for non-ethernet device sit0
+audit(1138278093.406:116163): avc:  denied  { name_bind } for  pid=513 exe=/usr/X11R6/bin/Xorg scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:xserver_port_t tclass=tcp_socket
+audit(1138278093.406:116163): syscall=102 exit=0 a0=2 a1=fee65200 a2=1770 a3=fee65260 items=0 pid=513 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138278093.540:118407): avc:  denied  { write } for  pid=513 exe=/usr/X11R6/bin/Xorg path=/initrd/XFree86.0.log dev= ino=1027 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:ramfs_t tclass=file
+audit(1138278093.540:118407): syscall=4 exit=11 a0=0 a1=81f6f20 a2=b a3=b items=0 pid=513 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138278093.880:123407): avc:  denied  { write } for  pid=513 exe=/usr/X11R6/bin/Xorg name=00.0 dev= ino=-268435176 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:proc_t tclass=file
+audit(1138278093.880:123407): syscall=5 exit=6 a0=fee652b0 a1=2 a2=0 a3=0 items=1 pid=513 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138278093.880:123407): item=0 name=/proc/bus/pci/00/00.0 inode=4026532120 dev=00:00
+audit(1138278094.933:149104): avc:  denied  { execute } for  pid=513 path=/dev/mem dev=hda2 ino=1024150 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:file_t tclass=chr_file
+audit(1138278094.933:149104): syscall=192 exit=983040 a0=f0000 a1=10000 a2=5 a3=11 items=0 pid=513 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138278101.742:164003): avc:  denied  { search } for  pid=594 exe=/usr/lib/vte/gnome-pty-helper dev= ino=1 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:devpts_t tclass=dir
+audit(1138278101.742:164003): syscall=5 exit=3 a0=682cc3 a1=2 a2=0 a3=0 items=1 pid=594 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=22 fsgid=0
+audit(1138278101.742:164003): item=0 name=/dev/ptmx inode=1025790 dev=05:02
+audit(1138278101.749:164007): avc:  denied  { getattr } for  pid=594 exe=/usr/lib/vte/gnome-pty-helper path=/dev/pts/0 dev= ino=2 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:devpts_t tclass=chr_file
+audit(1138278101.749:164007): syscall=195 exit=0 a0=fef6c158 a1=fef6c0ac a2=68cffc a3=fef6c09f items=1 pid=594 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=22 fsgid=0
+audit(1138278101.749:164007): item=0 name=/dev/pts/0 inode=2 dev=88:00
+audit(1138278101.749:164013): avc:  denied  { read write } for  pid=594 exe=/usr/lib/vte/gnome-pty-helper name=0 dev= ino=2 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:devpts_t tclass=chr_file
+audit(1138278101.749:164013): syscall=5 exit=4 a0=fef6d1cc a1=102 a2=1000 a3=0 items=1 pid=594 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=22 fsgid=0
+audit(1138278101.749:164013): item=0 name=/dev/pts/0 inode=2 dev=88:00
+audit(1138278101.749:164014): avc:  denied  { ioctl } for  pid=594 exe=/usr/lib/vte/gnome-pty-helper path=/dev/pts/0 dev= ino=2 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:devpts_t tclass=chr_file
+audit(1138278101.749:164014): syscall=54 exit=0 a0=4 a1=5404 a2=fef6d168 a3=fef6d168 items=0 pid=594 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=22 fsgid=0
+audit(1138278101.766:164029): avc:  denied  { setattr } for  pid=594 exe=/usr/lib/vte/gnome-pty-helper name=0 dev= ino=2 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:devpts_t tclass=chr_file
+audit(1138278101.766:164029): syscall=207 exit=0 a0=4 a1=0 a2=5 a3=0 items=0 pid=594 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=22 sgid=22 fsgid=22
+audit(1138278102.349:166029): avc:  denied  { write } for  pid=596 exe=/usr/bin/rhgb-client name=rhgb-socket dev= ino=1026 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:ramfs_t tclass=sock_file
+audit(1138278102.349:166029): syscall=102 exit=0 a0=3 a1=feea18b0 a2=68cffc a3=9bc9858 items=1 pid=596 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138278102.349:166029): item=0 inode=1026 dev=00:00
+audit(1138278102.405:167249): avc:  denied  { write } for  pid=598 exe=/sbin/sysctl name=ip_forward dev= ino=-268435331 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysctl_net_t tclass=file
+audit(1138278102.405:167249): syscall=5 exit=4 a0=8717180 a1=241 a2=1b6 a3=1b6 items=1 pid=598 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138278102.405:167249): item=0 name=/proc/sys/net/ipv4/ip_forward inode=4026531960 dev=00:00
+audit(1138278102.405:167250): avc:  denied  { getattr } for  pid=598 exe=/sbin/sysctl path=/proc/sys/net/ipv4/ip_forward dev= ino=-268435331 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysctl_net_t tclass=file
+audit(1138278102.405:167250): syscall=197 exit=0 a0=4 a1=fef0c808 a2=68cffc a3=87171c0 items=0 pid=598 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+USB Universal Host Controller Interface driver v2.2
+PCI: Found IRQ 11 for device 0000:00:1f.2
+uhci_hcd 0000:00:1f.2: UHCI Host Controller
+PCI: Setting latency timer of device 0000:00:1f.2 to 64
+uhci_hcd 0000:00:1f.2: irq 11, io base 0000ff80
+SELinux: initialized (dev , type usbdevfs), uses genfs_contexts
+SELinux: initialized (dev , type usbfs), uses genfs_contexts
+uhci_hcd 0000:00:1f.2: new USB bus registered, assigned bus number 1
+audit(1138296102.617:183467): avc:  denied  { getattr } for  pid=635 exe=/bin/bash path=/sys/devices/pci0000:00/0000:00:1f.2/usb1/bNumConfigurations dev= ino=1290 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysfs_t tclass=file
+audit(1138296102.617:183467): syscall=195 exit=0 a0=80d028c a1=fefff650 a2=68cffc a3=80d028c items=1 pid=635 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296102.617:183467): item=0 name=/sys//devices/pci0000:00/0000:00:1f.2/usb1/bNumConfigurations inode=1290 dev=00:00
+audit(1138296102.620:183525): avc:  denied  { read } for  pid=651 exe=/bin/cat name=bNumConfigurations dev= ino=1290 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysfs_t tclass=file
+audit(1138296102.620:183525): syscall=5 exit=3 a0=fef6de9a a1=8000 a2=0 a3=8000 items=1 pid=651 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296102.620:183525): item=0 name=/sys//devices/pci0000:00/0000:00:1f.2/usb1/bNumConfigurations inode=1290 dev=00:00
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 2 ports detected
+audit(1138296102.645:185219): avc:  denied  { mounton } for  pid=655 exe=/bin/mount path=/proc/bus/usb dev= ino=-268435218 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:proc_t tclass=dir
+audit(1138296102.645:185219): syscall=21 exit=0 a0=87a8a18 a1=87a8a28 a2=87a8a40 a3=c0ed0000 items=1 pid=655 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296102.645:185219): item=0 name=/proc/bus/usb inode=4026532078 dev=00:00
+audit(1138296102.652:185394): avc:  denied  { getattr } for  pid=647 exe=/usr/bin/readlink path=/sys dev= ino=1 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysfs_t tclass=dir
+audit(1138296102.652:185394): syscall=196 exit=0 a0=87ee038 a1=fef69978 a2=68cffc a3=87ee038 items=1 pid=647 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296102.652:185394): item=0 name=/sys inode=1 dev=00:00
+audit(1138296102.679:186228): avc:  denied  { read } for  pid=658 exe=/bin/grep name=devices dev= ino=1268 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:usbdevfs_t tclass=file
+audit(1138296102.679:186228): syscall=5 exit=3 a0=fef14e91 a1=8000 a2=0 a3=8000 items=1 pid=658 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296102.679:186228): item=0 name=/proc/bus/usb/devices inode=1268 dev=00:00
+audit(1138296102.679:186229): avc:  denied  { getattr } for  pid=658 exe=/bin/grep path=/proc/bus/usb/devices dev= ino=1268 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:usbdevfs_t tclass=file
+audit(1138296102.679:186229): syscall=197 exit=0 a0=3 a1=805a2e4 a2=68cffc a3=88237c8 items=0 pid=658 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+EXT3 FS on hda2, internal journal
+audit(1138296104.506:222519): avc:  denied  { create } for  pid=705 exe=/sbin/minilogd name=log scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:file_t tclass=sock_file
+audit(1138296104.506:222519): syscall=102 exit=0 a0=2 a1=fef4d420 a2=fef4d440 a3=1 items=1 pid=705 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296104.506:222519): item=0 inode=1024129 dev=00:00
+audit(1138296104.541:222667): avc:  denied  { getattr } for  pid=708 exe=/sbin/minilogd path=/dev/log dev=hda2 ino=1031636 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:file_t tclass=sock_file
+audit(1138296104.541:222667): syscall=195 exit=0 a0=80490b4 a1=fef4d22c a2=68cffc a3=fef4d22c items=1 pid=708 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296104.541:222667): item=0 name=/dev/log inode=1031636 dev=00:00
+audit(1138296104.542:222681): avc:  denied  { write } for  pid=310 exe=/sbin/initlog name=log dev=hda2 ino=1031636 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:file_t tclass=sock_file
+audit(1138296104.542:222681): syscall=102 exit=4294967205 a0=3 a1=feee0794 a2=68cffc a3=2 items=1 pid=310 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296104.542:222681): item=0 inode=1031636 dev=00:00
+device-mapper: 4.1.0-ioctl (2003-12-10) initialised: dm@uk.sistina.com
+audit(1138296104.661:225142): avc:  denied  { unlink } for  pid=717 exe=/bin/rm name=control dev=hda2 ino=1154199 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:file_t tclass=chr_file
+audit(1138296104.661:225142): syscall=10 exit=0 a0=fefb8ea0 a1=1 a2=fef31670 a3=fefb8ea0 items=1 pid=717 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296104.661:225142): item=0 name=/dev/mapper/control inode=1154181 dev=00:00
+audit(1138296104.703:225182): avc:  denied  { read } for  pid=716 exe=/sbin/udev name=device-mapper dev= ino=1424 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysfs_t tclass=dir
+audit(1138296104.703:225182): syscall=5 exit=5 a0=9d3274a a1=18800 a2=0 a3=9d325a0 items=1 pid=716 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296104.703:225182): item=0 name=/sys/class/misc/device-mapper inode=1424 dev=00:00
+audit(1138296104.727:225279): avc:  denied  { create } for  pid=719 exe=/sbin/nash name=control scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:file_t tclass=chr_file
+audit(1138296104.727:225279): syscall=14 exit=0 a0=804fffa a1=2180 a2=a3f a3=0 items=1 pid=719 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296104.727:225279): item=0 name=/dev/mapper/control inode=1154181 dev=00:00
+audit(1138296104.780:225409): avc:  denied  { check_context } for  pid=720 exe=/sbin/restorecon scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:security_t tclass=security
+audit(1138296104.780:225409): syscall=4 exit=28 a0=4 a1=95a8180 a2=1c a3=95a9188 items=0 pid=720 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296104.852:227147): avc:  denied  { setattr } for  pid=716 exe=/sbin/udev name=device-mapper dev=hda2 ino=283649 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:file_t tclass=chr_file
+audit(1138296104.852:227147): syscall=15 exit=0 a0=fef96e54 a1=2180 a2=0 a3=a3f items=1 pid=716 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296104.852:227147): item=0 name=/udev/device-mapper inode=283649 dev=0a:3f
+audit(1138296105.156:234587): avc:  denied  { relabelfrom } for  pid=720 exe=/sbin/restorecon name=control dev=hda2 ino=1154199 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:file_t tclass=chr_file
+audit(1138296105.156:234587): avc:  denied  { relabelto } for  pid=720 exe=/sbin/restorecon name=control dev=hda2 ino=1154199 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:lvm_control_t tclass=chr_file
+audit(1138296105.194:235300): avc:  denied  { relabelto } for  pid=724 exe=/sbin/restorecon name=device-mapper dev=hda2 ino=283649 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:device_t tclass=chr_file
+audit(1138296105.194:235300): syscall=227 exit=0 a0=fefbbebe a1=dd6c6b a2=9729088 a3=1b items=1 pid=724 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296105.194:235300): item=0 name=/udev/device-mapper inode=283649 dev=0a:3f
+audit(1138296105.156:234587): syscall=227 exit=0 a0=fef38e8e a1=dd6c6b a2=95aff00 a3=20 items=1 pid=720 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296105.156:234587): item=0 name=/dev/mapper/control inode=1154199 dev=0a:3f
+audit(1138296105.200:235352): avc:  denied  { getattr } for  pid=309 exe=/bin/bash path=/dev/mapper/control dev=hda2 ino=1154199 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:lvm_control_t tclass=chr_file
+audit(1138296105.200:235352): syscall=195 exit=0 a0=80cfbcc a1=fefff8d0 a2=68cffc a3=80cfbcc items=1 pid=309 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296105.200:235352): item=0 name=/dev/mapper/control inode=1154199 dev=0a:3f
+audit(1138296106.081:244396): avc:  denied  { getattr } for  pid=725 exe=/sbin/lvm.static path=/dev/pts dev= ino=1 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:devpts_t tclass=dir
+audit(1138296106.081:244396): syscall=195 exit=0 a0=82e3fa0 a1=fefab170 a2=0 a3=fefab170 items=1 pid=725 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296106.081:244396): item=0 name=/dev/pts inode=1 dev=00:00
+audit(1138296106.081:244398): avc:  denied  { read } for  pid=725 exe=/sbin/lvm.static dev= ino=1 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:devpts_t tclass=dir
+audit(1138296106.081:244398): syscall=5 exit=3 a0=82e3fa0 a1=18800 a2=0 a3=82e3fa0 items=1 pid=725 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296106.081:244398): item=0 name=/dev/pts inode=1 dev=00:00
+cdrom: open failed.
+Adding 262072k swap on /dev/hda3.  Priority:-1 extents:1
+audit(1138296107.529:261678): avc:  denied  { relabelfrom } for  pid=729 exe=/sbin/restorecon name=mtab dev=hda2 ino=82456 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:file_t tclass=file
+audit(1138296107.529:261678): avc:  denied  { relabelto } for  pid=729 exe=/sbin/restorecon name=mtab dev=hda2 ino=82456 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:etc_runtime_t tclass=file
+audit(1138296107.529:261678): syscall=227 exit=0 a0=feff3e98 a1=dd6c6b a2=a03fe28 a3=20 items=1 pid=729 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296107.529:261678): item=0 name=/etc/mtab inode=82456 dev=00:00
+audit(1138296107.747:266162): avc:  denied  { relabelto } for  pid=730 exe=/sbin/restorecon name=ld.so.cache dev=hda2 ino=85502 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:ld_so_cache_t tclass=file
+audit(1138296107.747:266162): syscall=227 exit=0 a0=fef5fe91 a1=dd6c6b a2=947d6d8 a3=20 items=1 pid=730 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296107.747:266162): item=0 name=/etc/ld.so.cache inode=85502 dev=00:00
+audit(1138296107.867:267232): avc:  denied  { getattr } for  pid=309 exe=/bin/bash path=/proc/sys/kernel/modprobe dev= ino=-268435402 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysctl_modprobe_t tclass=file
+audit(1138296107.867:267232): syscall=195 exit=0 a0=80cfbcc a1=fefffa10 a2=68cffc a3=80cfbcc items=1 pid=309 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296107.867:267232): item=0 name=/proc/sys/kernel/modprobe inode=4026531894 dev=00:00
+audit(1138296107.869:267298): avc:  denied  { write } for  pid=738 exe=/sbin/sysctl name=modprobe dev= ino=-268435402 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysctl_modprobe_t tclass=file
+audit(1138296107.869:267298): syscall=5 exit=3 a0=8aac018 a1=241 a2=1b6 a3=1b6 items=1 pid=738 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296107.869:267298): item=0 name=/proc/sys/kernel/modprobe inode=4026531876 dev=00:00
+audit(1138296107.872:267384): avc:  denied  { write } for  pid=739 exe=/sbin/sysctl name=hotplug dev= ino=-268435401 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysctl_hotplug_t tclass=file
+audit(1138296107.872:267384): syscall=5 exit=3 a0=89c4018 a1=241 a2=1b6 a3=1b6 items=1 pid=739 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296107.872:267384): item=0 name=/proc/sys/kernel/hotplug inode=4026531876 dev=00:00
+audit(1138296107.872:267385): avc:  denied  { getattr } for  pid=739 exe=/sbin/sysctl path=/proc/sys/kernel/hotplug dev= ino=-268435401 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysctl_hotplug_t tclass=file
+audit(1138296107.872:267385): syscall=197 exit=0 a0=3 a1=fee9c408 a2=68cffc a3=89c4050 items=0 pid=739 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+kjournald starting.  Commit interval 5 seconds
+EXT3 FS on hda1, internal journal
+EXT3-fs: mounted filesystem with ordered data mode.
+SELinux: initialized (dev hda1, type ext3), uses xattr
+SELinux: initialized (dev , type tmpfs), uses transition SIDs
+audit(1138296109.324:295942): avc:  denied  { unlink } for  pid=1123 exe=/sbin/minilogd name=log dev=hda2 ino=1031636 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:file_t tclass=sock_file
+audit(1138296109.324:295942): syscall=10 exit=0 a0=80490b4 a1=fefaf380 a2=fefaf3a0 a3=1 items=1 pid=1123 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+audit(1138296109.324:295942): item=0 name=/dev/log inode=1024129 dev=00:00
+audit(1138296110.949:306401): avc:  denied  { syslog_read } for  pid=1178 exe=/bin/dmesg scontext=system_u:system_r:kernel_t tcontext=system_u:system_r:kernel_t tclass=system

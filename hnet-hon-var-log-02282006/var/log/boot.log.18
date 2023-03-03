@@ -1,0 +1,44 @@
+Sep 19 05:57:37 combo syslog: syslogd startup succeeded
+Sep 19 05:57:37 combo syslog: klogd startup succeeded
+Sep 19 05:57:37 combo irqbalance: irqbalance startup succeeded
+Sep 19 05:57:37 combo portmap: portmap startup succeeded
+Sep 19 05:57:37 combo nfslock: rpc.statd startup succeeded
+Sep 19 05:57:38 combo rpcidmapd: rpc.idmapd startup succeeded
+Sep 19 05:57:38 combo random: Initializing random number generator:  succeeded
+Sep 19 05:57:38 combo rc: Starting pcmcia:  succeeded
+Sep 19 05:57:34 combo network: Setting network parameters:  succeeded 
+Sep 19 05:57:39 combo bluetooth: hcid startup succeeded
+Sep 19 05:57:34 combo network: Bringing up loopback interface:  succeeded 
+Sep 19 05:57:39 combo bluetooth: sdpd startup succeeded
+Sep 19 05:57:39 combo netfs: Mounting other filesystems:  succeeded
+Sep 19 05:57:40 combo apmd: apmd startup succeeded
+Sep 19 05:57:40 combo autofs: automount startup succeeded
+Sep 19 05:57:41 combo smartd: smartd startup succeeded
+Sep 19 05:57:42 combo rc: Starting hpoj:  succeeded
+Sep 19 05:57:53 combo cups: cupsd startup succeeded
+Sep 19 05:57:53 combo sshd:  succeeded
+Sep 19 05:57:53 combo xinetd: xinetd startup succeeded
+Sep 19 05:57:54 combo sendmail: sendmail startup succeeded
+Sep 19 05:57:54 combo sendmail: sm-client startup succeeded
+Sep 19 05:57:57 combo spamassassin: spamd startup succeeded
+Sep 19 05:57:58 combo privoxy: Sep 19 05:57:58 Privoxy(-150429568) Info: loading configuration file '/etc/privoxy/config':
+Sep 19 05:57:59 combo privoxy: privoxy startup succeeded
+Sep 19 05:58:00 combo gpm: gpm startup succeeded
+Sep 19 05:58:00 combo IIim: htt startup succeeded
+Sep 19 05:58:03 combo canna:  succeeded
+Sep 19 05:58:03 combo crond: crond startup succeeded
+Sep 19 05:58:05 combo xfs: xfs startup succeeded
+Sep 19 05:58:05 combo anacron: anacron startup succeeded
+Sep 19 05:58:05 combo atd: atd startup succeeded
+Sep 19 05:58:05 combo readahead: Starting background readahead: 
+Sep 19 05:58:06 combo rc: Starting readahead:  succeeded
+Sep 19 05:58:07 combo messagebus: messagebus startup succeeded
+Sep 19 05:58:19 combo httpd: httpd startup succeeded
+Sep 19 05:58:25 combo named: named startup succeeded
+Sep 19 05:58:27 combo snmpd: snmpd startup succeeded
+Sep 19 05:58:29 combo ntpd: ntpd startup succeeded
+Sep 19 05:58:36 combo mysqld: Starting MySQL:  succeeded
+Sep 19 05:58:38 combo mdmonitor: mdadm succeeded
+Sep 19 05:58:38 combo mdmpd: mdmpd failed
+Sep 25 04:11:08 combo cups: cupsd shutdown succeeded
+Sep 25 04:11:14 combo cups: cupsd startup succeeded

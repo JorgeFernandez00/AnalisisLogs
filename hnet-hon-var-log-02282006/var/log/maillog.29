@@ -1,0 +1,757 @@
+Jul  3 04:14:01 combo sendmail[27199]: j63883Z8027199: from=root, size=524, class=0, nrcpts=1, msgid=<200507030808.j63883Z8027199@combo.bkwconsulting.com>, relay=root@localhost
+Jul  3 04:14:18 combo sendmail[28464]: j638E2FJ028464: from=<root@combo.bkwconsulting.com>, size=820, class=0, nrcpts=1, msgid=<200507030808.j63883Z8027199@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  3 04:14:18 combo sendmail[27199]: j63883Z8027199: to=root, ctladdr=root (0/0), delay=00:06:15, xdelay=00:00:17, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j638E2FJ028464 Message accepted for delivery)
+Jul  3 04:14:19 combo sendmail[28465]: j638E2FJ028464: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=31059, dsn=2.0.0, stat=Sent
+Jul  3 05:59:23 combo sendmail[31656]: j639wXk6031656: from=<gftnfwocydcaxc@msa.hinet.net>, size=1291, class=0, nrcpts=1, msgid=<EQLWZRYJRQMJOARQOLAWNWE@yahoo.com>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  3 05:59:56 combo sendmail[31658]: j639wXk6031656: SYSERR(root): localhost.fabulous.com. config error: mail loops back to me (MX problem?)
+Jul  3 05:59:56 combo sendmail[31659]: j639xmWP031659: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  3 05:59:56 combo sendmail[31658]: j639wXk6031656: to=<zaqume@ke.com>, delay=00:00:42, xdelay=00:00:33, mailer=esmtp, pri=31291, relay=localhost.fabulous.com. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Jul  3 06:00:04 combo sendmail[31658]: j639wXk6031656: j63A04k6031658: DSN: Local configuration error
+Jul  3 06:00:04 combo sendmail[31658]: j63A04k6031658: to=root, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=62315, dsn=2.0.0, stat=Sent
+Jul  3 07:48:42 combo sendmail[31814]: j63Bm1OF031814: from=<wknyjmlqb@msa.hinet.net>, size=1075, class=0, nrcpts=1, msgid=<HJJBZRXHAPXHMHPKNZORQ@yahoo.com>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  3 07:51:22 combo sendmail[31816]: j63Bm1OF031814: to=<zt@qc.com>, delay=00:02:44, xdelay=00:02:40, mailer=esmtp, pri=31075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  3 08:01:24 combo sendmail[31837]: j63C0eQs031837: from=<fiungxynw@msa.hinet.net>, size=1092, class=0, nrcpts=1, msgid=<EQHMGZDKGEJAWPFFZVJSFWZRT@yahoo.com>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  3 08:01:43 combo sendmail[31658]: j63A04k6031658: to=<gftnfwocydcaxc@msa.hinet.net>, delay=02:01:39, xdelay=02:01:39, mailer=esmtp, pri=62315, relay=msa-mx7.hinet.net. [168.95.5.156], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx7.hinet.net.
+Jul  3 08:01:57 combo sendmail[31853]: j63C0eQs031837: SYSERR(root): mail.one.net.au. config error: mail loops back to me (MX problem?)
+Jul  3 08:01:57 combo sendmail[31854]: j63C1nI1031854: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  3 08:01:57 combo sendmail[31853]: j63C0eQs031837: to=<wendyphilip@one.net.au>, delay=00:00:37, xdelay=00:00:33, mailer=esmtp, pri=31092, relay=mail.one.net.au. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Jul  3 08:02:05 combo sendmail[31853]: j63C0eQs031837: j63C25Qs031853: DSN: Local configuration error
+Jul  3 08:02:05 combo sendmail[31853]: j63C25Qs031853: to=root, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=62116, dsn=2.0.0, stat=Sent
+Jul  3 08:35:16 combo sendmail[31889]: j63Bm1OF031814: to=<zt@qc.com>, delay=00:46:38, xdelay=00:02:40, mailer=esmtp, pri=121075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  3 09:35:17 combo sendmail[31996]: j63Bm1OF031814: to=<zt@qc.com>, delay=01:46:39, xdelay=00:02:41, mailer=esmtp, pri=211075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  3 10:03:45 combo sendmail[31853]: j63C25Qs031853: to=<fiungxynw@msa.hinet.net>, delay=02:01:40, xdelay=02:01:40, mailer=esmtp, pri=62116, relay=msa-mx2.hinet.net. [168.95.5.114], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx2.hinet.net.
+Jul  3 10:37:03 combo sendmail[31889]: j63A04k6031658: to=<gftnfwocydcaxc@msa.hinet.net>, delay=04:36:59, xdelay=02:01:47, mailer=esmtp, pri=152315, relay=msa-mx9.hinet.net. [168.95.5.164], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx9.hinet.net.
+Jul  3 12:34:07 combo sendmail[32101]: j63C25Qs031853: to=<fiungxynw@msa.hinet.net>, delay=04:32:02, xdelay=02:01:47, mailer=esmtp, pri=152116, relay=msa-mx7.hinet.net. [168.95.5.153], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx7.hinet.net.
+Jul  3 12:35:17 combo sendmail[32267]: j63Bm1OF031814: to=<zt@qc.com>, delay=04:46:39, xdelay=00:02:41, mailer=esmtp, pri=301075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  3 12:35:17 combo sendmail[32267]: j63Bm1OF031814: j63GW4I2032267: sender notify: Warning: could not send message for past 4 hours
+Jul  3 13:34:09 combo sendmail[32183]: j63A04k6031658: to=<gftnfwocydcaxc@msa.hinet.net>, delay=07:34:05, xdelay=02:01:49, mailer=esmtp, pri=242315, relay=msa-mx3.hinet.net. [168.95.5.115], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx3.hinet.net.
+Jul  3 14:37:04 combo sendmail[32267]: j63GW4I2032267: to=<wknyjmlqb@msa.hinet.net>, delay=02:01:47, xdelay=02:01:47, mailer=esmtp, pri=32302, relay=msa-mx6.hinet.net. [168.95.5.150], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx6.hinet.net.
+Jul  3 15:30:16 combo sendmail[32507]: j63JTaNi032507: from=<byhif@msa.hinet.net>, size=1307, class=0, nrcpts=1, msgid=<MUYATRJPKKPDRUXOHDST@yahoo.com>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  3 15:30:49 combo sendmail[32516]: j63JTaNi032507: SYSERR(root): localhost.fabulous.com. config error: mail loops back to me (MX problem?)
+Jul  3 15:30:49 combo sendmail[32517]: j63JUfYB032517: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  3 15:30:49 combo sendmail[32516]: j63JTaNi032507: to=<xula@jofi.net>, delay=00:00:35, xdelay=00:00:33, mailer=esmtp, pri=31307, relay=localhost.fabulous.com. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Jul  3 15:30:57 combo sendmail[32516]: j63JTaNi032507: j63JUvNi032516: DSN: Local configuration error
+Jul  3 15:30:57 combo sendmail[32516]: j63JUvNi032516: to=root, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=62331, dsn=2.0.0, stat=Sent
+Jul  3 15:34:07 combo sendmail[32349]: j63C25Qs031853: to=<fiungxynw@msa.hinet.net>, delay=07:32:02, xdelay=02:01:47, mailer=esmtp, pri=242116, relay=msa-mx5.hinet.net. [168.95.5.141], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx5.hinet.net.
+Jul  3 15:37:20 combo sendmail[32349]: j63Bm1OF031814: to=<zt@qc.com>, delay=07:48:42, xdelay=00:02:41, mailer=esmtp, pri=391075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  3 16:34:06 combo sendmail[32431]: j63A04k6031658: to=<gftnfwocydcaxc@msa.hinet.net>, delay=10:34:02, xdelay=02:01:46, mailer=esmtp, pri=332315, relay=msa-mx9.hinet.net. [168.95.5.166], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx9.hinet.net.
+Jul  3 17:32:36 combo sendmail[32516]: j63JUvNi032516: to=<byhif@msa.hinet.net>, delay=02:01:39, xdelay=02:01:39, mailer=esmtp, pri=62331, relay=msa-mx3.hinet.net. [168.95.5.116], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx3.hinet.net.
+Jul  3 17:34:07 combo sendmail[32519]: j63GW4I2032267: to=<wknyjmlqb@msa.hinet.net>, delay=04:58:50, xdelay=02:01:47, mailer=esmtp, pri=122302, relay=msa-mx1.hinet.net. [168.95.5.105], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx1.hinet.net.
+Jul  3 17:35:47 combo sendmail[32708]: j63LZAYZ032708: ruleset=check_rcpt, arg1=<iranizes@pentagonu.com>, relay=[127.0.1.50], reject=550 5.7.1 <iranizes@pentagonu.com>... Relaying denied. IP name lookup failed [127.0.1.50]
+Jul  3 17:35:53 combo sendmail[32708]: j63LZAYZ032708: from=<gmysfax@ms28.hinet.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[127.0.1.50]
+Jul  3 18:34:06 combo sendmail[32624]: j63C25Qs031853: to=<fiungxynw@msa.hinet.net>, delay=10:32:01, xdelay=02:01:46, mailer=esmtp, pri=332116, relay=msa-mx5.hinet.net. [168.95.5.144], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx5.hinet.net.
+Jul  3 18:37:19 combo sendmail[32624]: j63Bm1OF031814: to=<zt@qc.com>, delay=10:48:41, xdelay=00:02:40, mailer=esmtp, pri=481075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  3 19:21:45 combo sendmail[32519]: j63JUvNi032516: to=<byhif@msa.hinet.net>, delay=03:50:48, xdelay=01:47:22, mailer=esmtp, pri=152331, relay=msa-mx8.hinet.net. [168.95.5.159], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx8.hinet.net.
+Jul  3 19:34:06 combo sendmail[32706]: j63A04k6031658: to=<gftnfwocydcaxc@msa.hinet.net>, delay=13:34:02, xdelay=02:01:46, mailer=esmtp, pri=422315, relay=msa-mx6.hinet.net. [168.95.5.147], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx6.hinet.net.
+Jul  3 19:37:19 combo sendmail[32706]: j63Bm1OF031814: to=<zt@qc.com>, delay=11:48:41, xdelay=00:02:40, mailer=esmtp, pri=571075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  3 20:34:07 combo sendmail[321]: j63GW4I2032267: to=<wknyjmlqb@msa.hinet.net>, delay=07:58:50, xdelay=02:01:47, mailer=esmtp, pri=212302, relay=msa-mx1.hinet.net. [168.95.5.105], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx1.hinet.net.
+Jul  3 20:37:20 combo sendmail[321]: j63Bm1OF031814: to=<zt@qc.com>, delay=12:48:42, xdelay=00:02:41, mailer=esmtp, pri=661075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  3 20:49:21 combo sendmail[503]: j640mOvG000503: from=<wpwswh@msa.hinet.net>, size=1096, class=0, nrcpts=1, msgid=<NHDFCLWPENWLLBITFGKJBBT@yahoo.com>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  3 20:49:53 combo sendmail[505]: j640mOvG000503: SYSERR(root): localhost.icq.com. config error: mail loops back to me (MX problem?)
+Jul  3 20:49:53 combo sendmail[506]: j640njYf000506: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  3 20:49:53 combo sendmail[505]: j640mOvG000503: to=<172090332@pager.icq.com>, delay=00:00:40, xdelay=00:00:32, mailer=esmtp, pri=31096, relay=localhost.icq.com. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Jul  3 20:50:01 combo sendmail[505]: j640mOvG000503: j640o1vG000505: DSN: Local configuration error
+Jul  3 20:50:01 combo sendmail[505]: j640o1vG000505: to=root, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=62120, dsn=2.0.0, stat=Sent
+Jul  3 21:01:29 combo sendmail[526]: j6410oQV000526: lost input channel from localhost.localdomain [127.0.0.1] to MTA after mail
+Jul  3 21:01:29 combo sendmail[526]: j6410oQV000526: from=<kribolddhk@msa.hinet.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  3 21:17:20 combo sendmail[556]: j641GVIx000556: from=<hqmdoz@msa.hinet.net>, size=1229, class=0, nrcpts=1, msgid=<QIGXFSHKHMHNSASHEUKAE@yahoo.com>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  3 21:17:52 combo sendmail[558]: j641GVIx000556: SYSERR(root): localhost.icq.com. config error: mail loops back to me (MX problem?)
+Jul  3 21:17:52 combo sendmail[559]: j641HitI000559: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  3 21:17:52 combo sendmail[558]: j641GVIx000556: to=<202951671@pager.icq.com>, delay=00:00:36, xdelay=00:00:32, mailer=esmtp, pri=31229, relay=localhost.icq.com. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Jul  3 21:18:00 combo sendmail[558]: j641GVIx000556: j641I0Ix000558: DSN: Local configuration error
+Jul  3 21:18:00 combo sendmail[558]: j641I0Ix000558: to=root, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=62253, dsn=2.0.0, stat=Sent
+Jul  3 21:23:48 combo sendmail[32519]: j63C25Qs031853: to=<fiungxynw@msa.hinet.net>, delay=13:21:43, xdelay=02:01:47, mailer=esmtp, pri=422116, relay=msa-mx3.hinet.net. [168.95.5.116], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx3.hinet.net.
+Jul  3 21:27:01 combo sendmail[32519]: j63Bm1OF031814: to=<zt@qc.com>, delay=13:38:23, xdelay=00:02:41, mailer=esmtp, pri=751075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  3 21:34:07 combo sendmail[404]: j63JUvNi032516: to=<byhif@msa.hinet.net>, delay=06:03:10, xdelay=02:01:47, mailer=esmtp, pri=242331, relay=msa-mx4.hinet.net. [168.95.5.133], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx4.hinet.net.
+Jul  3 22:34:06 combo sendmail[486]: j63A04k6031658: to=<gftnfwocydcaxc@msa.hinet.net>, delay=16:34:02, xdelay=02:01:46, mailer=esmtp, pri=512315, relay=msa-mx8.hinet.net. [168.95.5.161], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx8.hinet.net.
+Jul  3 22:37:19 combo sendmail[486]: j63Bm1OF031814: to=<zt@qc.com>, delay=14:48:41, xdelay=00:02:40, mailer=esmtp, pri=841075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  3 22:51:39 combo sendmail[505]: j640o1vG000505: to=<wpwswh@msa.hinet.net>, delay=02:01:38, xdelay=02:01:38, mailer=esmtp, pri=62120, relay=msa-mx7.hinet.net. [168.95.5.152], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx7.hinet.net.
+Jul  3 23:09:21 combo sendmail[404]: j63C25Qs031853: to=<fiungxynw@msa.hinet.net>, delay=15:07:16, xdelay=01:34:58, mailer=esmtp, pri=512116, relay=msa-mx3.hinet.net. [168.95.5.119], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx3.hinet.net.
+Jul  3 23:19:38 combo sendmail[558]: j641I0Ix000558: to=<hqmdoz@msa.hinet.net>, delay=02:01:38, xdelay=02:01:38, mailer=esmtp, pri=62253, relay=msa-mx6.hinet.net. [168.95.5.146], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx6.hinet.net.
+Jul  3 23:26:40 combo sendmail[790]: j643PwXW000790: from=<zgmgpcwyz@msa.hinet.net>, size=1098, class=0, nrcpts=1, msgid=<DUIJMWMORMKJXOUTODOH@yahoo.com>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  3 23:27:14 combo sendmail[792]: j643PwXW000790: SYSERR(root): loopback.pool.com. config error: mail loops back to me (MX problem?)
+Jul  3 23:27:14 combo sendmail[793]: j643R5vU000793: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  3 23:27:14 combo sendmail[792]: j643PwXW000790: to=<judy@news.zeitung-online.com>, delay=00:00:38, xdelay=00:00:34, mailer=esmtp, pri=31098, relay=loopback.pool.com. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Jul  3 23:27:22 combo sendmail[792]: j643PwXW000790: j643RMXW000792: DSN: Local configuration error
+Jul  3 23:27:40 combo sendmail[792]: j643RMXW000792: to=root, delay=00:00:18, xdelay=00:00:00, mailer=local, pri=62122, dsn=2.0.0, stat=Sent
+Jul  3 23:34:07 combo sendmail[579]: j63GW4I2032267: to=<wknyjmlqb@msa.hinet.net>, delay=10:58:50, xdelay=02:01:47, mailer=esmtp, pri=302302, relay=msa-mx1.hinet.net. [168.95.5.103], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx1.hinet.net.
+Jul  3 23:48:16 combo sendmail[819]: j643lNgN000819: from=<oufgbjevjwm@msa.hinet.net>, size=1589, class=0, nrcpts=1, msgid=<OMZQRHPGRDHYNXAABHZHFZDB@yahoo.com>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  3 23:48:48 combo sendmail[821]: j643lNgN000819: SYSERR(root): localhost.icq.com. config error: mail loops back to me (MX problem?)
+Jul  3 23:48:48 combo sendmail[822]: j643meas000822: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  3 23:48:48 combo sendmail[821]: j643lNgN000819: to=<56104849@pager.icq.com>, delay=00:00:41, xdelay=00:00:32, mailer=esmtp, pri=31589, relay=localhost.icq.com. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Jul  3 23:48:57 combo sendmail[821]: j643lNgN000819: j643mvgN000821: DSN: Local configuration error
+Jul  3 23:48:57 combo sendmail[821]: j643mvgN000821: to=root, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=62613, dsn=2.0.0, stat=Sent
+Jul  4 00:34:06 combo sendmail[661]: j63JUvNi032516: to=<byhif@msa.hinet.net>, delay=09:03:09, xdelay=02:01:46, mailer=esmtp, pri=332331, relay=msa-mx2.hinet.net. [168.95.5.111], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx2.hinet.net.
+Jul  4 00:37:19 combo sendmail[661]: j63Bm1OF031814: to=<zt@qc.com>, delay=16:48:41, xdelay=00:02:40, mailer=esmtp, pri=931075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 00:56:59 combo sendmail[404]: j63A04k6031658: to=<gftnfwocydcaxc@msa.hinet.net>, delay=18:56:55, xdelay=01:47:22, mailer=esmtp, pri=602315, relay=msa-mx9.hinet.net. [168.95.5.164], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx9.hinet.net.
+Jul  4 01:00:12 combo sendmail[404]: j63Bm1OF031814: to=<zt@qc.com>, delay=17:11:34, xdelay=00:02:40, mailer=esmtp, pri=1021075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 01:17:36 combo sendmail[983]: j645H1U9000983: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:17:39 combo sendmail[984]: j645H3AP000984: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:18:39 combo sendmail[986]: j645I3iq000986: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:18:39 combo sendmail[987]: j645I3JM000987: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:18:39 combo sendmail[990]: j645I31e000990: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:18:39 combo sendmail[991]: j645I3uI000991: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:18:39 combo sendmail[992]: j645I3Gj000992: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:18:40 combo sendmail[993]: j645I4GZ000993: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:18:40 combo sendmail[1005]: j645I4OL001005: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:18:40 combo sendmail[994]: j645I4vT000994: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:18:40 combo sendmail[995]: j645I4Fs000995: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:18:41 combo sendmail[985]: j645I2Fm000985: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:18:42 combo sendmail[998]: j645I6e9000998: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:18:42 combo sendmail[1000]: j645I6Xl001000: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:18:43 combo sendmail[989]: j645I32j000989: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:18:43 combo sendmail[1002]: j645I8ne001002: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:18:43 combo sendmail[996]: j645I52g000996: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:18:44 combo sendmail[1003]: j645I88N001003: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:18:44 combo sendmail[997]: j645I5Ts000997: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:18:45 combo sendmail[984]: j645H3AP000984: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:18:45 combo sendmail[984]: j645H3AP000984: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:18:47 combo sendmail[1001]: j645I63r001001: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:18:47 combo sendmail[983]: j645H1U9000983: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:18:47 combo sendmail[983]: j645H1U9000983: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:18:49 combo sendmail[1004]: j645IAl1001004: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:18:54 combo sendmail[999]: j645I6Ta000999: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:19:03 combo sendmail[988]: j645I3PW000988: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.73.56], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.73.56]
+Jul  4 01:19:45 combo sendmail[986]: j645I3iq000986: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:19:45 combo sendmail[986]: j645I3iq000986: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:19:46 combo sendmail[990]: j645I31e000990: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:19:46 combo sendmail[990]: j645I31e000990: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:19:46 combo sendmail[991]: j645I3uI000991: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:19:46 combo sendmail[991]: j645I3uI000991: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:19:46 combo sendmail[992]: j645I3Gj000992: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:19:46 combo sendmail[992]: j645I3Gj000992: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:19:47 combo sendmail[1005]: j645I4OL001005: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:19:47 combo sendmail[1005]: j645I4OL001005: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:19:47 combo sendmail[994]: j645I4vT000994: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:19:47 combo sendmail[994]: j645I4vT000994: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:19:47 combo sendmail[995]: j645I4Fs000995: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:19:47 combo sendmail[995]: j645I4Fs000995: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:19:48 combo sendmail[985]: j645I2Fm000985: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:19:48 combo sendmail[985]: j645I2Fm000985: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:19:48 combo sendmail[998]: j645I6e9000998: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:19:48 combo sendmail[998]: j645I6e9000998: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:19:49 combo sendmail[1000]: j645I6Xl001000: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:19:49 combo sendmail[1000]: j645I6Xl001000: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:19:50 combo sendmail[989]: j645I32j000989: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:19:50 combo sendmail[989]: j645I32j000989: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:19:50 combo sendmail[996]: j645I52g000996: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:19:50 combo sendmail[996]: j645I52g000996: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:19:51 combo sendmail[1003]: j645I88N001003: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:19:51 combo sendmail[1003]: j645I88N001003: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:19:51 combo sendmail[997]: j645I5Ts000997: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:19:51 combo sendmail[997]: j645I5Ts000997: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:19:53 combo sendmail[1001]: j645I63r001001: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:19:53 combo sendmail[1001]: j645I63r001001: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:19:56 combo sendmail[1004]: j645IAl1001004: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:19:56 combo sendmail[1004]: j645IAl1001004: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:19:59 combo sendmail[993]: j645I4GZ000993: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:19:59 combo sendmail[993]: j645I4GZ000993: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:20:01 combo sendmail[999]: j645I6Ta000999: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:20:01 combo sendmail[999]: j645I6Ta000999: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:20:03 combo sendmail[1002]: j645I8ne001002: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:20:03 combo sendmail[1002]: j645I8ne001002: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:20:10 combo sendmail[988]: j645I3PW000988: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:20:10 combo sendmail[988]: j645I3PW000988: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:20:50 combo sendmail[987]: j645I3JM000987: lost input channel from [219.134.73.56] to MTA after rcpt
+Jul  4 01:20:50 combo sendmail[987]: j645I3JM000987: from=<fsdfdshfdshfds@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.73.56]
+Jul  4 01:21:45 combo sendmail[579]: j63C25Qs031853: to=<fiungxynw@msa.hinet.net>, delay=17:19:40, xdelay=01:47:22, mailer=esmtp, pri=602116, relay=msa-mx3.hinet.net. [168.95.5.118], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx3.hinet.net.
+Jul  4 01:29:19 combo sendmail[792]: j643RMXW000792: to=<zgmgpcwyz@msa.hinet.net>, delay=02:01:57, xdelay=02:01:39, mailer=esmtp, pri=62122, relay=msa-mx2.hinet.net. [168.95.5.108], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx2.hinet.net.
+Jul  4 01:34:08 combo sendmail[802]: j640o1vG000505: to=<wpwswh@msa.hinet.net>, delay=04:44:07, xdelay=02:01:48, mailer=esmtp, pri=152120, relay=msa-mx1.hinet.net. [168.95.5.107], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx1.hinet.net.
+Jul  4 01:50:35 combo sendmail[821]: j643mvgN000821: to=<oufgbjevjwm@msa.hinet.net>, delay=02:01:38, xdelay=02:01:38, mailer=esmtp, pri=62613, relay=msa-mx3.hinet.net. [168.95.5.120], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx3.hinet.net.
+Jul  4 02:34:06 combo sendmail[919]: j641I0Ix000558: to=<hqmdoz@msa.hinet.net>, delay=05:16:06, xdelay=02:01:46, mailer=esmtp, pri=152253, relay=msa-mx1.hinet.net. [168.95.5.104], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx1.hinet.net.
+Jul  4 03:19:36 combo sendmail[1171]: j647ITYs001171: from=<txdpxthgzqsece@msa.hinet.net>, size=1842, class=0, nrcpts=1, msgid=<BXXTIJKJCXERIDGOGVGTBQJRJ@yahoo.com>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  4 03:20:09 combo sendmail[1173]: j647ITYs001171: SYSERR(root): localhost.icq.com. config error: mail loops back to me (MX problem?)
+Jul  4 03:20:09 combo sendmail[1181]: j647K060001181: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 03:20:09 combo sendmail[1173]: j647ITYs001171: to=<144808804@pager.icq.com>, delay=00:00:51, xdelay=00:00:33, mailer=esmtp, pri=31842, relay=localhost.icq.com. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Jul  4 03:20:17 combo sendmail[1173]: j647ITYs001171: j647KHYs001173: DSN: Local configuration error
+Jul  4 03:20:17 combo sendmail[1173]: j647KHYs001173: to=root, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=62866, dsn=2.0.0, stat=Sent
+Jul  4 03:21:46 combo sendmail[802]: j63GW4I2032267: to=<wknyjmlqb@msa.hinet.net>, delay=14:46:29, xdelay=01:47:22, mailer=esmtp, pri=392302, relay=msa-mx9.hinet.net. [168.95.5.166], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx9.hinet.net.
+Jul  4 03:23:08 combo sendmail[1024]: j643RMXW000792: to=<zgmgpcwyz@msa.hinet.net>, delay=03:55:46, xdelay=01:50:48, mailer=esmtp, pri=152122, relay=msa-mx3.hinet.net. [168.95.5.115], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx3.hinet.net.
+Jul  4 03:23:49 combo sendmail[579]: j63A04k6031658: to=<gftnfwocydcaxc@msa.hinet.net>, delay=21:23:45, xdelay=02:01:47, mailer=esmtp, pri=692315, relay=msa-mx5.hinet.net. [168.95.5.140], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx5.hinet.net.
+Jul  4 03:27:01 combo sendmail[579]: j63Bm1OF031814: to=<zt@qc.com>, delay=19:38:23, xdelay=00:02:40, mailer=esmtp, pri=1111075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 04:02:12 combo sendmail[1556]: j6482C1E001556: from=root, size=8217, class=0, nrcpts=1, msgid=<200507040802.j6482C1E001556@combo.bkwconsulting.com>, relay=root@localhost
+Jul  4 04:02:29 combo sendmail[1558]: j6482C5V001558: from=<root@combo.bkwconsulting.com>, size=8531, class=0, nrcpts=1, msgid=<200507040802.j6482C1E001556@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  4 04:02:29 combo sendmail[1556]: j6482C1E001556: to=root, ctladdr=root (0/0), delay=00:00:17, xdelay=00:00:17, mailer=relay, pri=38217, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6482C5V001558 Message accepted for delivery)
+Jul  4 04:02:29 combo sendmail[1559]: j6482C5V001558: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=38775, dsn=2.0.0, stat=Sent
+Jul  4 04:03:07 combo ctl_mboxlist[1586]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Jul  4 04:03:07 combo ctl_mboxlist[1586]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Jul  4 04:08:49 combo sendmail[1599]: j64838Pl001599: from=root, size=524, class=0, nrcpts=1, msgid=<200507040803.j64838Pl001599@combo.bkwconsulting.com>, relay=root@localhost
+Jul  4 04:09:06 combo sendmail[2013]: j6488n2m002013: from=<root@combo.bkwconsulting.com>, size=820, class=0, nrcpts=1, msgid=<200507040803.j64838Pl001599@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  4 04:09:06 combo sendmail[1599]: j64838Pl001599: to=root, ctladdr=root (0/0), delay=00:05:58, xdelay=00:00:17, mailer=relay, pri=30524, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6488n2m002013 Message accepted for delivery)
+Jul  4 04:09:06 combo sendmail[2014]: j6488n2m002013: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31059, dsn=2.0.0, stat=Sent
+Jul  4 04:34:06 combo sendmail[1106]: j643mvgN000821: to=<oufgbjevjwm@msa.hinet.net>, delay=04:45:09, xdelay=02:01:46, mailer=esmtp, pri=152613, relay=msa-mx5.hinet.net. [168.95.5.143], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx5.hinet.net.
+Jul  4 04:36:09 combo sendmail[919]: j63JUvNi032516: to=<byhif@msa.hinet.net>, delay=13:05:12, xdelay=02:01:47, mailer=esmtp, pri=422331, relay=msa-mx4.hinet.net. [168.95.5.135], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx4.hinet.net.
+Jul  4 05:21:55 combo sendmail[1173]: j647KHYs001173: to=<txdpxthgzqsece@msa.hinet.net>, delay=02:01:38, xdelay=02:01:38, mailer=esmtp, pri=62866, relay=msa-mx5.hinet.net. [168.95.5.142], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx5.hinet.net.
+Jul  4 05:23:48 combo sendmail[802]: j63C25Qs031853: to=<fiungxynw@msa.hinet.net>, delay=21:21:43, xdelay=02:01:46, mailer=esmtp, pri=692116, relay=msa-mx2.hinet.net. [168.95.5.111], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx2.hinet.net.
+Jul  4 05:25:11 combo sendmail[1024]: j641I0Ix000558: to=<hqmdoz@msa.hinet.net>, delay=08:07:11, xdelay=02:01:47, mailer=esmtp, pri=242253, relay=msa-mx4.hinet.net. [168.95.5.134], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx4.hinet.net.
+Jul  4 05:27:01 combo sendmail[802]: j63Bm1OF031814: to=<zt@qc.com>, delay=21:38:23, xdelay=00:02:40, mailer=esmtp, pri=1201075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 05:34:06 combo sendmail[1196]: j640o1vG000505: to=<wpwswh@msa.hinet.net>, delay=08:44:05, xdelay=02:01:46, mailer=esmtp, pri=242120, relay=msa-mx6.hinet.net. [168.95.5.150], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx6.hinet.net.
+Jul  4 05:45:56 combo sendmail[2156]: j649j4PP002156: from=<xpxhvzyw@msa.hinet.net>, size=1136, class=0, nrcpts=1, msgid=<PFPGNUHYENITEWKUOEBWD@yahoo.com>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  4 05:46:28 combo sendmail[2158]: j649j4PP002156: SYSERR(root): localhost.icq.com. config error: mail loops back to me (MX problem?)
+Jul  4 05:46:28 combo sendmail[2159]: j649kK31002159: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 05:46:28 combo sendmail[2158]: j649j4PP002156: to=<214472406@pager.icq.com>, delay=00:00:36, xdelay=00:00:32, mailer=esmtp, pri=31136, relay=localhost.icq.com. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Jul  4 05:46:37 combo sendmail[2158]: j649j4PP002156: j649kbPP002158: DSN: Local configuration error
+Jul  4 05:46:37 combo sendmail[2158]: j649kbPP002158: to=root, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=62160, dsn=2.0.0, stat=Sent
+Jul  4 05:54:34 combo sendmail[2168]: j649rnV3002168: from=<puldh@msa.hinet.net>, size=1826, class=0, nrcpts=1, msgid=<CWSGBYICQVQSHMBZFQWADI@yahoo.com>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  4 05:55:06 combo sendmail[2170]: j649rnV3002168: SYSERR(root): dontsendmailto.abul.com. config error: mail loops back to me (MX problem?)
+Jul  4 05:55:06 combo sendmail[2171]: j649swmB002171: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 05:55:06 combo sendmail[2170]: j649rnV3002168: to=<uniplus@abul.com>, delay=00:00:36, xdelay=00:00:32, mailer=esmtp, pri=31826, relay=dontsendmailto.abul.com. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Jul  4 05:55:15 combo sendmail[2170]: j649rnV3002168: j649tFV3002170: DSN: Local configuration error
+Jul  4 05:55:15 combo sendmail[2170]: j649tFV3002170: to=root, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=62850, dsn=2.0.0, stat=Sent
+Jul  4 06:34:06 combo sendmail[2047]: j643RMXW000792: to=<zgmgpcwyz@msa.hinet.net>, delay=07:06:44, xdelay=02:01:46, mailer=esmtp, pri=242122, relay=msa-mx8.hinet.net. [168.95.5.159], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx8.hinet.net.
+Jul  4 06:36:08 combo sendmail[1106]: j63GW4I2032267: to=<wknyjmlqb@msa.hinet.net>, delay=18:00:51, xdelay=02:01:46, mailer=esmtp, pri=482302, relay=msa-mx9.hinet.net. [168.95.5.165], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx9.hinet.net.
+Jul  4 06:38:11 combo sendmail[919]: j63A04k6031658: to=<gftnfwocydcaxc@msa.hinet.net>, delay=1+00:38:07, xdelay=02:01:46, mailer=esmtp, pri=782315, relay=msa-mx1.hinet.net. [168.95.5.101], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx1.hinet.net.
+Jul  4 06:41:24 combo sendmail[919]: j63Bm1OF031814: to=<zt@qc.com>, delay=22:52:46, xdelay=00:02:40, mailer=esmtp, pri=1291075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 06:42:24 combo sendmail[2247]: j64AfKXA002247: from=<qwlfievfbm@msa.hinet.net>, size=1266, class=0, nrcpts=1, msgid=<ISPSUULJCOUDCRGOBRUB@yahoo.com>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  4 06:42:38 combo sendmail[2248]: j64AfjfS002248: from=<uufsxox@msa.hinet.net>, size=1255, class=0, nrcpts=1, msgid=<UJVZTHJPEGAZXGRKOFCKCAEE@yahoo.com>, bodytype=8BITMIME, proto=SMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  4 06:42:56 combo sendmail[2250]: j64AfKXA002247: SYSERR(root): localhost.icq.com. config error: mail loops back to me (MX problem?)
+Jul  4 06:42:56 combo sendmail[2253]: j64Agm3x002253: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 06:42:56 combo sendmail[2250]: j64AfKXA002247: to=<175391637@pager.icq.com>, delay=00:00:47, xdelay=00:00:32, mailer=esmtp, pri=31266, relay=localhost.icq.com. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Jul  4 06:43:04 combo sendmail[2250]: j64AfKXA002247: j64Ah4XA002250: DSN: Local configuration error
+Jul  4 06:43:05 combo sendmail[2250]: j64Ah4XA002250: to=root, delay=00:00:01, xdelay=00:00:01, mailer=local, pri=62290, dsn=2.0.0, stat=Sent
+Jul  4 06:43:10 combo sendmail[2252]: j64AfjfS002248: SYSERR(root): localhost.icq.com. config error: mail loops back to me (MX problem?)
+Jul  4 06:43:10 combo sendmail[2254]: j64Ah23s002254: localhost.localdomain [127.0.0.1] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 06:43:10 combo sendmail[2252]: j64AfjfS002248: to=<169361098@pager.icq.com>, delay=00:00:41, xdelay=00:00:32, mailer=esmtp, pri=31255, relay=localhost.icq.com. [127.0.0.1], dsn=5.3.5, stat=Local configuration error
+Jul  4 06:43:18 combo sendmail[2252]: j64AfjfS002248: j64AhIfS002252: DSN: Local configuration error
+Jul  4 06:43:18 combo sendmail[2252]: j64AhIfS002252: to=root, delay=00:00:00, xdelay=00:00:00, mailer=local, pri=62279, dsn=2.0.0, stat=Sent
+Jul  4 06:58:24 combo sendmail[1024]: j643mvgN000821: to=<oufgbjevjwm@msa.hinet.net>, delay=07:09:27, xdelay=01:32:57, mailer=esmtp, pri=242613, relay=msa-mx9.hinet.net. [168.95.5.164], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx9.hinet.net.
+Jul  4 07:34:06 combo sendmail[2138]: j647KHYs001173: to=<txdpxthgzqsece@msa.hinet.net>, delay=04:13:49, xdelay=02:01:46, mailer=esmtp, pri=152866, relay=msa-mx8.hinet.net. [168.95.5.160], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx8.hinet.net.
+Jul  4 07:36:09 combo sendmail[1196]: j641I0Ix000558: to=<hqmdoz@msa.hinet.net>, delay=10:18:09, xdelay=02:01:46, mailer=esmtp, pri=332253, relay=msa-mx6.hinet.net. [168.95.5.150], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx6.hinet.net.
+Jul  4 07:48:15 combo sendmail[2158]: j649kbPP002158: to=<xpxhvzyw@msa.hinet.net>, delay=02:01:38, xdelay=02:01:38, mailer=esmtp, pri=62160, relay=msa-mx7.hinet.net. [168.95.5.153], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx7.hinet.net.
+Jul  4 07:54:38 combo sendmail[2363]: j64BscFN002363: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2365]: j64BscmN002365: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2386]: j64BscSX002386: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2385]: j64Bsc5i002385: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2366]: j64BscvX002366: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2367]: j64Bsc9H002367: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2369]: j64Bsct2002369: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2368]: j64Bsc4x002368: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2364]: j64Bsc6e002364: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2372]: j64Bsc7f002372: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2373]: j64BscAm002373: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2374]: j64BscpC002374: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2375]: j64BscN9002375: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2376]: j64BscUS002376: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2379]: j64BscOh002379: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2380]: j64BscDp002380: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2371]: j64BscPB002371: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2377]: j64Bscew002377: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2381]: j64BscN2002381: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2378]: j64BscCn002378: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2384]: j64BscjT002384: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:38 combo sendmail[2387]: j64BscYA002387: [221.141.174.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  4 07:54:48 combo sendmail[2362]: j64BsT0p002362: lost input channel from [221.141.174.226] to MTA after mail
+Jul  4 07:54:48 combo sendmail[2362]: j64BsT0p002362: from=y648530@hosanna.net, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.141.174.226]
+Jul  4 07:56:53 combo sendmail[2170]: j649tFV3002170: to=<puldh@msa.hinet.net>, delay=02:01:38, xdelay=02:01:38, mailer=esmtp, pri=62850, relay=msa-mx2.hinet.net. [168.95.5.113], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx2.hinet.net.
+Jul  4 08:11:22 combo sendmail[1106]: j63C25Qs031853: to=<fiungxynw@msa.hinet.net>, delay=1+00:09:17, xdelay=01:34:57, mailer=esmtp, pri=782116, relay=msa-mx4.hinet.net. [168.95.5.134], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx4.hinet.net.
+Jul  4 08:14:35 combo sendmail[1106]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+00:25:57, xdelay=00:02:40, mailer=esmtp, pri=1381075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 08:21:45 combo sendmail[2047]: j63JUvNi032516: to=<byhif@msa.hinet.net>, delay=16:50:48, xdelay=01:47:22, mailer=esmtp, pri=512331, relay=msa-mx7.hinet.net. [168.95.5.155], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx7.hinet.net.
+Jul  4 08:34:06 combo sendmail[2234]: j640o1vG000505: to=<wpwswh@msa.hinet.net>, delay=11:44:05, xdelay=02:01:46, mailer=esmtp, pri=332120, relay=msa-mx7.hinet.net. [168.95.5.153], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx7.hinet.net.
+Jul  4 08:44:43 combo sendmail[2250]: j64Ah4XA002250: to=<qwlfievfbm@msa.hinet.net>, delay=02:01:39, xdelay=02:01:38, mailer=esmtp, pri=62290, relay=msa-mx4.hinet.net. [168.95.5.138], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx4.hinet.net.
+Jul  4 08:44:57 combo sendmail[2252]: j64AhIfS002252: to=<uufsxox@msa.hinet.net>, delay=02:01:39, xdelay=02:01:39, mailer=esmtp, pri=62279, relay=msa-mx9.hinet.net. [168.95.5.164], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx9.hinet.net.
+Jul  4 08:47:24 combo sendmail[1024]: j63GW4I2032267: to=<wknyjmlqb@msa.hinet.net>, delay=20:12:07, xdelay=01:48:43, mailer=esmtp, pri=572302, relay=msa-mx3.hinet.net. [168.95.5.116], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx3.hinet.net.
+Jul  4 09:11:23 combo sendmail[1196]: j63A04k6031658: to=<gftnfwocydcaxc@msa.hinet.net>, delay=1+03:11:19, xdelay=01:34:58, mailer=esmtp, pri=872315, relay=msa-mx7.hinet.net. [168.95.5.157], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx7.hinet.net.
+Jul  4 09:14:36 combo sendmail[1196]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+01:25:58, xdelay=00:02:41, mailer=esmtp, pri=1471075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 09:21:44 combo sendmail[2138]: j643mvgN000821: to=<oufgbjevjwm@msa.hinet.net>, delay=09:32:47, xdelay=01:47:22, mailer=esmtp, pri=332613, relay=msa-mx1.hinet.net. [168.95.5.104], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx1.hinet.net.
+Jul  4 09:33:52 combo sendmail[2337]: j643RMXW000792: to=<zgmgpcwyz@msa.hinet.net>, delay=10:06:30, xdelay=02:01:32, mailer=esmtp, pri=332122, relay=msa-mx8.hinet.net. [168.95.5.160], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx8.hinet.net.
+Jul  4 09:56:59 combo sendmail[2047]: j63C25Qs031853: to=<fiungxynw@msa.hinet.net>, delay=1+01:54:54, xdelay=01:34:58, mailer=esmtp, pri=872116, relay=msa-mx9.hinet.net. [168.95.5.164], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx9.hinet.net.
+Jul  4 10:11:20 combo sendmail[2234]: j641I0Ix000558: to=<hqmdoz@msa.hinet.net>, delay=12:53:20, xdelay=01:36:58, mailer=esmtp, pri=422253, relay=msa-mx6.hinet.net. [168.95.5.146], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx6.hinet.net.
+Jul  4 10:34:06 combo sendmail[2457]: j649kbPP002158: to=<xpxhvzyw@msa.hinet.net>, delay=04:47:29, xdelay=02:01:46, mailer=esmtp, pri=152160, relay=msa-mx7.hinet.net. [168.95.5.154], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx7.hinet.net.
+Jul  4 10:35:02 combo sendmail[1024]: j63JUvNi032516: to=<byhif@msa.hinet.net>, delay=19:04:05, xdelay=01:47:22, mailer=esmtp, pri=602331, relay=msa-mx9.hinet.net. [168.95.5.164], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx9.hinet.net.
+Jul  4 10:38:15 combo sendmail[1024]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+02:49:37, xdelay=00:02:41, mailer=esmtp, pri=1561075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 10:56:58 combo sendmail[2138]: j63GW4I2032267: to=<wknyjmlqb@msa.hinet.net>, delay=22:21:41, xdelay=01:34:58, mailer=esmtp, pri=662302, relay=msa-mx7.hinet.net. [168.95.5.157], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx7.hinet.net.
+Jul  4 11:09:05 combo sendmail[2337]: j643mvgN000821: to=<oufgbjevjwm@msa.hinet.net>, delay=11:20:08, xdelay=01:34:57, mailer=esmtp, pri=422613, relay=msa-mx9.hinet.net. [168.95.5.168], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx9.hinet.net.
+Jul  4 11:34:06 combo sendmail[2541]: j64AhIfS002252: to=<uufsxox@msa.hinet.net>, delay=04:50:48, xdelay=02:01:46, mailer=esmtp, pri=152279, relay=msa-mx6.hinet.net. [168.95.5.151], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx6.hinet.net.
+Jul  4 11:44:38 combo sendmail[2047]: j63A04k6031658: to=<gftnfwocydcaxc@msa.hinet.net>, delay=1+05:44:34, xdelay=01:47:23, mailer=esmtp, pri=962315, relay=msa-mx7.hinet.net. [168.95.5.154], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx7.hinet.net.
+Jul  4 11:47:52 combo sendmail[2047]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+03:59:14, xdelay=00:02:40, mailer=esmtp, pri=1651075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 12:12:43 combo sendmail[2234]: j63C25Qs031853: to=<fiungxynw@msa.hinet.net>, delay=1+04:10:38, xdelay=02:01:07, mailer=esmtp, pri=962116, relay=msa-mx9.hinet.net. [168.95.5.169], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx9.hinet.net.
+Jul  4 12:21:44 combo sendmail[2457]: j649tFV3002170: to=<puldh@msa.hinet.net>, delay=06:26:29, xdelay=01:47:22, mailer=esmtp, pri=152850, relay=msa-mx7.hinet.net. [168.95.5.157], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx7.hinet.net.
+Jul  4 12:34:06 combo sendmail[2629]: j64Ah4XA002250: to=<qwlfievfbm@msa.hinet.net>, delay=05:51:02, xdelay=02:01:46, mailer=esmtp, pri=152290, relay=msa-mx5.hinet.net. [168.95.5.142], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx5.hinet.net.
+Jul  4 12:44:36 combo sendmail[2138]: j63JUvNi032516: to=<byhif@msa.hinet.net>, delay=21:13:39, xdelay=01:47:22, mailer=esmtp, pri=692331, relay=msa-mx1.hinet.net. [168.95.5.105], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx1.hinet.net.
+Jul  4 12:56:05 combo sendmail[2337]: j63GW4I2032267: to=<wknyjmlqb@msa.hinet.net>, delay=1+00:20:48, xdelay=01:46:43, mailer=esmtp, pri=752302, relay=msa-mx4.hinet.net. [168.95.5.133], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx4.hinet.net.
+Jul  4 12:59:18 combo sendmail[2337]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+05:10:40, xdelay=00:02:41, mailer=esmtp, pri=1741075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 13:21:44 combo sendmail[2541]: j647KHYs001173: to=<txdpxthgzqsece@msa.hinet.net>, delay=10:01:27, xdelay=01:47:22, mailer=esmtp, pri=242866, relay=msa-mx6.hinet.net. [168.95.5.150], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx6.hinet.net.
+Jul  4 13:34:07 combo sendmail[2711]: j649kbPP002158: to=<xpxhvzyw@msa.hinet.net>, delay=07:47:30, xdelay=02:01:47, mailer=esmtp, pri=242160, relay=msa-mx4.hinet.net. [168.95.5.134], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx4.hinet.net.
+Jul  4 13:47:57 combo sendmail[2234]: j63A04k6031658: to=<gftnfwocydcaxc@msa.hinet.net>, delay=1+07:47:53, xdelay=01:34:57, mailer=esmtp, pri=1052315, relay=msa-mx6.hinet.net. [168.95.5.150], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx6.hinet.net.
+Jul  4 13:51:10 combo sendmail[2234]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+06:02:32, xdelay=00:02:40, mailer=esmtp, pri=1831075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 13:56:58 combo sendmail[2457]: j640o1vG000505: to=<wpwswh@msa.hinet.net>, delay=17:06:57, xdelay=01:34:58, mailer=esmtp, pri=422120, relay=msa-mx9.hinet.net. [168.95.5.166], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx9.hinet.net.
+Jul  4 14:23:44 combo sendmail[2629]: j649tFV3002170: to=<puldh@msa.hinet.net>, delay=08:28:29, xdelay=01:49:22, mailer=esmtp, pri=242850, relay=msa-mx5.hinet.net. [168.95.5.139], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx5.hinet.net.
+Jul  4 14:34:06 combo sendmail[2795]: j64AhIfS002252: to=<uufsxox@msa.hinet.net>, delay=07:50:48, xdelay=02:01:46, mailer=esmtp, pri=242279, relay=msa-mx3.hinet.net. [168.95.5.115], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx3.hinet.net.
+Jul  4 14:45:16 combo sendmail[2541]: j643RMXW000792: to=<zgmgpcwyz@msa.hinet.net>, delay=15:17:54, xdelay=01:23:16, mailer=esmtp, pri=422122, relay=msa-mx4.hinet.net. [168.95.5.135], dsn=2.0.0, stat=Sent (HAA10000 Message accepted for delivery)
+Jul  4 14:45:27 combo sendmail[2541]: j641I0Ix000558: to=<hqmdoz@msa.hinet.net>, delay=17:27:27, xdelay=00:00:11, mailer=esmtp, pri=512253, relay=msa-mx4.hinet.net. [168.95.5.135], dsn=2.0.0, stat=Sent (HAA10319 Message accepted for delivery)
+Jul  4 14:45:29 combo sendmail[2541]: j63JUvNi032516: to=<byhif@msa.hinet.net>, delay=23:14:32, xdelay=00:00:02, mailer=esmtp, pri=782331, relay=msa-mx4.hinet.net. [168.95.5.135], dsn=2.0.0, stat=Sent (HAA10347 Message accepted for delivery)
+Jul  4 14:45:30 combo sendmail[2541]: j63GW4I2032267: to=<wknyjmlqb@msa.hinet.net>, delay=1+02:10:13, xdelay=00:00:01, mailer=esmtp, pri=842302, relay=msa-mx4.hinet.net. [168.95.5.135], dsn=2.0.0, stat=Sent (HAA10372 Message accepted for delivery)
+Jul  4 14:45:33 combo sendmail[2541]: j63A04k6031658: to=<gftnfwocydcaxc@msa.hinet.net>, delay=1+08:45:29, xdelay=00:00:03, mailer=esmtp, pri=1142315, relay=msa-mx4.hinet.net. [168.95.5.135], dsn=2.0.0, stat=Sent (HAA10393 Message accepted for delivery)
+Jul  4 14:46:39 combo sendmail[2138]: j63C25Qs031853: to=<fiungxynw@msa.hinet.net>, delay=1+06:44:34, xdelay=02:01:47, mailer=esmtp, pri=1052116, relay=msa-mx1.hinet.net. [168.95.5.102], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx1.hinet.net.
+Jul  4 14:48:30 combo sendmail[2541]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+06:59:52, xdelay=00:02:41, mailer=esmtp, pri=1921075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 15:23:45 combo sendmail[2711]: j647KHYs001173: to=<txdpxthgzqsece@msa.hinet.net>, delay=12:03:28, xdelay=01:49:22, mailer=esmtp, pri=332866, relay=msa-mx4.hinet.net. [168.95.5.133], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx4.hinet.net.
+Jul  4 15:34:20 combo sendmail[2903]: j64Ah4XA002250: to=<qwlfievfbm@msa.hinet.net>, delay=08:51:16, xdelay=02:02:00, mailer=esmtp, pri=242290, relay=msa-mx3.hinet.net. [168.95.5.116], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx3.hinet.net.
+Jul  4 15:46:36 combo sendmail[2457]: j643mvgN000821: to=<oufgbjevjwm@msa.hinet.net>, delay=15:57:39, xdelay=01:49:22, mailer=esmtp, pri=512613, relay=msa-mx1.hinet.net. [168.95.5.103], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx1.hinet.net.
+Jul  4 15:49:49 combo sendmail[2457]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+08:01:11, xdelay=00:02:40, mailer=esmtp, pri=2011075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 15:56:58 combo sendmail[2629]: j640o1vG000505: to=<wpwswh@msa.hinet.net>, delay=19:06:57, xdelay=01:32:58, mailer=esmtp, pri=512120, relay=msa-mx7.hinet.net. [168.95.5.153], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx7.hinet.net.
+Jul  4 16:21:44 combo sendmail[2795]: j649tFV3002170: to=<puldh@msa.hinet.net>, delay=10:26:29, xdelay=01:47:22, mailer=esmtp, pri=332850, relay=msa-mx3.hinet.net. [168.95.5.118], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx3.hinet.net.
+Jul  4 16:33:06 combo sendmail[2985]: j649kbPP002158: to=<xpxhvzyw@msa.hinet.net>, delay=10:46:29, xdelay=02:00:46, mailer=esmtp, pri=332160, relay=msa-mx2.hinet.net. [168.95.5.113], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx2.hinet.net.
+Jul  4 16:58:59 combo sendmail[2711]: j63C25Qs031853: to=<fiungxynw@msa.hinet.net>, delay=1+08:56:54, xdelay=01:34:58, mailer=esmtp, pri=1142116, relay=msa-mx7.hinet.net. [168.95.5.153], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx7.hinet.net.
+Jul  4 17:02:12 combo sendmail[2711]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+09:13:34, xdelay=00:02:41, mailer=esmtp, pri=2101075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 17:21:58 combo sendmail[2903]: j647KHYs001173: to=<txdpxthgzqsece@msa.hinet.net>, delay=14:01:41, xdelay=01:47:22, mailer=esmtp, pri=422866, relay=msa-mx3.hinet.net. [168.95.5.119], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx3.hinet.net.
+Jul  4 17:34:06 combo sendmail[3067]: j64AhIfS002252: to=<uufsxox@msa.hinet.net>, delay=10:50:48, xdelay=02:01:46, mailer=esmtp, pri=332279, relay=msa-mx2.hinet.net. [168.95.5.112], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx2.hinet.net.
+Jul  4 17:46:37 combo sendmail[2629]: j643mvgN000821: to=<oufgbjevjwm@msa.hinet.net>, delay=17:57:40, xdelay=01:49:23, mailer=esmtp, pri=602613, relay=msa-mx3.hinet.net. [168.95.5.131], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx3.hinet.net.
+Jul  4 17:49:50 combo sendmail[2629]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+10:01:12, xdelay=00:02:41, mailer=esmtp, pri=2191075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 17:56:58 combo sendmail[2795]: j640o1vG000505: to=<wpwswh@msa.hinet.net>, delay=21:06:57, xdelay=01:34:58, mailer=esmtp, pri=602120, relay=msa-mx2.hinet.net. [168.95.5.114], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx2.hinet.net.
+Jul  4 18:22:45 combo sendmail[2985]: j649tFV3002170: to=<puldh@msa.hinet.net>, delay=12:27:30, xdelay=01:49:23, mailer=esmtp, pri=422850, relay=msa-mx2.hinet.net. [168.95.5.109], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx2.hinet.net.
+Jul  4 18:34:06 combo sendmail[3149]: j64Ah4XA002250: to=<qwlfievfbm@msa.hinet.net>, delay=11:51:02, xdelay=02:01:46, mailer=esmtp, pri=332290, relay=msa-mx8.hinet.net. [168.95.5.163], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx8.hinet.net.
+Jul  4 18:57:12 combo sendmail[2903]: j63C25Qs031853: to=<fiungxynw@msa.hinet.net>, delay=1+10:55:07, xdelay=01:34:58, mailer=esmtp, pri=1232116, relay=msa-mx4.hinet.net. [168.95.5.136], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx4.hinet.net.
+Jul  4 19:00:27 combo sendmail[2903]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+11:11:49, xdelay=00:02:41, mailer=esmtp, pri=2281075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 19:21:30 combo sendmail[3067]: j647KHYs001173: to=<txdpxthgzqsece@msa.hinet.net>, delay=16:01:13, xdelay=01:47:07, mailer=esmtp, pri=512866, relay=msa-mx2.hinet.net. [168.95.5.110], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx2.hinet.net.
+Jul  4 19:34:07 combo sendmail[3231]: j649kbPP002158: to=<xpxhvzyw@msa.hinet.net>, delay=13:47:30, xdelay=02:01:47, mailer=esmtp, pri=422160, relay=msa-mx1.hinet.net. [168.95.5.107], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx1.hinet.net.
+Jul  4 19:44:37 combo sendmail[2795]: j643mvgN000821: to=<oufgbjevjwm@msa.hinet.net>, delay=19:55:40, xdelay=01:47:23, mailer=esmtp, pri=692613, relay=msa-mx6.hinet.net. [168.95.5.148], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx6.hinet.net.
+Jul  4 19:47:50 combo sendmail[2795]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+11:59:12, xdelay=00:02:40, mailer=esmtp, pri=2371075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 19:58:13 combo sendmail[2985]: j640o1vG000505: to=<wpwswh@msa.hinet.net>, delay=23:08:12, xdelay=01:35:12, mailer=esmtp, pri=692120, relay=msa-mx9.hinet.net. [168.95.5.166], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx9.hinet.net.
+Jul  4 20:23:45 combo sendmail[3149]: j649tFV3002170: to=<puldh@msa.hinet.net>, delay=14:28:30, xdelay=01:49:23, mailer=esmtp, pri=512850, relay=msa-mx8.hinet.net. [168.95.5.162], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx8.hinet.net.
+Jul  4 20:34:06 combo sendmail[3314]: j64AhIfS002252: to=<uufsxox@msa.hinet.net>, delay=13:50:48, xdelay=02:01:46, mailer=esmtp, pri=422279, relay=msa-mx4.hinet.net. [168.95.5.132], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx4.hinet.net.
+Jul  4 20:54:44 combo sendmail[3067]: j63C25Qs031853: to=<fiungxynw@msa.hinet.net>, delay=1+12:52:39, xdelay=01:32:58, mailer=esmtp, pri=1322116, relay=msa-mx9.hinet.net. [168.95.5.164], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx9.hinet.net.
+Jul  4 20:57:57 combo sendmail[3067]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+13:09:19, xdelay=00:02:40, mailer=esmtp, pri=2461075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 21:23:45 combo sendmail[3231]: j647KHYs001173: to=<txdpxthgzqsece@msa.hinet.net>, delay=18:03:28, xdelay=01:49:22, mailer=esmtp, pri=602866, relay=msa-mx1.hinet.net. [168.95.5.105], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx1.hinet.net.
+Jul  4 21:34:06 combo sendmail[3422]: j64Ah4XA002250: to=<qwlfievfbm@msa.hinet.net>, delay=14:51:02, xdelay=02:01:46, mailer=esmtp, pri=422290, relay=msa-mx6.hinet.net. [168.95.5.148], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx6.hinet.net.
+Jul  4 21:47:51 combo sendmail[2985]: j643mvgN000821: to=<oufgbjevjwm@msa.hinet.net>, delay=21:58:54, xdelay=01:49:22, mailer=esmtp, pri=782613, relay=msa-mx5.hinet.net. [168.95.5.141], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx5.hinet.net.
+Jul  4 21:51:03 combo sendmail[2985]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+14:02:25, xdelay=00:02:40, mailer=esmtp, pri=2551075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 21:58:58 combo sendmail[3149]: j640o1vG000505: to=<wpwswh@msa.hinet.net>, delay=1+01:08:57, xdelay=01:34:57, mailer=esmtp, pri=782120, relay=msa-mx3.hinet.net. [168.95.5.131], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx3.hinet.net.
+Jul  4 22:23:44 combo sendmail[3314]: j649tFV3002170: to=<puldh@msa.hinet.net>, delay=16:28:29, xdelay=01:49:22, mailer=esmtp, pri=602850, relay=msa-mx4.hinet.net. [168.95.5.134], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx4.hinet.net.
+Jul  4 22:34:06 combo sendmail[3504]: j649kbPP002158: to=<xpxhvzyw@msa.hinet.net>, delay=16:47:29, xdelay=02:01:46, mailer=esmtp, pri=512160, relay=msa-mx3.hinet.net. [168.95.5.116], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx3.hinet.net.
+Jul  4 22:56:59 combo sendmail[3231]: j63C25Qs031853: to=<fiungxynw@msa.hinet.net>, delay=1+14:54:54, xdelay=01:32:58, mailer=esmtp, pri=1412116, relay=msa-mx6.hinet.net. [168.95.5.147], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx6.hinet.net.
+Jul  4 23:00:14 combo sendmail[3231]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+15:11:36, xdelay=00:02:43, mailer=esmtp, pri=2641075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 23:34:06 combo sendmail[3586]: j64AhIfS002252: to=<uufsxox@msa.hinet.net>, delay=16:50:48, xdelay=02:01:46, mailer=esmtp, pri=512279, relay=msa-mx2.hinet.net. [168.95.5.113], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx2.hinet.net.
+Jul  4 23:36:09 combo sendmail[3422]: j647KHYs001173: to=<txdpxthgzqsece@msa.hinet.net>, delay=20:15:52, xdelay=02:01:47, mailer=esmtp, pri=692866, relay=msa-mx6.hinet.net. [168.95.5.148], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx6.hinet.net.
+Jul  4 23:39:21 combo sendmail[3422]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+15:50:43, xdelay=00:02:40, mailer=esmtp, pri=2731075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 23:46:37 combo sendmail[3149]: j643mvgN000821: to=<oufgbjevjwm@msa.hinet.net>, delay=23:57:40, xdelay=01:47:22, mailer=esmtp, pri=872613, relay=msa-mx1.hinet.net. [168.95.5.103], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx1.hinet.net.
+Jul  4 23:49:49 combo sendmail[3149]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+16:01:11, xdelay=00:02:40, mailer=esmtp, pri=2821075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  4 23:58:59 combo sendmail[3314]: j640o1vG000505: to=<wpwswh@msa.hinet.net>, delay=1+03:08:58, xdelay=01:34:58, mailer=esmtp, pri=872120, relay=msa-mx5.hinet.net. [168.95.5.144], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx5.hinet.net.
+Jul  5 00:21:44 combo sendmail[3504]: j649tFV3002170: to=<puldh@msa.hinet.net>, delay=18:26:29, xdelay=01:47:22, mailer=esmtp, pri=692850, relay=msa-mx3.hinet.net. [168.95.5.119], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx3.hinet.net.
+Jul  5 00:34:06 combo sendmail[3668]: j64Ah4XA002250: to=<qwlfievfbm@msa.hinet.net>, delay=17:51:02, xdelay=02:01:46, mailer=esmtp, pri=512290, relay=msa-mx6.hinet.net. [168.95.5.148], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx6.hinet.net.
+Jul  5 01:23:44 combo sendmail[3586]: j63C25Qs031853: to=<fiungxynw@msa.hinet.net>, delay=1+17:21:39, xdelay=01:49:22, mailer=esmtp, pri=1502116, relay=msa-mx2.hinet.net. [168.95.5.114], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx2.hinet.net.
+Jul  5 01:26:57 combo sendmail[3586]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+17:38:19, xdelay=00:02:40, mailer=esmtp, pri=2911075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 01:34:06 combo sendmail[3750]: j649kbPP002158: to=<xpxhvzyw@msa.hinet.net>, delay=19:47:29, xdelay=02:01:46, mailer=esmtp, pri=602160, relay=msa-mx9.hinet.net. [168.95.5.167], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx9.hinet.net.
+Jul  5 01:46:37 combo sendmail[3314]: j643mvgN000821: to=<oufgbjevjwm@msa.hinet.net>, delay=1+01:57:40, xdelay=01:47:22, mailer=esmtp, pri=962613, relay=msa-mx6.hinet.net. [168.95.5.148], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx6.hinet.net.
+Jul  5 01:54:58 combo sendmail[3504]: j647KHYs001173: to=<txdpxthgzqsece@msa.hinet.net>, delay=22:34:41, xdelay=01:32:58, mailer=esmtp, pri=782866, relay=msa-mx9.hinet.net. [168.95.5.164], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx9.hinet.net.
+Jul  5 02:02:37 combo sendmail[3314]: j63C25Qs031853: to=<fiungxynw@msa.hinet.net>, delay=1+18:00:32, xdelay=00:15:44, mailer=esmtp, pri=1592116, relay=msa-mx2.hinet.net. [168.95.5.111], dsn=2.0.0, stat=Sent (TAA02519 Message accepted for delivery)
+Jul  5 02:05:33 combo sendmail[3314]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+18:16:55, xdelay=00:02:40, mailer=esmtp, pri=3001075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 02:23:45 combo sendmail[3668]: j649tFV3002170: to=<puldh@msa.hinet.net>, delay=20:28:30, xdelay=01:49:23, mailer=esmtp, pri=782850, relay=msa-mx6.hinet.net. [168.95.5.146], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx6.hinet.net.
+Jul  5 02:34:06 combo sendmail[3839]: j64AhIfS002252: to=<uufsxox@msa.hinet.net>, delay=19:50:48, xdelay=02:01:46, mailer=esmtp, pri=602279, relay=msa-mx8.hinet.net. [168.95.5.158], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx8.hinet.net.
+Jul  5 03:21:45 combo sendmail[3750]: j640o1vG000505: to=<wpwswh@msa.hinet.net>, delay=1+06:31:44, xdelay=01:47:23, mailer=esmtp, pri=962120, relay=msa-mx9.hinet.net. [168.95.5.168], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx9.hinet.net.
+Jul  5 03:24:58 combo sendmail[3750]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+19:36:20, xdelay=00:02:41, mailer=esmtp, pri=3091075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 03:34:06 combo sendmail[3921]: j64Ah4XA002250: to=<qwlfievfbm@msa.hinet.net>, delay=20:51:02, xdelay=02:01:46, mailer=esmtp, pri=602290, relay=msa-mx4.hinet.net. [168.95.5.134], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx4.hinet.net.
+Jul  5 03:44:36 combo sendmail[3504]: j643mvgN000821: to=<oufgbjevjwm@msa.hinet.net>, delay=1+03:55:39, xdelay=01:49:22, mailer=esmtp, pri=1052613, relay=msa-mx2.hinet.net. [168.95.5.113], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx2.hinet.net.
+Jul  5 03:47:49 combo sendmail[3504]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+19:59:11, xdelay=00:02:40, mailer=esmtp, pri=3181075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 04:02:04 combo sendmail[4446]: j65824ri004446: from=root, size=30946, class=0, nrcpts=1, msgid=<200507050802.j65824ri004446@combo.bkwconsulting.com>, relay=root@localhost
+Jul  5 04:02:24 combo sendmail[4448]: j65825V9004448: from=<root@combo.bkwconsulting.com>, size=31308, class=0, nrcpts=1, msgid=<200507050802.j65824ri004446@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  5 04:02:24 combo sendmail[4446]: j65824ri004446: to=root, ctladdr=root (0/0), delay=00:00:20, xdelay=00:00:19, mailer=relay, pri=60946, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j65825V9004448 Message accepted for delivery)
+Jul  5 04:02:24 combo sendmail[4449]: j65825V9004448: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=61552, dsn=2.0.0, stat=Sent
+Jul  5 04:03:16 combo ctl_mboxlist[4476]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Jul  5 04:03:17 combo ctl_mboxlist[4476]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Jul  5 04:09:30 combo sendmail[4465]: j6583Fge004465: from=root, size=591, class=0, nrcpts=1, msgid=<200507050803.j6583Fge004465@combo.bkwconsulting.com>, relay=root@localhost
+Jul  5 04:09:47 combo sendmail[5747]: j6589UVY005747: from=<root@combo.bkwconsulting.com>, size=887, class=0, nrcpts=1, msgid=<200507050803.j6583Fge004465@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  5 04:09:47 combo sendmail[4465]: j6583Fge004465: to=root, ctladdr=root (0/0), delay=00:06:32, xdelay=00:00:17, mailer=relay, pri=30591, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6589UVY005747 Message accepted for delivery)
+Jul  5 04:09:47 combo sendmail[5748]: j6589UVY005747: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31126, dsn=2.0.0, stat=Sent
+Jul  5 04:20:45 combo sendmail[3839]: j649tFV3002170: to=<puldh@msa.hinet.net>, delay=22:25:30, xdelay=01:46:23, mailer=esmtp, pri=872850, relay=msa-mx8.hinet.net. [168.95.5.158], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx8.hinet.net.
+Jul  5 04:25:47 combo sendmail[3668]: j647KHYs001173: to=<txdpxthgzqsece@msa.hinet.net>, delay=1+01:05:30, xdelay=02:01:46, mailer=esmtp, pri=872866, relay=msa-mx3.hinet.net. [168.95.5.119], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx3.hinet.net.
+Jul  5 04:29:00 combo sendmail[3668]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+20:40:22, xdelay=00:02:40, mailer=esmtp, pri=3271075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 04:34:06 combo sendmail[4003]: j649kbPP002158: to=<xpxhvzyw@msa.hinet.net>, delay=22:47:29, xdelay=02:01:46, mailer=esmtp, pri=692160, relay=msa-mx7.hinet.net. [168.95.5.155], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx7.hinet.net.
+Jul  5 04:52:14 combo sendmail[4087]: j64AhIfS002252: to=<uufsxox@msa.hinet.net>, delay=22:08:56, xdelay=01:19:54, mailer=esmtp, pri=692279, relay=msa-mx5.hinet.net. [168.95.5.144], dsn=2.0.0, stat=Sent (VAA08177 Message accepted for delivery)
+Jul  5 04:52:24 combo sendmail[4087]: j647KHYs001173: to=<txdpxthgzqsece@msa.hinet.net>, delay=1+01:32:07, xdelay=00:00:10, mailer=esmtp, pri=962866, relay=msa-mx5.hinet.net. [168.95.5.144], dsn=2.0.0, stat=Sent (VAA08629 Message accepted for delivery)
+Jul  5 04:55:21 combo sendmail[4087]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+21:06:43, xdelay=00:02:41, mailer=esmtp, pri=3361075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 05:36:09 combo sendmail[3921]: j640o1vG000505: to=<wpwswh@msa.hinet.net>, delay=1+08:46:08, xdelay=02:01:47, mailer=esmtp, pri=1052120, relay=msa-mx5.hinet.net. [168.95.5.143], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx5.hinet.net.
+Jul  5 05:39:23 combo sendmail[3921]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+21:50:45, xdelay=00:02:40, mailer=esmtp, pri=3451075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 05:55:59 combo sendmail[3839]: j643mvgN000821: to=<oufgbjevjwm@msa.hinet.net>, delay=1+06:07:02, xdelay=01:34:58, mailer=esmtp, pri=1142613, relay=msa-mx2.hinet.net. [168.95.5.109], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx2.hinet.net.
+Jul  5 05:59:12 combo sendmail[3839]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+22:10:34, xdelay=00:02:40, mailer=esmtp, pri=3541075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 06:21:45 combo sendmail[4003]: j649tFV3002170: to=<puldh@msa.hinet.net>, delay=1+00:26:30, xdelay=01:47:23, mailer=esmtp, pri=962850, relay=msa-mx7.hinet.net. [168.95.5.155], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx7.hinet.net.
+Jul  5 06:34:08 combo sendmail[5779]: j64Ah4XA002250: to=<qwlfievfbm@msa.hinet.net>, delay=23:51:04, xdelay=02:01:48, mailer=esmtp, pri=692290, relay=msa-mx6.hinet.net. [168.95.5.148], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx6.hinet.net.
+Jul  5 07:33:52 combo sendmail[5861]: j649kbPP002158: to=<xpxhvzyw@msa.hinet.net>, delay=1+01:47:15, xdelay=02:01:32, mailer=esmtp, pri=782160, relay=msa-mx4.hinet.net. [168.95.5.134], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx4.hinet.net.
+Jul  5 07:37:04 combo sendmail[5861]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+23:48:26, xdelay=00:02:40, mailer=esmtp, pri=3631075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 07:41:24 combo sendmail[6025]: j64Ah4XA002250: to=<qwlfievfbm@msa.hinet.net>, delay=1+00:58:20, xdelay=00:09:04, mailer=esmtp, pri=782290, relay=msa-mx3.hinet.net. [168.95.5.115], dsn=2.0.0, stat=Sent (AAA04008 Message accepted for delivery)
+Jul  5 07:44:20 combo sendmail[6025]: j63Bm1OF031814: to=<zt@qc.com>, delay=1+23:55:42, xdelay=00:02:40, mailer=esmtp, pri=3721075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 07:58:59 combo sendmail[4003]: j640o1vG000505: to=<wpwswh@msa.hinet.net>, delay=1+11:08:58, xdelay=01:36:58, mailer=esmtp, pri=1142120, relay=msa-mx1.hinet.net. [168.95.5.106], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx1.hinet.net.
+Jul  5 08:02:12 combo sendmail[4003]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+00:13:34, xdelay=00:02:40, mailer=esmtp, pri=3811075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 08:21:47 combo sendmail[5779]: j643mvgN000821: to=<oufgbjevjwm@msa.hinet.net>, delay=1+08:32:50, xdelay=01:47:23, mailer=esmtp, pri=1232613, relay=msa-mx6.hinet.net. [168.95.5.146], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx6.hinet.net.
+Jul  5 08:25:00 combo sendmail[5779]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+00:36:22, xdelay=00:02:41, mailer=esmtp, pri=3901075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 08:34:07 combo sendmail[5943]: j649tFV3002170: to=<puldh@msa.hinet.net>, delay=1+02:38:52, xdelay=02:01:47, mailer=esmtp, pri=1052850, relay=msa-mx6.hinet.net. [168.95.5.148], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx6.hinet.net.
+Jul  5 10:21:45 combo sendmail[5943]: j640o1vG000505: to=<wpwswh@msa.hinet.net>, delay=1+13:31:44, xdelay=01:47:22, mailer=esmtp, pri=1232120, relay=msa-mx1.hinet.net. [168.95.5.107], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx1.hinet.net.
+Jul  5 10:30:46 combo sendmail[5943]: j643mvgN000821: to=<oufgbjevjwm@msa.hinet.net>, delay=1+10:41:49, xdelay=00:08:45, mailer=esmtp, pri=1322613, relay=msa-mx3.hinet.net. [168.95.5.131], dsn=2.0.0, stat=Sent (DAA23422 Message accepted for delivery)
+Jul  5 10:33:43 combo sendmail[5943]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+02:45:05, xdelay=00:02:41, mailer=esmtp, pri=3991075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 10:34:08 combo sendmail[6109]: j649kbPP002158: to=<xpxhvzyw@msa.hinet.net>, delay=1+04:47:31, xdelay=02:01:48, mailer=esmtp, pri=872160, relay=msa-mx6.hinet.net. [168.95.5.146], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx6.hinet.net.
+Jul  5 10:37:21 combo sendmail[6109]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+02:48:43, xdelay=00:02:41, mailer=esmtp, pri=4081075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 11:34:07 combo sendmail[6193]: j649tFV3002170: to=<puldh@msa.hinet.net>, delay=1+05:38:52, xdelay=02:01:47, mailer=esmtp, pri=1142850, relay=msa-mx8.hinet.net. [168.95.5.160], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx8.hinet.net.
+Jul  5 11:37:20 combo sendmail[6193]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+03:48:42, xdelay=00:02:41, mailer=esmtp, pri=4171075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 12:33:16 combo sendmail[6275]: j640o1vG000505: to=<wpwswh@msa.hinet.net>, delay=1+15:43:15, xdelay=02:00:56, mailer=esmtp, pri=1322120, relay=msa-mx8.hinet.net. [168.95.5.162], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx8.hinet.net.
+Jul  5 12:36:30 combo sendmail[6275]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+04:47:52, xdelay=00:02:41, mailer=esmtp, pri=4261075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 13:34:07 combo sendmail[6357]: j649kbPP002158: to=<xpxhvzyw@msa.hinet.net>, delay=1+07:47:30, xdelay=02:01:47, mailer=esmtp, pri=962160, relay=msa-mx1.hinet.net. [168.95.5.106], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx1.hinet.net.
+Jul  5 13:37:20 combo sendmail[6357]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+05:48:42, xdelay=00:02:41, mailer=esmtp, pri=4351075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 14:34:07 combo sendmail[6441]: j649tFV3002170: to=<puldh@msa.hinet.net>, delay=1+08:38:52, xdelay=02:01:47, mailer=esmtp, pri=1232850, relay=msa-mx2.hinet.net. [168.95.5.111], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx2.hinet.net.
+Jul  5 14:37:20 combo sendmail[6441]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+06:48:42, xdelay=00:02:41, mailer=esmtp, pri=4441075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 14:45:13 combo sendmail[6546]: j640o1vG000505: to=<wpwswh@msa.hinet.net>, delay=1+17:55:12, xdelay=01:12:53, mailer=esmtp, pri=1412120, relay=msa-mx6.hinet.net. [168.95.5.151], dsn=2.0.0, stat=Sent (HAA22970 Message accepted for delivery)
+Jul  5 14:48:10 combo sendmail[6546]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+06:59:32, xdelay=00:02:40, mailer=esmtp, pri=4531075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 16:34:06 combo sendmail[6661]: j649kbPP002158: to=<xpxhvzyw@msa.hinet.net>, delay=1+10:47:29, xdelay=02:01:46, mailer=esmtp, pri=1052160, relay=msa-mx7.hinet.net. [168.95.5.157], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx7.hinet.net.
+Jul  5 16:35:17 combo sendmail[6825]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+08:46:39, xdelay=00:02:40, mailer=esmtp, pri=4621075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 17:33:52 combo sendmail[6743]: j649tFV3002170: to=<puldh@msa.hinet.net>, delay=1+11:38:37, xdelay=02:01:32, mailer=esmtp, pri=1322850, relay=msa-mx8.hinet.net. [168.95.5.160], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx8.hinet.net.
+Jul  5 17:37:06 combo sendmail[6743]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+09:48:28, xdelay=00:02:41, mailer=esmtp, pri=4711075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 19:34:07 combo sendmail[6907]: j649kbPP002158: to=<xpxhvzyw@msa.hinet.net>, delay=1+13:47:30, xdelay=02:01:47, mailer=esmtp, pri=1142160, relay=msa-mx4.hinet.net. [168.95.5.137], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx4.hinet.net.
+Jul  5 19:35:17 combo sendmail[7071]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+11:46:39, xdelay=00:02:41, mailer=esmtp, pri=4801075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 20:33:53 combo sendmail[6989]: j649tFV3002170: to=<puldh@msa.hinet.net>, delay=1+14:38:38, xdelay=02:01:33, mailer=esmtp, pri=1412850, relay=msa-mx8.hinet.net. [168.95.5.158], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx8.hinet.net.
+Jul  5 20:37:08 combo sendmail[6989]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+12:48:30, xdelay=00:02:40, mailer=esmtp, pri=4891075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 21:43:23 combo sendmail[7248]: j661h65D007248: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:24 combo sendmail[7248]: j661h65D007248: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:24 combo sendmail[7248]: j661h65D007248: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7258]: j661hE80007258: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7260]: j661hEwV007260: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7259]: j661hEAS007259: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7262]: j661hELV007262: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7256]: j661hE1B007256: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7255]: j661hEAQ007255: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7261]: j661hEms007261: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7263]: j661hE6C007263: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7257]: j661hE7e007257: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7249]: j661hEJK007249: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7251]: j661hEWY007251: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7254]: j661hEJH007254: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7265]: j661hEwZ007265: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7250]: j661hE4i007250: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7264]: j661hEjZ007264: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7267]: j661hF1t007267: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7253]: j661hE8d007253: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7266]: j661hFFE007266: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7252]: j661hE9B007252: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7258]: j661hE80007258: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:31 combo sendmail[7258]: j661hE80007258: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7262]: j661hELV007262: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:31 combo sendmail[7262]: j661hELV007262: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7259]: j661hEAS007259: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:31 combo sendmail[7259]: j661hEAS007259: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7260]: j661hEwV007260: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:31 combo sendmail[7260]: j661hEwV007260: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7256]: j661hE1B007256: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:31 combo sendmail[7256]: j661hE1B007256: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7261]: j661hEms007261: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:31 combo sendmail[7261]: j661hEms007261: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7255]: j661hEAQ007255: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:31 combo sendmail[7255]: j661hEAQ007255: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7263]: j661hE6C007263: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:31 combo sendmail[7263]: j661hE6C007263: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:31 combo sendmail[7268]: j661hFPP007268: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:32 combo sendmail[7257]: j661hE7e007257: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:32 combo sendmail[7257]: j661hE7e007257: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:32 combo sendmail[7254]: j661hEJH007254: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:32 combo sendmail[7254]: j661hEJH007254: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:32 combo sendmail[7265]: j661hEwZ007265: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:32 combo sendmail[7265]: j661hEwZ007265: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:32 combo sendmail[7251]: j661hEWY007251: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:32 combo sendmail[7251]: j661hEWY007251: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:32 combo sendmail[7249]: j661hEJK007249: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:32 combo sendmail[7250]: j661hE4i007250: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:32 combo sendmail[7249]: j661hEJK007249: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:32 combo sendmail[7250]: j661hE4i007250: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:32 combo sendmail[7270]: j661hFQc007270: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:32 combo sendmail[7267]: j661hF1t007267: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:32 combo sendmail[7267]: j661hF1t007267: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:32 combo sendmail[7266]: j661hFFE007266: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:32 combo sendmail[7264]: j661hEjZ007264: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:32 combo sendmail[7269]: j661hFS3007269: ruleset=check_rcpt, arg1=<smtphunter55@daum.net>, relay=[221.140.55.64], reject=550 5.7.1 <smtphunter55@daum.net>... Relaying denied. IP name lookup failed [221.140.55.64]
+Jul  5 21:43:32 combo sendmail[7266]: j661hFFE007266: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:32 combo sendmail[7253]: j661hE8d007253: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:32 combo sendmail[7264]: j661hEjZ007264: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:32 combo sendmail[7253]: j661hE8d007253: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:32 combo sendmail[7252]: j661hE9B007252: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:32 combo sendmail[7252]: j661hE9B007252: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:32 combo sendmail[7268]: j661hFPP007268: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:32 combo sendmail[7268]: j661hFPP007268: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:32 combo sendmail[7270]: j661hFQc007270: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:32 combo sendmail[7270]: j661hFQc007270: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 21:43:32 combo sendmail[7269]: j661hFS3007269: lost input channel from [221.140.55.64] to MTA after rcpt
+Jul  5 21:43:32 combo sendmail[7269]: j661hFS3007269: from=<hieflliqto924@daum.net>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[221.140.55.64]
+Jul  5 22:34:06 combo sendmail[7153]: j649kbPP002158: to=<xpxhvzyw@msa.hinet.net>, delay=1+16:47:29, xdelay=02:01:46, mailer=esmtp, pri=1232160, relay=msa-mx1.hinet.net. [168.95.5.104], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx1.hinet.net.
+Jul  5 22:35:18 combo sendmail[7340]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+14:46:40, xdelay=00:02:40, mailer=esmtp, pri=4981075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  5 23:13:26 combo sendmail[7235]: j649tFV3002170: to=<puldh@msa.hinet.net>, delay=1+17:18:11, xdelay=01:41:06, mailer=esmtp, pri=1502850, relay=msa-mx4.hinet.net. [168.95.5.135], dsn=2.0.0, stat=Sent (QAA21182 Message accepted for delivery)
+Jul  5 23:16:23 combo sendmail[7235]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+15:27:45, xdelay=00:02:41, mailer=esmtp, pri=5071075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 00:02:57 combo sendmail[7479]: j6642HdH007479: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:03:50 combo sendmail[7480]: j6643Ep6007480: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:03:50 combo sendmail[7481]: j6643Evx007481: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:03:52 combo sendmail[7486]: j6643Gb6007486: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:03:52 combo sendmail[7498]: j6643CXq007498: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:03:53 combo sendmail[7483]: j6643E5V007483: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:03:53 combo sendmail[7491]: j6643HUX007491: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:03:54 combo sendmail[7492]: j6643IaL007492: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:03:54 combo sendmail[7493]: j6643Iko007493: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:03:55 combo sendmail[7494]: j6643JQp007494: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:03:55 combo sendmail[7485]: j6643GGA007485: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:03:56 combo sendmail[7487]: j6643GNF007487: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:03:56 combo sendmail[7489]: j6643HRg007489: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:03:57 combo sendmail[7488]: j6643GLM007488: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:03:57 combo sendmail[7499]: j6643Lcs007499: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:03:57 combo sendmail[7490]: j6643Hff007490: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:03:58 combo sendmail[7495]: j6643JNO007495: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:03:58 combo sendmail[7496]: j6643KeM007496: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:03:59 combo sendmail[7479]: j6642HdH007479: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:03:59 combo sendmail[7479]: j6642HdH007479: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:03:59 combo sendmail[7500]: j6643N9c007500: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:03:59 combo sendmail[7482]: j6643Ej1007482: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:04:00 combo sendmail[7484]: j6643FW9007484: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:04:01 combo sendmail[7497]: j6643KYp007497: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:04:08 combo sendmail[7501]: j6643SfF007501: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.133.247.157], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.133.247.157]
+Jul  6 00:04:51 combo sendmail[7480]: j6643Ep6007480: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:04:51 combo sendmail[7480]: j6643Ep6007480: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:04:52 combo sendmail[7481]: j6643Evx007481: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:04:52 combo sendmail[7481]: j6643Evx007481: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:04:55 combo sendmail[7483]: j6643E5V007483: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:04:55 combo sendmail[7483]: j6643E5V007483: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:04:55 combo sendmail[7491]: j6643HUX007491: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:04:55 combo sendmail[7491]: j6643HUX007491: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:04:55 combo sendmail[7492]: j6643IaL007492: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:04:55 combo sendmail[7492]: j6643IaL007492: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:04:56 combo sendmail[7493]: j6643Iko007493: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:04:56 combo sendmail[7493]: j6643Iko007493: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:04:57 combo sendmail[7494]: j6643JQp007494: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:04:57 combo sendmail[7494]: j6643JQp007494: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:04:57 combo sendmail[7485]: j6643GGA007485: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:04:57 combo sendmail[7485]: j6643GGA007485: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:04:58 combo sendmail[7486]: j6643Gb6007486: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:04:58 combo sendmail[7486]: j6643Gb6007486: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:04:58 combo sendmail[7489]: j6643HRg007489: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:04:58 combo sendmail[7489]: j6643HRg007489: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:04:58 combo sendmail[7487]: j6643GNF007487: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:04:58 combo sendmail[7487]: j6643GNF007487: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:04:58 combo sendmail[7488]: j6643GLM007488: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:04:58 combo sendmail[7488]: j6643GLM007488: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:04:59 combo sendmail[7499]: j6643Lcs007499: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:04:59 combo sendmail[7499]: j6643Lcs007499: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:05:00 combo sendmail[7496]: j6643KeM007496: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:05:00 combo sendmail[7496]: j6643KeM007496: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:05:00 combo sendmail[7495]: j6643JNO007495: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:05:00 combo sendmail[7495]: j6643JNO007495: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:05:01 combo sendmail[7482]: j6643Ej1007482: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:05:01 combo sendmail[7482]: j6643Ej1007482: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:05:02 combo sendmail[7484]: j6643FW9007484: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:05:02 combo sendmail[7484]: j6643FW9007484: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:05:03 combo sendmail[7497]: j6643KYp007497: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:05:03 combo sendmail[7497]: j6643KYp007497: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:05:06 combo sendmail[7500]: j6643N9c007500: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:05:06 combo sendmail[7500]: j6643N9c007500: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:05:07 combo sendmail[7498]: j6643CXq007498: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:05:07 combo sendmail[7498]: j6643CXq007498: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:05:07 combo sendmail[7490]: j6643Hff007490: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:05:07 combo sendmail[7490]: j6643Hff007490: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:05:10 combo sendmail[7501]: j6643SfF007501: lost input channel from [219.133.247.157] to MTA after rcpt
+Jul  6 00:05:10 combo sendmail[7501]: j6643SfF007501: from=<dsagdsagdsa@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.133.247.157]
+Jul  6 00:35:17 combo sendmail[7535]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+16:46:39, xdelay=00:02:40, mailer=esmtp, pri=5161075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 00:38:00 combo sendmail[7422]: j649kbPP002158: to=<xpxhvzyw@msa.hinet.net>, delay=1+18:51:23, xdelay=01:05:40, mailer=esmtp, pri=1322160, relay=msa-mx1.hinet.net. [168.95.5.102], dsn=2.0.0, stat=Sent (RAA27663 Message accepted for delivery)
+Jul  6 00:40:57 combo sendmail[7422]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+16:52:19, xdelay=00:02:41, mailer=esmtp, pri=5251075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 01:35:17 combo sendmail[7623]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+17:46:39, xdelay=00:02:40, mailer=esmtp, pri=5341075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 02:35:17 combo sendmail[7724]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+18:46:39, xdelay=00:02:41, mailer=esmtp, pri=5431075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 03:35:17 combo sendmail[7808]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+19:46:39, xdelay=00:02:41, mailer=esmtp, pri=5521075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 04:02:05 combo sendmail[8167]: j66825ph008167: from=root, size=3753, class=0, nrcpts=1, msgid=<200507060802.j66825ph008167@combo.bkwconsulting.com>, relay=root@localhost
+Jul  6 04:02:21 combo sendmail[8169]: j66825Uw008169: from=<root@combo.bkwconsulting.com>, size=4067, class=0, nrcpts=1, msgid=<200507060802.j66825ph008167@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  6 04:02:21 combo sendmail[8167]: j66825ph008167: to=root, ctladdr=root (0/0), delay=00:00:16, xdelay=00:00:16, mailer=relay, pri=33753, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j66825Uw008169 Message accepted for delivery)
+Jul  6 04:02:22 combo sendmail[8170]: j66825Uw008169: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=34311, dsn=2.0.0, stat=Sent
+Jul  6 04:03:09 combo ctl_mboxlist[8197]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Jul  6 04:03:09 combo ctl_mboxlist[8197]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Jul  6 04:08:44 combo sendmail[8186]: j66838so008186: from=root, size=591, class=0, nrcpts=1, msgid=<200507060803.j66838so008186@combo.bkwconsulting.com>, relay=root@localhost
+Jul  6 04:09:01 combo sendmail[8613]: j6688jf5008613: from=<root@combo.bkwconsulting.com>, size=887, class=0, nrcpts=1, msgid=<200507060803.j66838so008186@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  6 04:09:01 combo sendmail[8186]: j66838so008186: to=root, ctladdr=root (0/0), delay=00:05:53, xdelay=00:00:17, mailer=relay, pri=30591, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6688jf5008613 Message accepted for delivery)
+Jul  6 04:09:02 combo sendmail[8614]: j6688jf5008613: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=31126, dsn=2.0.0, stat=Sent
+Jul  6 04:35:17 combo sendmail[8645]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+20:46:39, xdelay=00:02:40, mailer=esmtp, pri=5611075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 05:29:53 combo sendmail[8723]: j669Tnp8008723: [218.18.41.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  6 05:29:59 combo sendmail[8722]: j669Tuh0008722: [218.18.41.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  6 05:30:12 combo sendmail[8724]: j669U9EG008724: [218.18.41.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  6 05:30:21 combo sendmail[8721]: j669TtkC008721: [218.18.41.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  6 05:33:09 combo sendmail[8720]: j669TtPh008720: [218.18.41.226] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  6 05:35:17 combo sendmail[8732]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+21:46:39, xdelay=00:02:40, mailer=esmtp, pri=5701075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 06:35:18 combo sendmail[8814]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+22:46:40, xdelay=00:02:41, mailer=esmtp, pri=5791075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 07:35:17 combo sendmail[8896]: j63Bm1OF031814: to=<zt@qc.com>, delay=2+23:46:39, xdelay=00:02:41, mailer=esmtp, pri=5881075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 08:35:17 combo sendmail[8980]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+00:46:39, xdelay=00:02:41, mailer=esmtp, pri=5971075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 09:35:17 combo sendmail[9064]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+01:46:39, xdelay=00:02:41, mailer=esmtp, pri=6061075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 10:35:17 combo sendmail[9146]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+02:46:39, xdelay=00:02:41, mailer=esmtp, pri=6151075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 11:35:17 combo sendmail[9228]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+03:46:39, xdelay=00:02:41, mailer=esmtp, pri=6241075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 12:35:17 combo sendmail[9312]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+04:46:39, xdelay=00:02:41, mailer=esmtp, pri=6331075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 13:35:17 combo sendmail[9394]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+05:46:39, xdelay=00:02:40, mailer=esmtp, pri=6421075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 14:35:17 combo sendmail[9476]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+06:46:39, xdelay=00:02:41, mailer=esmtp, pri=6511075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 15:35:17 combo sendmail[9558]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+07:46:39, xdelay=00:02:41, mailer=esmtp, pri=6601075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 16:35:18 combo sendmail[9640]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+08:46:40, xdelay=00:02:41, mailer=esmtp, pri=6691075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 17:35:33 combo sendmail[9722]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+09:46:55, xdelay=00:02:57, mailer=esmtp, pri=6781075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 18:35:17 combo sendmail[9827]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+10:46:39, xdelay=00:02:41, mailer=esmtp, pri=6871075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 19:35:20 combo sendmail[9909]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+11:46:42, xdelay=00:02:41, mailer=esmtp, pri=6961075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 20:35:33 combo sendmail[9991]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+12:46:55, xdelay=00:02:57, mailer=esmtp, pri=7051075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 21:35:17 combo sendmail[10073]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+13:46:39, xdelay=00:02:41, mailer=esmtp, pri=7141075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 22:35:17 combo sendmail[10155]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+14:46:39, xdelay=00:02:40, mailer=esmtp, pri=7231075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  6 23:35:18 combo sendmail[10237]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+15:46:40, xdelay=00:02:40, mailer=esmtp, pri=7321075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 00:35:33 combo sendmail[10326]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+16:46:55, xdelay=00:02:57, mailer=esmtp, pri=7411075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 01:35:17 combo sendmail[10408]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+17:46:39, xdelay=00:02:40, mailer=esmtp, pri=7501075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 02:35:17 combo sendmail[10490]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+18:46:39, xdelay=00:02:41, mailer=esmtp, pri=7591075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 03:35:17 combo sendmail[10574]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+19:46:39, xdelay=00:02:41, mailer=esmtp, pri=7681075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 04:03:05 combo sendmail[10933]: j67835dL010933: from=root, size=3659, class=0, nrcpts=1, msgid=<200507070803.j67835dL010933@combo.bkwconsulting.com>, relay=root@localhost
+Jul  7 04:03:22 combo sendmail[10935]: j678359c010935: from=<root@combo.bkwconsulting.com>, size=3973, class=0, nrcpts=1, msgid=<200507070803.j67835dL010933@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  7 04:03:22 combo sendmail[10933]: j67835dL010933: to=root, ctladdr=root (0/0), delay=00:00:17, xdelay=00:00:17, mailer=relay, pri=33659, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j678359c010935 Message accepted for delivery)
+Jul  7 04:03:22 combo sendmail[10936]: j678359c010935: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=34217, dsn=2.0.0, stat=Sent
+Jul  7 04:04:31 combo ctl_mboxlist[10963]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Jul  7 04:04:32 combo ctl_mboxlist[10963]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Jul  7 04:10:45 combo sendmail[10952]: j6784Uwf010952: from=root, size=591, class=0, nrcpts=1, msgid=<200507070804.j6784Uwf010952@combo.bkwconsulting.com>, relay=root@localhost
+Jul  7 04:11:02 combo sendmail[12241]: j678AkUP012241: from=<root@combo.bkwconsulting.com>, size=887, class=0, nrcpts=1, msgid=<200507070804.j6784Uwf010952@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  7 04:11:02 combo sendmail[10952]: j6784Uwf010952: to=root, ctladdr=root (0/0), delay=00:06:32, xdelay=00:00:16, mailer=relay, pri=30591, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j678AkUP012241 Message accepted for delivery)
+Jul  7 04:11:03 combo sendmail[12242]: j678AkUP012241: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=31126, dsn=2.0.0, stat=Sent
+Jul  7 04:35:18 combo sendmail[12266]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+20:46:40, xdelay=00:02:41, mailer=esmtp, pri=7771075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 05:35:17 combo sendmail[12348]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+21:46:39, xdelay=00:02:41, mailer=esmtp, pri=7861075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 06:35:22 combo sendmail[12430]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+22:46:44, xdelay=00:02:44, mailer=esmtp, pri=7951075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 07:35:33 combo sendmail[12573]: j63Bm1OF031814: to=<zt@qc.com>, delay=3+23:46:55, xdelay=00:02:57, mailer=esmtp, pri=8041075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 08:35:36 combo sendmail[12836]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+00:46:58, xdelay=00:02:59, mailer=esmtp, pri=8131075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 09:35:17 combo sendmail[12920]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+01:46:39, xdelay=00:02:41, mailer=esmtp, pri=8221075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 10:35:17 combo sendmail[13005]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+02:46:39, xdelay=00:02:41, mailer=esmtp, pri=8311075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 11:35:19 combo sendmail[13087]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+03:46:41, xdelay=00:02:41, mailer=esmtp, pri=8401075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 12:35:33 combo sendmail[13171]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+04:46:55, xdelay=00:02:57, mailer=esmtp, pri=8491075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 13:35:35 combo sendmail[13253]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+05:46:57, xdelay=00:02:57, mailer=esmtp, pri=8581075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 14:35:17 combo sendmail[13345]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+06:46:39, xdelay=00:02:41, mailer=esmtp, pri=8671075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 15:35:18 combo sendmail[13427]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+07:46:40, xdelay=00:02:42, mailer=esmtp, pri=8761075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 16:35:17 combo sendmail[13509]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+08:46:39, xdelay=00:02:41, mailer=esmtp, pri=8851075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 17:35:17 combo sendmail[13603]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+09:46:39, xdelay=00:02:40, mailer=esmtp, pri=8941075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 18:07:51 combo sendmail[13680]: j67M7puj013680: 213-78-11-63.friaco.onetel.net.uk [213.78.11.63] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  7 18:07:59 combo sendmail[13677]: j67M7xpE013677: 213-78-11-63.friaco.onetel.net.uk [213.78.11.63] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  7 18:07:59 combo sendmail[13678]: j67M7xrT013678: 213-78-11-63.friaco.onetel.net.uk [213.78.11.63] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  7 18:07:59 combo sendmail[13679]: j67M7x1I013679: 213-78-11-63.friaco.onetel.net.uk [213.78.11.63] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  7 18:07:59 combo sendmail[13686]: j67M7xlQ013686: 213-78-11-63.friaco.onetel.net.uk [213.78.11.63] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  7 18:07:59 combo sendmail[13687]: j67M7xGR013687: 213-78-11-63.friaco.onetel.net.uk [213.78.11.63] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  7 18:07:59 combo sendmail[13683]: j67M7xJh013683: 213-78-11-63.friaco.onetel.net.uk [213.78.11.63] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  7 18:07:59 combo sendmail[13681]: j67M7xPd013681: 213-78-11-63.friaco.onetel.net.uk [213.78.11.63] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  7 18:07:59 combo sendmail[13688]: j67M7xf7013688: 213-78-11-63.friaco.onetel.net.uk [213.78.11.63] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  7 18:07:59 combo sendmail[13682]: j67M7xHS013682: 213-78-11-63.friaco.onetel.net.uk [213.78.11.63] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  7 18:07:59 combo sendmail[13684]: j67M7xYk013684: 213-78-11-63.friaco.onetel.net.uk [213.78.11.63] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  7 18:07:59 combo sendmail[13685]: j67M7xOg013685: 213-78-11-63.friaco.onetel.net.uk [213.78.11.63] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  7 18:08:00 combo sendmail[13689]: j67M809d013689: 213-78-11-63.friaco.onetel.net.uk [213.78.11.63] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  7 18:08:00 combo sendmail[13691]: j67M807x013691: 213-78-11-63.friaco.onetel.net.uk [213.78.11.63] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  7 18:08:00 combo sendmail[13690]: j67M80n9013690: 213-78-11-63.friaco.onetel.net.uk [213.78.11.63] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  7 18:08:01 combo sendmail[13692]: j67M81X4013692: 213-78-11-63.friaco.onetel.net.uk [213.78.11.63] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  7 18:35:17 combo sendmail[13722]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+10:46:39, xdelay=00:02:41, mailer=esmtp, pri=9031075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 19:35:17 combo sendmail[13804]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+11:46:39, xdelay=00:02:41, mailer=esmtp, pri=9121075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 20:35:17 combo sendmail[13886]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+12:46:39, xdelay=00:02:41, mailer=esmtp, pri=9211075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 21:35:17 combo sendmail[13968]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+13:46:39, xdelay=00:02:41, mailer=esmtp, pri=9301075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 22:35:17 combo sendmail[14050]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+14:46:39, xdelay=00:02:41, mailer=esmtp, pri=9391075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 23:35:17 combo sendmail[14175]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+15:46:39, xdelay=00:02:41, mailer=esmtp, pri=9481075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  7 23:50:06 combo sendmail[14192]: j683nPTV014192: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:50:10 combo sendmail[14193]: j683nSSg014193: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:50:11 combo sendmail[14194]: j683nZqm014194: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:50:31 combo sendmail[14195]: j683nt8P014195: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:50:53 combo sendmail[14208]: j683oHPa014208: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:50:59 combo sendmail[14203]: j683oNOC014203: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:50:59 combo sendmail[14204]: j683oNY4014204: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:51:02 combo sendmail[14211]: j683oQPi014211: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:51:02 combo sendmail[14213]: j683oQ7D014213: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:51:02 combo sendmail[14212]: j683oQhl014212: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:51:03 combo sendmail[14215]: j683oQbH014215: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:51:03 combo sendmail[14216]: j683oR8V014216: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:51:05 combo sendmail[14207]: j683oPxl014207: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:51:06 combo sendmail[14210]: j683oQal014210: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:51:07 combo sendmail[14214]: j683oQ2o014214: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:51:09 combo sendmail[14219]: j683oXBq014219: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:51:12 combo sendmail[14218]: j683oXmm014218: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:51:12 combo sendmail[14193]: j683nSSg014193: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:51:12 combo sendmail[14193]: j683nSSg014193: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  7 23:51:12 combo sendmail[14217]: j683oWxa014217: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:51:13 combo sendmail[14194]: j683nZqm014194: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:51:13 combo sendmail[14194]: j683nZqm014194: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  7 23:51:16 combo sendmail[14209]: j683oQmH014209: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:51:27 combo sendmail[14205]: j683oOdO014205: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:51:31 combo sendmail[14206]: j683oO5H014206: ruleset=check_rcpt, arg1=<popogigi1975@yahoo.com.tw>, relay=[219.134.72.37], reject=550 5.7.1 <popogigi1975@yahoo.com.tw>... Relaying denied. IP name lookup failed [219.134.72.37]
+Jul  7 23:51:37 combo sendmail[14195]: j683nt8P014195: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:51:37 combo sendmail[14195]: j683nt8P014195: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  7 23:51:55 combo sendmail[14208]: j683oHPa014208: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:51:55 combo sendmail[14208]: j683oHPa014208: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  7 23:52:01 combo sendmail[14204]: j683oNY4014204: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:52:01 combo sendmail[14204]: j683oNY4014204: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  7 23:52:04 combo sendmail[14211]: j683oQPi014211: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:52:04 combo sendmail[14211]: j683oQPi014211: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  7 23:52:04 combo sendmail[14213]: j683oQ7D014213: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:52:04 combo sendmail[14213]: j683oQ7D014213: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  7 23:52:04 combo sendmail[14212]: j683oQhl014212: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:52:04 combo sendmail[14212]: j683oQhl014212: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  7 23:52:04 combo sendmail[14215]: j683oQbH014215: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:52:04 combo sendmail[14215]: j683oQbH014215: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  7 23:52:05 combo sendmail[14216]: j683oR8V014216: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:52:05 combo sendmail[14216]: j683oR8V014216: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  7 23:52:05 combo sendmail[14203]: j683oNOC014203: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:52:05 combo sendmail[14203]: j683oNOC014203: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  7 23:52:07 combo sendmail[14207]: j683oPxl014207: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:52:07 combo sendmail[14207]: j683oPxl014207: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  7 23:52:08 combo sendmail[14210]: j683oQal014210: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:52:08 combo sendmail[14210]: j683oQal014210: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  7 23:52:09 combo sendmail[14192]: j683nPTV014192: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:52:09 combo sendmail[14192]: j683nPTV014192: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  7 23:52:11 combo sendmail[14219]: j683oXBq014219: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:52:11 combo sendmail[14219]: j683oXBq014219: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  7 23:52:14 combo sendmail[14217]: j683oWxa014217: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:52:14 combo sendmail[14217]: j683oWxa014217: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  7 23:52:17 combo sendmail[14214]: j683oQ2o014214: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:52:17 combo sendmail[14214]: j683oQ2o014214: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  7 23:52:17 combo sendmail[14209]: j683oQmH014209: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:52:17 combo sendmail[14209]: j683oQmH014209: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  7 23:52:18 combo sendmail[14218]: j683oXmm014218: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:52:18 combo sendmail[14218]: j683oXmm014218: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  7 23:52:28 combo sendmail[14205]: j683oOdO014205: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:52:28 combo sendmail[14205]: j683oOdO014205: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  7 23:52:33 combo sendmail[14206]: j683oO5H014206: lost input channel from [219.134.72.37] to MTA after rcpt
+Jul  7 23:52:33 combo sendmail[14206]: j683oO5H014206: from=<gsdadgsagdsag@hotmail.com>, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[219.134.72.37]
+Jul  8 00:35:17 combo sendmail[14284]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+16:46:39, xdelay=00:02:41, mailer=esmtp, pri=9571075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  8 01:35:17 combo sendmail[14366]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+17:46:39, xdelay=00:02:40, mailer=esmtp, pri=9661075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  8 02:35:33 combo sendmail[14448]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+18:46:55, xdelay=00:02:57, mailer=esmtp, pri=9751075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  8 03:35:18 combo sendmail[14556]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+19:46:40, xdelay=00:02:42, mailer=esmtp, pri=9841075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  8 04:02:21 combo sendmail[14915]: j6882Lrv014915: from=root, size=37430, class=0, nrcpts=1, msgid=<200507080802.j6882Lrv014915@combo.bkwconsulting.com>, relay=root@localhost
+Jul  8 04:02:38 combo sendmail[14917]: j6882L5B014917: from=<root@combo.bkwconsulting.com>, size=37800, class=0, nrcpts=1, msgid=<200507080802.j6882Lrv014915@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  8 04:02:38 combo sendmail[14915]: j6882Lrv014915: to=root, ctladdr=root (0/0), delay=00:00:17, xdelay=00:00:17, mailer=relay, pri=67430, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6882L5B014917 Message accepted for delivery)
+Jul  8 04:02:38 combo sendmail[14918]: j6882L5B014917: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=68044, dsn=2.0.0, stat=Sent
+Jul  8 04:04:19 combo ctl_mboxlist[14945]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Jul  8 04:04:19 combo ctl_mboxlist[14945]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Jul  8 04:12:08 combo sendmail[14933]: j6884IsZ014933: from=root, size=665, class=0, nrcpts=1, msgid=<200507080804.j6884IsZ014933@combo.bkwconsulting.com>, relay=root@localhost
+Jul  8 04:12:25 combo sendmail[19641]: j688C8NY019641: from=<root@combo.bkwconsulting.com>, size=961, class=0, nrcpts=1, msgid=<200507080804.j6884IsZ014933@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  8 04:12:25 combo sendmail[14933]: j6884IsZ014933: to=root, ctladdr=root (0/0), delay=00:08:07, xdelay=00:00:17, mailer=relay, pri=30665, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j688C8NY019641 Message accepted for delivery)
+Jul  8 04:12:26 combo sendmail[19642]: j688C8NY019641: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=31200, dsn=2.0.0, stat=Sent
+Jul  8 04:35:17 combo sendmail[19666]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+20:46:39, xdelay=00:02:40, mailer=esmtp, pri=9931075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  8 05:35:17 combo sendmail[19748]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+21:46:39, xdelay=00:02:40, mailer=esmtp, pri=10021075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  8 06:35:17 combo sendmail[19830]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+22:46:39, xdelay=00:02:41, mailer=esmtp, pri=10111075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  8 07:35:17 combo sendmail[19912]: j63Bm1OF031814: to=<zt@qc.com>, delay=4+23:46:39, xdelay=00:02:40, mailer=esmtp, pri=10201075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  8 08:35:19 combo sendmail[19996]: j63Bm1OF031814: to=<zt@qc.com>, delay=5+00:46:41, xdelay=00:02:43, mailer=esmtp, pri=10291075, relay=qc.com. [213.146.149.149], dsn=4.0.0, stat=Deferred: Connection timed out with qc.com.
+Jul  8 08:35:27 combo sendmail[19996]: j63Bm1OF031814: j68CW4NZ019996: sender notify: Cannot send message for 5 days
+Jul  8 10:36:13 combo sendmail[19996]: j68CW4NZ019996: to=<wknyjmlqb@msa.hinet.net>, delay=02:00:46, xdelay=02:00:30, mailer=esmtp, pri=32302, relay=msa-mx2.hinet.net. [168.95.5.114], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx2.hinet.net.
+Jul  8 13:27:55 combo sendmail[20244]: j68CW4NZ019996: to=<wknyjmlqb@msa.hinet.net>, delay=04:52:28, xdelay=01:55:35, mailer=esmtp, pri=122302, relay=msa-mx7.hinet.net. [168.95.5.154], dsn=4.0.0, stat=Deferred: Connection timed out with msa-mx7.hinet.net.
+Jul  8 14:44:59 combo sendmail[20410]: j68CW4NZ019996: to=<wknyjmlqb@msa.hinet.net>, delay=06:09:32, xdelay=01:12:39, mailer=esmtp, pri=212302, relay=msa-mx2.hinet.net. [168.95.5.109], dsn=2.0.0, stat=Sent (HAA27309 Message accepted for delivery)
+Jul  9 00:48:27 combo sendmail[21347]: j694mRMQ021347: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:33 combo sendmail[21348]: j694mXqb021348: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:33 combo sendmail[21352]: j694mXF2021352: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:33 combo sendmail[21351]: j694mX2H021351: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:33 combo sendmail[21349]: j694mXPr021349: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:33 combo sendmail[21353]: j694mXvP021353: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:33 combo sendmail[21350]: j694mX3Y021350: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:33 combo sendmail[21354]: j694mXZL021354: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:33 combo sendmail[21356]: j694mXQ7021356: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:33 combo sendmail[21359]: j694mXoK021359: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:33 combo sendmail[21358]: j694mXcp021358: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:33 combo sendmail[21357]: j694mXS9021357: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:33 combo sendmail[21360]: j694mXm5021360: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:33 combo sendmail[21355]: j694mXUP021355: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:33 combo sendmail[21361]: j694mXIF021361: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:34 combo sendmail[21362]: j694mYtb021362: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:34 combo sendmail[21363]: j694mYXi021363: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:34 combo sendmail[21364]: j694mYTh021364: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:34 combo sendmail[21365]: j694mYTl021365: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:34 combo sendmail[21366]: j694mYAW021366: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:34 combo sendmail[21367]: j694mYtS021367: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:34 combo sendmail[21368]: j694mYDY021368: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 00:48:34 combo sendmail[21369]: j694mY3b021369: 219-81-144-177.static.tfn.net.tw [219.81.144.177] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Jul  9 04:02:13 combo sendmail[21963]: j6982DEr021963: from=root, size=28207, class=0, nrcpts=1, msgid=<200507090802.j6982DEr021963@combo.bkwconsulting.com>, relay=root@localhost
+Jul  9 04:02:29 combo sendmail[21965]: j6982Dhk021965: from=<root@combo.bkwconsulting.com>, size=28569, class=0, nrcpts=1, msgid=<200507090802.j6982DEr021963@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  9 04:02:29 combo sendmail[21963]: j6982DEr021963: to=root, ctladdr=root (0/0), delay=00:00:16, xdelay=00:00:16, mailer=relay, pri=58207, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6982Dhk021965 Message accepted for delivery)
+Jul  9 04:02:30 combo sendmail[21966]: j6982Dhk021965: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=58813, dsn=2.0.0, stat=Sent
+Jul  9 04:04:24 combo ctl_mboxlist[21993]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Jul  9 04:04:24 combo ctl_mboxlist[21993]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds
+Jul  9 04:10:12 combo sendmail[21981]: j6984Nf9021981: from=root, size=665, class=0, nrcpts=1, msgid=<200507090804.j6984Nf9021981@combo.bkwconsulting.com>, relay=root@localhost
+Jul  9 04:10:29 combo sendmail[22416]: j698ACPV022416: from=<root@combo.bkwconsulting.com>, size=961, class=0, nrcpts=1, msgid=<200507090804.j6984Nf9021981@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul  9 04:10:29 combo sendmail[21981]: j6984Nf9021981: to=root, ctladdr=root (0/0), delay=00:06:06, xdelay=00:00:17, mailer=relay, pri=30665, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j698ACPV022416 Message accepted for delivery)
+Jul  9 04:10:30 combo sendmail[22417]: j698ACPV022416: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=31200, dsn=2.0.0, stat=Sent
+Jul 10 04:02:13 combo sendmail[24870]: j6A82D1b024870: from=root, size=9075, class=0, nrcpts=1, msgid=<200507100802.j6A82D1b024870@combo.bkwconsulting.com>, relay=root@localhost
+Jul 10 04:02:29 combo sendmail[24872]: j6A82D1i024872: from=<root@combo.bkwconsulting.com>, size=9391, class=0, nrcpts=1, msgid=<200507100802.j6A82D1b024870@combo.bkwconsulting.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Jul 10 04:02:29 combo sendmail[24870]: j6A82D1b024870: to=root, ctladdr=root (0/0), delay=00:00:16, xdelay=00:00:16, mailer=relay, pri=39075, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j6A82D1i024872 Message accepted for delivery)
+Jul 10 04:02:30 combo sendmail[24873]: j6A82D1i024872: to=<root@combo.bkwconsulting.com>, ctladdr=<root@combo.bkwconsulting.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=39636, dsn=2.0.0, stat=Sent
+Jul 10 04:04:32 combo ctl_mboxlist[24900]: DBERROR: reading /var/lib/imap/db/skipstamp, assuming the worst: No such file or directory
+Jul 10 04:04:32 combo ctl_mboxlist[24900]: skiplist: recovered /var/lib/imap/mailboxes.db (0 records, 144 bytes) in 0 seconds

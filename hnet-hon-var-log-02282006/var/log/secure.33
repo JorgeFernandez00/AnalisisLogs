@@ -1,0 +1,101 @@
+Jun  9 06:06:38 combo sshd[1988]: Server listening on :: port 22.
+Jun  9 06:06:38 combo sshd[1988]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Jun  9 06:06:46 combo su: pam_succeed_if: requirement "uid < 100" not met by user "htt"
+Jun 10 04:02:23 combo xinetd[2003]: START: comsat pid=5100 from=127.0.0.1
+Jun 10 11:32:00 combo sshd[2019]: Server listening on :: port 22.
+Jun 10 11:32:00 combo sshd[2019]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Jun 10 11:32:07 combo su: pam_succeed_if: requirement "uid < 100" not met by user "htt"
+Jun 10 17:06:45 combo sshd[3341]: Did not receive identification string from ::ffff:217.156.63.203
+Jun 10 17:16:25 combo sshd[3353]: Illegal user university from ::ffff:217.156.63.203
+Jun 10 17:16:36 combo sshd[3353]: Failed password for illegal user university from ::ffff:217.156.63.203 port 53303 ssh2
+Jun 11 01:21:46 combo sshd[4046]: Did not receive identification string from ::ffff:63.246.132.170
+Jun 11 01:21:46 combo sshd[4053]: Did not receive identification string from ::ffff:63.246.132.170
+Jun 11 01:21:47 combo sshd[4061]: Did not receive identification string from ::ffff:63.246.132.170
+Jun 11 01:21:49 combo sshd[4052]: Did not receive identification string from ::ffff:63.246.132.170
+Jun 11 03:27:25 combo xinetd[2034]: START: ftp pid=4301 from=209.184.7.130
+Jun 11 03:27:25 combo xinetd[2034]: START: ftp pid=4302 from=209.184.7.130
+Jun 11 03:27:25 combo xinetd[2034]: START: ftp pid=4303 from=209.184.7.130
+Jun 11 03:27:25 combo xinetd[2034]: START: ftp pid=4304 from=209.184.7.130
+Jun 11 03:27:25 combo xinetd[2034]: START: ftp pid=4305 from=209.184.7.130
+Jun 11 03:27:25 combo xinetd[2034]: START: ftp pid=4306 from=209.184.7.130
+Jun 11 03:27:25 combo xinetd[2034]: START: ftp pid=4307 from=209.184.7.130
+Jun 11 03:27:25 combo xinetd[2034]: START: ftp pid=4308 from=209.184.7.130
+Jun 11 03:27:27 combo xinetd[2034]: START: ftp pid=4309 from=209.184.7.130
+Jun 11 03:27:27 combo xinetd[2034]: START: ftp pid=4310 from=209.184.7.130
+Jun 11 03:27:27 combo xinetd[2034]: START: ftp pid=4311 from=209.184.7.130
+Jun 11 03:27:27 combo xinetd[2034]: START: ftp pid=4312 from=209.184.7.130
+Jun 11 03:27:27 combo xinetd[2034]: START: ftp pid=4313 from=209.184.7.130
+Jun 11 03:27:27 combo xinetd[2034]: START: ftp pid=4314 from=209.184.7.130
+Jun 11 03:27:27 combo xinetd[2034]: START: ftp pid=4315 from=209.184.7.130
+Jun 11 03:27:27 combo xinetd[2034]: START: ftp pid=4316 from=209.184.7.130
+Jun 11 03:27:27 combo xinetd[2034]: START: ftp pid=4317 from=209.184.7.130
+Jun 11 03:27:27 combo xinetd[2034]: START: ftp pid=4318 from=209.184.7.130
+Jun 11 03:27:27 combo xinetd[2034]: START: ftp pid=4319 from=209.184.7.130
+Jun 11 03:27:27 combo xinetd[2034]: START: ftp pid=4320 from=209.184.7.130
+Jun 11 03:27:28 combo xinetd[2034]: START: ftp pid=4321 from=209.184.7.130
+Jun 11 03:27:28 combo xinetd[2034]: START: ftp pid=4322 from=209.184.7.130
+Jun 11 03:27:29 combo xinetd[2034]: START: ftp pid=4323 from=209.184.7.130
+Jun 11 04:02:32 combo xinetd[2034]: START: comsat pid=4698 from=127.0.0.1
+Jun 11 04:07:20 combo sshd[5959]: Did not receive identification string from ::ffff:218.75.79.237
+Jun 11 09:45:48 combo sshd[6472]: Failed password for root from ::ffff:63.246.132.170 port 47002 ssh2
+Jun 11 09:45:57 combo sshd[6474]: Failed password for root from ::ffff:63.246.132.170 port 47384 ssh2
+Jun 11 09:46:00 combo sshd[6476]: Failed password for root from ::ffff:63.246.132.170 port 47487 ssh2
+Jun 11 09:46:04 combo sshd[6478]: Failed password for root from ::ffff:63.246.132.170 port 47626 ssh2
+Jun 11 09:46:07 combo sshd[6480]: Failed password for root from ::ffff:63.246.132.170 port 47762 ssh2
+Jun 11 09:46:10 combo sshd[6482]: Failed password for root from ::ffff:63.246.132.170 port 47855 ssh2
+Jun 11 09:46:14 combo sshd[6484]: Failed password for root from ::ffff:63.246.132.170 port 47987 ssh2
+Jun 11 09:46:17 combo sshd[6486]: Failed password for root from ::ffff:63.246.132.170 port 48133 ssh2
+Jun 11 09:46:20 combo sshd[6488]: Failed password for root from ::ffff:63.246.132.170 port 48232 ssh2
+Jun 11 09:46:24 combo sshd[6490]: Failed password for root from ::ffff:63.246.132.170 port 48358 ssh2
+Jun 11 09:46:27 combo sshd[6492]: Failed password for root from ::ffff:63.246.132.170 port 48489 ssh2
+Jun 11 09:46:30 combo sshd[6494]: Failed password for root from ::ffff:63.246.132.170 port 48594 ssh2
+Jun 11 09:46:34 combo sshd[6496]: Failed password for root from ::ffff:63.246.132.170 port 48725 ssh2
+Jun 11 09:46:36 combo sshd[6498]: Failed password for root from ::ffff:63.246.132.170 port 48809 ssh2
+Jun 11 09:46:37 combo sshd[6500]: Failed password for root from ::ffff:63.246.132.170 port 48865 ssh2
+Jun 11 09:46:40 combo sshd[6502]: Failed password for root from ::ffff:63.246.132.170 port 48956 ssh2
+Jun 11 09:46:40 combo sshd[6504]: Failed password for root from ::ffff:63.246.132.170 port 48974 ssh2
+Jun 11 09:46:44 combo sshd[6506]: Failed password for root from ::ffff:63.246.132.170 port 49080 ssh2
+Jun 11 09:46:46 combo sshd[6508]: Failed password for root from ::ffff:63.246.132.170 port 49164 ssh2
+Jun 11 09:46:47 combo sshd[6510]: Failed password for root from ::ffff:63.246.132.170 port 49218 ssh2
+Jun 11 09:46:50 combo sshd[6512]: Failed password for root from ::ffff:63.246.132.170 port 49294 ssh2
+Jun 11 09:46:50 combo sshd[6514]: Failed password for root from ::ffff:63.246.132.170 port 49313 ssh2
+Jun 11 09:46:50 combo sshd[6516]: Failed password for root from ::ffff:63.246.132.170 port 49330 ssh2
+Jun 12 00:07:28 combo xinetd[2034]: START: ftp pid=7709 from=222.33.90.199
+Jun 12 00:07:28 combo xinetd[2034]: START: ftp pid=7710 from=222.33.90.199
+Jun 12 00:07:28 combo xinetd[2034]: START: ftp pid=7711 from=222.33.90.199
+Jun 12 00:07:28 combo xinetd[2034]: START: ftp pid=7712 from=222.33.90.199
+Jun 12 00:07:28 combo xinetd[2034]: START: ftp pid=7713 from=222.33.90.199
+Jun 12 00:07:28 combo xinetd[2034]: START: ftp pid=7714 from=222.33.90.199
+Jun 12 00:07:28 combo xinetd[2034]: START: ftp pid=7715 from=222.33.90.199
+Jun 12 00:07:28 combo xinetd[2034]: START: ftp pid=7716 from=222.33.90.199
+Jun 12 00:07:28 combo xinetd[2034]: START: ftp pid=7717 from=222.33.90.199
+Jun 12 00:07:28 combo xinetd[2034]: START: ftp pid=7718 from=222.33.90.199
+Jun 12 00:07:28 combo xinetd[2034]: START: ftp pid=7719 from=222.33.90.199
+Jun 12 00:07:28 combo xinetd[2034]: START: ftp pid=7720 from=222.33.90.199
+Jun 12 00:07:28 combo xinetd[2034]: START: ftp pid=7721 from=222.33.90.199
+Jun 12 00:07:28 combo xinetd[2034]: START: ftp pid=7722 from=222.33.90.199
+Jun 12 00:07:29 combo xinetd[2034]: START: ftp pid=7723 from=222.33.90.199
+Jun 12 00:07:29 combo xinetd[2034]: START: ftp pid=7724 from=222.33.90.199
+Jun 12 00:07:29 combo xinetd[2034]: START: ftp pid=7725 from=222.33.90.199
+Jun 12 00:07:29 combo xinetd[2034]: START: ftp pid=7726 from=222.33.90.199
+Jun 12 00:07:30 combo xinetd[2034]: START: ftp pid=7727 from=222.33.90.199
+Jun 12 00:07:30 combo xinetd[2034]: START: ftp pid=7728 from=222.33.90.199
+Jun 12 00:07:30 combo xinetd[2034]: START: ftp pid=7729 from=222.33.90.199
+Jun 12 00:07:30 combo xinetd[2034]: START: ftp pid=7730 from=222.33.90.199
+Jun 12 00:07:30 combo xinetd[2034]: START: ftp pid=7731 from=222.33.90.199
+Jun 12 01:12:15 combo sshd[7822]: Failed password for test from ::ffff:218.188.2.4 port 46605 ssh2
+Jun 12 01:12:15 combo sshd[7823]: Failed password for test from ::ffff:218.188.2.4 port 46618 ssh2
+Jun 12 01:12:16 combo sshd[7821]: Failed password for test from ::ffff:218.188.2.4 port 46559 ssh2
+Jun 12 01:12:16 combo sshd[7826]: Failed password for test from ::ffff:218.188.2.4 port 46683 ssh2
+Jun 12 01:12:16 combo sshd[7828]: Failed password for test from ::ffff:218.188.2.4 port 46708 ssh2
+Jun 12 01:12:20 combo sshd[7831]: Failed password for test from ::ffff:218.188.2.4 port 46890 ssh2
+Jun 12 01:12:20 combo sshd[7832]: Failed password for test from ::ffff:218.188.2.4 port 46895 ssh2
+Jun 12 01:12:23 combo sshd[7835]: Failed password for test from ::ffff:218.188.2.4 port 47074 ssh2
+Jun 12 01:12:24 combo sshd[7837]: Failed password for test from ::ffff:218.188.2.4 port 47112 ssh2
+Jun 12 01:12:25 combo sshd[7839]: Failed password for test from ::ffff:218.188.2.4 port 47143 ssh2
+Jun 12 01:12:29 combo sshd[7841]: Failed password for test from ::ffff:218.188.2.4 port 47202 ssh2
+Jun 12 01:15:19 combo sshd[7847]: Failed password for test from ::ffff:218.188.2.4 port 57213 ssh2
+Jun 12 01:15:26 combo sshd[7849]: Failed password for test from ::ffff:218.188.2.4 port 57330 ssh2
+Jun 12 02:30:12 combo sshd[7951]: pam_succeed_if: requirement "uid < 100" not met by user "test"
+Jun 12 02:30:12 combo sshd[7951]: Accepted password for test from ::ffff:211.46.241.200 port 2273 ssh2
+Jun 12 02:30:24 combo sshd[7954]: Failed password for guest from ::ffff:211.46.241.200 port 2409 ssh2

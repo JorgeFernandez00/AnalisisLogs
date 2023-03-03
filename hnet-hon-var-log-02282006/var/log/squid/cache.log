@@ -1,0 +1,425 @@
+2006/01/22 04:11:05| storeDirWriteCleanLogs: Starting...
+2006/01/22 04:11:05|   Finished.  Wrote 0 entries.
+2006/01/22 04:11:05|   Took 0.0 seconds (   0.0 entries/sec).
+2006/01/22 04:11:05| logfileRotate: /var/log/squid/store.log
+2006/01/22 04:11:05| logfileRotate: /var/log/squid/access.log
+2006/01/22 04:11:05| logfileRotate: /var/log/squid/useragent_log.log
+2006/01/22 04:11:05| logfileRotate: /var/log/squid/referer_log.log
+2006/01/22 07:11:14| clientReadRequest: FD 14 Invalid Request
+2006/01/22 07:23:17| clientReadRequest: FD 17 Invalid Request
+2006/01/22 07:50:40| clientReadRequest: FD 16 Invalid Request
+2006/01/22 08:02:12| clientReadRequest: FD 14 Invalid Request
+2006/01/22 08:05:53| clientReadRequest: FD 14 Invalid Request
+2006/01/22 08:09:38| clientReadRequest: FD 16 Invalid Request
+2006/01/22 08:15:56| clientReadRequest: FD 14 Invalid Request
+2006/01/22 08:19:59| clientReadRequest: FD 16 Invalid Request
+2006/01/22 08:35:30| clientReadRequest: FD 16 Invalid Request
+2006/01/22 08:56:16| clientReadRequest: FD 14 Invalid Request
+2006/01/22 09:18:16| clientReadRequest: FD 16 Invalid Request
+2006/01/22 09:26:34| clientReadRequest: FD 14 Invalid Request
+2006/01/22 09:34:33| clientReadRequest: FD 14 Invalid Request
+2006/01/22 09:35:53| clientReadRequest: FD 14 Invalid Request
+2006/01/22 10:07:36| clientReadRequest: FD 14 Invalid Request
+2006/01/22 10:23:48| clientReadRequest: FD 16 Invalid Request
+2006/01/22 10:30:34| Failure Ratio at 1.02
+2006/01/22 10:30:34| Going into hit-only-mode for 5 minutes...
+2006/01/22 10:43:45| clientReadRequest: FD 15 Invalid Request
+2006/01/22 10:55:42| clientReadRequest: FD 18 Invalid Request
+2006/01/22 11:18:33| clientReadRequest: FD 14 Invalid Request
+2006/01/22 11:23:30| clientReadRequest: FD 14 Invalid Request
+2006/01/22 11:25:14| clientReadRequest: FD 16 Invalid Request
+2006/01/22 11:27:28| clientReadRequest: FD 18 Invalid Request
+2006/01/22 12:03:10| clientReadRequest: FD 14 Invalid Request
+2006/01/22 12:15:20| clientReadRequest: FD 14 Invalid Request
+2006/01/22 12:33:07| clientReadRequest: FD 16 Invalid Request
+2006/01/22 12:35:45| clientReadRequest: FD 14 Invalid Request
+2006/01/22 12:51:43| clientReadRequest: FD 14 Invalid Request
+2006/01/22 13:04:19| clientReadRequest: FD 16 Invalid Request
+2006/01/22 13:17:07| clientReadRequest: FD 14 Invalid Request
+2006/01/22 14:36:26| clientReadRequest: FD 14 Invalid Request
+2006/01/22 14:41:08| clientReadRequest: FD 14 Invalid Request
+2006/01/22 15:43:32| clientReadRequest: FD 14 Invalid Request
+2006/01/22 16:03:38| clientReadRequest: FD 14 Invalid Request
+2006/01/22 16:41:53| clientReadRequest: FD 16 Invalid Request
+2006/01/22 17:07:49| clientReadRequest: FD 15 Invalid Request
+2006/01/22 17:16:51| Failure Ratio at 1.00
+2006/01/22 17:16:51| Going into hit-only-mode for 5 minutes...
+2006/01/22 17:36:42| clientReadRequest: FD 14 Invalid Request
+2006/01/22 17:39:13| clientReadRequest: FD 15 Invalid Request
+2006/01/22 18:09:52| clientReadRequest: FD 14 Invalid Request
+2006/01/22 19:04:45| clientReadRequest: FD 14 Invalid Request
+2006/01/22 19:19:16| clientReadRequest: FD 14 Invalid Request
+2006/01/22 19:56:09| clientReadRequest: FD 14 Invalid Request
+2006/01/22 20:28:13| clientReadRequest: FD 16 Invalid Request
+2006/01/22 20:44:43| clientReadRequest: FD 14 Invalid Request
+2006/01/22 21:49:28| clientReadRequest: FD 14 Invalid Request
+2006/01/22 22:10:01| clientReadRequest: FD 14 Invalid Request
+2006/01/22 22:40:03| clientReadRequest: FD 22 Invalid Request
+2006/01/22 23:04:01| clientReadRequest: FD 18 Invalid Request
+2006/01/22 23:19:18| clientReadRequest: FD 14 Invalid Request
+2006/01/22 23:38:21| clientReadRequest: FD 14 Invalid Request
+2006/01/22 23:40:03| clientReadRequest: FD 14 Invalid Request
+2006/01/22 23:56:16| clientReadRequest: FD 17 Invalid Request
+2006/01/23 00:00:48| clientReadRequest: FD 14 Invalid Request
+2006/01/23 00:13:08| clientReadRequest: FD 14 Invalid Request
+2006/01/23 00:31:04| Failure Ratio at 1.02
+2006/01/23 00:31:04| Going into hit-only-mode for 5 minutes...
+2006/01/23 00:44:43| clientReadRequest: FD 16 Invalid Request
+2006/01/23 01:15:44| clientReadRequest: FD 14 Invalid Request
+2006/01/23 01:24:17| clientReadRequest: FD 17 Invalid Request
+2006/01/23 01:43:23| clientReadRequest: FD 14 Invalid Request
+2006/01/23 02:12:42| clientReadRequest: FD 24 Invalid Request
+2006/01/23 02:31:48| clientReadRequest: FD 15 Invalid Request
+2006/01/23 02:49:37| clientReadRequest: FD 14 Invalid Request
+2006/01/23 02:57:04| clientReadRequest: FD 17 Invalid Request
+2006/01/23 03:44:09| clientReadRequest: FD 20 Invalid Request
+2006/01/23 05:30:12| clientReadRequest: FD 14 Invalid Request
+2006/01/23 05:58:57| clientReadRequest: FD 16 Invalid Request
+2006/01/23 06:08:56| clientReadRequest: FD 15 Invalid Request
+2006/01/23 06:31:36| clientReadRequest: FD 16 Invalid Request
+2006/01/23 08:16:58| clientReadRequest: FD 15 Invalid Request
+2006/01/23 08:28:53| clientReadRequest: FD 14 Invalid Request
+2006/01/23 08:42:52| clientReadRequest: FD 16 Invalid Request
+2006/01/23 09:14:42| clientReadRequest: FD 17 Invalid Request
+2006/01/23 13:20:20| clientReadRequest: FD 18 Invalid Request
+2006/01/23 13:42:50| clientReadRequest: FD 16 Invalid Request
+2006/01/23 14:10:50| clientReadRequest: FD 19 Invalid Request
+2006/01/23 14:29:24| clientReadRequest: FD 18 Invalid Request
+2006/01/23 14:47:17| clientReadRequest: FD 19 Invalid Request
+2006/01/23 14:57:38| clientReadRequest: FD 20 Invalid Request
+2006/01/23 15:01:03| clientReadRequest: FD 14 Invalid Request
+2006/01/23 15:16:26| clientReadRequest: FD 25 Invalid Request
+2006/01/23 15:16:47| clientReadRequest: FD 26 Invalid Request
+2006/01/23 17:16:35| clientReadRequest: FD 15 Invalid Request
+2006/01/23 18:21:19| Failure Ratio at 1.01
+2006/01/23 18:21:19| Going into hit-only-mode for 5 minutes...
+2006/01/23 19:53:01| clientReadRequest: FD 18 Invalid Request
+2006/01/23 20:03:46| clientReadRequest: FD 16 Invalid Request
+2006/01/23 20:46:28| clientReadRequest: FD 24 Invalid Request
+2006/01/23 20:57:45| clientReadRequest: FD 17 Invalid Request
+2006/01/23 21:06:28| clientReadRequest: FD 22 Invalid Request
+2006/01/23 21:35:49| clientReadRequest: FD 15 Invalid Request
+2006/01/23 21:44:01| clientReadRequest: FD 16 Invalid Request
+2006/01/23 21:54:12| clientReadRequest: FD 14 Invalid Request
+2006/01/23 22:16:12| clientReadRequest: FD 15 Invalid Request
+2006/01/23 22:21:31| clientReadRequest: FD 14 Invalid Request
+2006/01/23 22:31:54| clientReadRequest: FD 18 Invalid Request
+2006/01/23 22:54:33| clientReadRequest: FD 14 Invalid Request
+2006/01/23 23:13:02| clientReadRequest: FD 19 Invalid Request
+2006/01/23 23:30:05| clientReadRequest: FD 16 Invalid Request
+2006/01/23 23:47:53| clientReadRequest: FD 18 Invalid Request
+2006/01/23 23:54:05| clientReadRequest: FD 24 Invalid Request
+2006/01/24 00:11:46| clientReadRequest: FD 14 Invalid Request
+2006/01/24 01:16:55| clientReadRequest: FD 20 Invalid Request
+2006/01/24 01:46:06| clientReadRequest: FD 17 Invalid Request
+2006/01/24 01:59:31| clientReadRequest: FD 26 Invalid Request
+2006/01/24 02:04:31| Failure Ratio at 1.02
+2006/01/24 02:04:31| Going into hit-only-mode for 5 minutes...
+2006/01/24 02:26:52| clientReadRequest: FD 15 Invalid Request
+2006/01/24 03:10:22| clientReadRequest: FD 26 Invalid Request
+2006/01/24 03:50:14| clientReadRequest: FD 17 Invalid Request
+2006/01/24 04:18:58| clientReadRequest: FD 14 Invalid Request
+2006/01/24 04:49:48| clientReadRequest: FD 23 Invalid Request
+2006/01/24 04:56:04| clientReadRequest: FD 17 Invalid Request
+2006/01/24 05:06:44| clientReadRequest: FD 20 Invalid Request
+2006/01/24 05:33:57| clientReadRequest: FD 14 Invalid Request
+2006/01/24 05:37:28| clientReadRequest: FD 16 Invalid Request
+2006/01/24 05:50:05| clientReadRequest: FD 16 Invalid Request
+2006/01/24 05:51:18| clientReadRequest: FD 18 Invalid Request
+2006/01/24 06:08:52| clientReadRequest: FD 16 Invalid Request
+2006/01/24 06:09:44| clientReadRequest: FD 16 Invalid Request
+2006/01/24 06:25:37| clientReadRequest: FD 16 Invalid Request
+2006/01/24 06:45:46| clientReadRequest: FD 15 Invalid Request
+2006/01/24 06:48:51| clientReadRequest: FD 18 Invalid Request
+2006/01/24 06:57:39| clientReadRequest: FD 20 Invalid Request
+2006/01/24 07:33:41| clientReadRequest: FD 18 Invalid Request
+2006/01/24 08:13:45| clientReadRequest: FD 24 Invalid Request
+2006/01/24 08:13:47| clientReadRequest: FD 24 Invalid Request
+2006/01/24 09:13:00| Failure Ratio at 1.00
+2006/01/24 09:13:00| Going into hit-only-mode for 5 minutes...
+2006/01/24 09:23:18| clientReadRequest: FD 16 Invalid Request
+2006/01/24 10:07:41| clientReadRequest: FD 15 Invalid Request
+2006/01/24 10:40:57| clientReadRequest: FD 15 Invalid Request
+2006/01/24 10:43:04| clientReadRequest: FD 18 Invalid Request
+2006/01/24 12:26:52| clientReadRequest: FD 16 Invalid Request
+2006/01/24 13:45:44| clientReadRequest: FD 19 Invalid Request
+2006/01/24 14:17:55| clientReadRequest: FD 14 Invalid Request
+2006/01/24 15:01:00| clientReadRequest: FD 14 Invalid Request
+2006/01/24 15:46:04| Failure Ratio at 1.01
+2006/01/24 15:46:04| Going into hit-only-mode for 5 minutes...
+2006/01/24 16:32:55| clientReadRequest: FD 14 Invalid Request
+2006/01/24 16:50:09| clientReadRequest: FD 18 Invalid Request
+2006/01/24 17:05:35| clientReadRequest: FD 22 Invalid Request
+2006/01/24 17:37:42| clientReadRequest: FD 14 Invalid Request
+2006/01/24 19:15:59| clientReadRequest: FD 15 Invalid Request
+2006/01/24 20:34:02| clientReadRequest: FD 16 Invalid Request
+2006/01/24 21:13:50| clientReadRequest: FD 14 Invalid Request
+2006/01/24 23:09:26| Failure Ratio at 1.00
+2006/01/24 23:09:26| Going into hit-only-mode for 5 minutes...
+2006/01/25 06:13:12| Failure Ratio at 1.00
+2006/01/25 06:13:12| Going into hit-only-mode for 5 minutes...
+2006/01/25 06:52:17| clientReadRequest: FD 14 Invalid Request
+2006/01/25 07:00:29| clientReadRequest: FD 16 Invalid Request
+2006/01/25 07:06:40| clientReadRequest: FD 18 Invalid Request
+2006/01/25 07:16:28| clientReadRequest: FD 14 Invalid Request
+2006/01/25 07:22:28| clientReadRequest: FD 14 Invalid Request
+2006/01/25 07:45:22| clientReadRequest: FD 20 Invalid Request
+2006/01/25 07:52:32| clientReadRequest: FD 14 Invalid Request
+2006/01/25 08:26:48| clientReadRequest: FD 17 Invalid Request
+2006/01/25 08:40:51| clientReadRequest: FD 14 Invalid Request
+2006/01/25 08:57:01| clientReadRequest: FD 14 Invalid Request
+2006/01/25 09:17:24| clientReadRequest: FD 16 Invalid Request
+2006/01/25 09:29:26| clientReadRequest: FD 16 Invalid Request
+2006/01/25 09:42:16| clientReadRequest: FD 14 Invalid Request
+2006/01/26 12:20:15| Preparing for shutdown after 18242 requests
+2006/01/26 12:20:15| Waiting 30 seconds for active connections to finish
+2006/01/26 12:20:15| FD 12 Closing HTTP connection
+2006/01/26 12:20:16| Shutting down...
+2006/01/26 12:20:16| FD 13 Closing ICP connection
+2006/01/26 12:20:16| Closing unlinkd pipe on FD 11
+2006/01/26 12:20:16| storeDirWriteCleanLogs: Starting...
+2006/01/26 12:20:16|   Finished.  Wrote 0 entries.
+2006/01/26 12:20:16|   Took 0.1 seconds (   0.0 entries/sec).
+CPU Usage: 24067.366 seconds = 9830.745 user + 14236.621 sys
+Maximum Resident Size: 0 KB
+Page faults with physical i/o: 9766
+Memory usage for squid via mallinfo():
+	total space in arena:    6660 KB
+	Ordinary blocks:         2920 KB     63 blks
+	Small blocks:               0 KB      6 blks
+	Holding blocks:           200 KB      1 blks
+	Free Small blocks:          0 KB
+	Free Ordinary blocks:    3739 KB
+	Total in use:            3120 KB 47%
+	Total free:              3739 KB 56%
+2006/01/26 12:20:16| Squid Cache (Version 2.5.STABLE5): Exiting normally.
+2006/01/26 12:23:10| Starting Squid Cache version 2.5.STABLE5 for i386-redhat-linux-gnu...
+2006/01/26 12:23:10| Process ID 2275
+2006/01/26 12:23:10| With 1024 file descriptors available
+2006/01/26 12:23:10| DNS Socket created at 0.0.0.0, port 1034, FD 4
+2006/01/26 12:23:10| Adding nameserver 206.141.192.60 from /etc/resolv.conf
+2006/01/26 12:23:10| Adding nameserver 66.73.20.40 from /etc/resolv.conf
+2006/01/26 12:23:10| Adding nameserver 147.4.30.3 from /etc/resolv.conf
+2006/01/26 12:23:10| Adding nameserver 147.4.30.2 from /etc/resolv.conf
+2006/01/26 12:23:10| Unlinkd pipe opened on FD 11
+2006/01/26 12:23:10| Swap maxSize 102400 KB, estimated 7876 objects
+2006/01/26 12:23:10| Target number of buckets: 393
+2006/01/26 12:23:10| Using 8192 Store buckets
+2006/01/26 12:23:10| Max Mem  size: 8192 KB
+2006/01/26 12:23:10| Max Swap size: 102400 KB
+2006/01/26 12:23:10| Rebuilding storage in /var/spool/squid (CLEAN)
+2006/01/26 12:23:10| Using Least Load store dir selection
+2006/01/26 12:23:10| Set Current Directory to /var/spool/squid
+2006/01/26 12:23:10| Loaded Icons.
+2006/01/26 12:23:13| Accepting HTTP connections at 0.0.0.0, port 3128, FD 12.
+2006/01/26 12:23:13| Accepting ICP messages at 0.0.0.0, port 3130, FD 13.
+2006/01/26 12:23:13| WCCP Disabled.
+2006/01/26 12:23:13| Ready to serve requests.
+2006/01/26 12:24:56| Done scanning /var/spool/squid swaplog (0 entries)
+2006/01/26 12:24:56| Finished rebuilding storage from disk.
+2006/01/26 12:24:56|         0 Entries scanned
+2006/01/26 12:24:56|         0 Invalid entries.
+2006/01/26 12:24:56|         0 With invalid flags.
+2006/01/26 12:24:56|         0 Objects loaded.
+2006/01/26 12:24:56|         0 Objects expired.
+2006/01/26 12:24:56|         0 Objects cancelled.
+2006/01/26 12:24:56|         0 Duplicate URLs purged.
+2006/01/26 12:24:56|         0 Swapfile clashes avoided.
+2006/01/26 12:24:56|   Took 106.7 seconds (   0.0 objects/sec).
+2006/01/26 12:24:56| Beginning Validation Procedure
+2006/01/26 12:24:57|   Completed Validation Procedure
+2006/01/26 12:24:57|   Validated 0 Entries
+2006/01/26 12:24:57|   store_swap_size = 0k
+2006/01/26 12:24:57| storeLateRelease: released 0 objects
+2006/01/26 14:32:23| clientReadRequest: FD 18 Invalid Request
+2006/01/26 14:42:03| clientReadRequest: FD 23 Invalid Request
+2006/01/26 15:29:13| clientReadRequest: FD 18 Invalid Request
+2006/01/26 15:32:16| clientReadRequest: FD 16 Invalid Request
+2006/01/26 15:40:28| clientReadRequest: FD 16 Invalid Request
+2006/01/26 15:53:09| clientReadRequest: FD 20 Invalid Request
+2006/01/26 16:03:25| clientReadRequest: FD 22 Invalid Request
+2006/01/26 18:15:42| clientReadRequest: FD 18 Invalid Request
+2006/01/26 18:19:45| clientReadRequest: FD 18 Invalid Request
+2006/01/26 18:33:33| clientReadRequest: FD 14 Invalid Request
+2006/01/26 18:33:41| clientReadRequest: FD 14 Invalid Request
+2006/01/26 18:39:52| clientReadRequest: FD 18 Invalid Request
+2006/01/26 18:57:46| clientReadRequest: FD 14 Invalid Request
+2006/01/26 20:31:47| clientReadRequest: FD 21 Invalid Request
+2006/01/26 20:47:40| clientReadRequest: FD 14 Invalid Request
+2006/01/26 21:24:38| clientReadRequest: FD 16 Invalid Request
+2006/01/26 22:12:09| clientReadRequest: FD 22 Invalid Request
+2006/01/26 22:34:44| clientReadRequest: FD 15 Invalid Request
+2006/01/26 22:40:41| clientReadRequest: FD 16 Invalid Request
+2006/01/26 23:37:42| clientReadRequest: FD 14 Invalid Request
+2006/01/27 00:10:30| clientReadRequest: FD 17 Invalid Request
+2006/01/27 01:15:11| clientReadRequest: FD 14 Invalid Request
+2006/01/27 01:27:48| clientReadRequest: FD 28 Invalid Request
+2006/01/27 01:37:46| clientReadRequest: FD 21 Invalid Request
+2006/01/27 01:57:33| clientReadRequest: FD 16 Invalid Request
+2006/01/27 02:22:19| clientReadRequest: FD 20 Invalid Request
+2006/01/27 03:10:24| clientReadRequest: FD 14 Invalid Request
+2006/01/27 03:22:43| clientReadRequest: FD 21 Invalid Request
+2006/01/27 04:08:37| clientReadRequest: FD 15 Invalid Request
+2006/01/27 04:38:51| clientReadRequest: FD 16 Invalid Request
+2006/01/27 05:21:41| clientReadRequest: FD 14 Invalid Request
+2006/01/27 05:36:39| clientReadRequest: FD 16 Invalid Request
+2006/01/27 05:49:04| clientReadRequest: FD 22 Invalid Request
+2006/01/27 06:17:51| clientReadRequest: FD 14 Invalid Request
+2006/01/27 06:25:23| clientReadRequest: FD 16 Invalid Request
+2006/01/27 06:36:05| clientReadRequest: FD 20 Invalid Request
+2006/01/27 07:35:18| clientReadRequest: FD 16 Invalid Request
+2006/01/27 08:23:44| clientReadRequest: FD 14 Invalid Request
+2006/01/27 08:35:38| clientReadRequest: FD 20 Invalid Request
+2006/01/27 09:37:06| clientReadRequest: FD 15 Invalid Request
+2006/01/27 09:37:12| clientReadRequest: FD 15 Invalid Request
+2006/01/27 11:44:11| clientReadRequest: FD 14 Invalid Request
+2006/01/27 12:58:46| clientReadRequest: FD 19 Invalid Request
+2006/01/27 13:39:07| clientReadRequest: FD 17 Invalid Request
+2006/01/27 13:46:47| clientReadRequest: FD 28 Invalid Request
+2006/01/27 14:09:58| clientReadRequest: FD 20 Invalid Request
+2006/01/27 14:56:33| clientReadRequest: FD 14 Invalid Request
+2006/01/27 15:05:46| clientReadRequest: FD 22 Invalid Request
+2006/01/28 03:40:45| Failure Ratio at 1.02
+2006/01/28 03:40:45| Going into hit-only-mode for 5 minutes...
+2006/01/28 09:43:24| Failure Ratio at 1.01
+2006/01/28 09:43:24| Going into hit-only-mode for 5 minutes...
+2006/01/28 15:51:50| Failure Ratio at 1.02
+2006/01/28 15:51:50| Going into hit-only-mode for 5 minutes...
+2006/01/28 22:22:30| Failure Ratio at 1.00
+2006/01/28 22:22:30| Going into hit-only-mode for 5 minutes...
+2006/01/29 05:13:36| Failure Ratio at 1.02
+2006/01/29 05:13:36| Going into hit-only-mode for 5 minutes...
+2006/01/29 09:42:01| Failure Ratio at 1.01
+2006/01/29 09:42:01| Going into hit-only-mode for 5 minutes...
+2006/01/29 16:40:56| Failure Ratio at 1.02
+2006/01/29 16:40:56| Going into hit-only-mode for 5 minutes...
+2006/01/29 21:01:15| Failure Ratio at 1.01
+2006/01/29 21:01:15| Going into hit-only-mode for 5 minutes...
+2006/01/30 01:01:23| Failure Ratio at 1.02
+2006/01/30 01:01:23| Going into hit-only-mode for 5 minutes...
+2006/01/30 06:40:42| Failure Ratio at 1.02
+2006/01/30 06:40:42| Going into hit-only-mode for 5 minutes...
+2006/01/30 13:51:29| Failure Ratio at 1.02
+2006/01/30 13:51:29| Going into hit-only-mode for 5 minutes...
+2006/01/30 19:57:07| Failure Ratio at 1.02
+2006/01/30 19:57:07| Going into hit-only-mode for 5 minutes...
+2006/01/31 01:44:04| Failure Ratio at 1.02
+2006/01/31 01:44:04| Going into hit-only-mode for 5 minutes...
+2006/01/31 08:02:49| Failure Ratio at 1.00
+2006/01/31 08:02:49| Going into hit-only-mode for 5 minutes...
+2006/01/31 14:33:49| Failure Ratio at 1.02
+2006/01/31 14:33:49| Going into hit-only-mode for 5 minutes...
+2006/02/02 06:03:48| Request header is too large (11269 bytes)
+2006/02/02 06:03:48| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:03:50| Request header is too large (11269 bytes)
+2006/02/02 06:03:50| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:03:51| Request header is too large (11269 bytes)
+2006/02/02 06:03:51| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:03:52| Request header is too large (11269 bytes)
+2006/02/02 06:03:52| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:03:54| Request header is too large (11269 bytes)
+2006/02/02 06:03:54| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:03:55| Request header is too large (11269 bytes)
+2006/02/02 06:03:55| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:03:56| Request header is too large (11269 bytes)
+2006/02/02 06:03:56| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:03:59| Request header is too large (11269 bytes)
+2006/02/02 06:03:59| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:00| Request header is too large (11269 bytes)
+2006/02/02 06:04:00| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:01| Request header is too large (11269 bytes)
+2006/02/02 06:04:01| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:02| Request header is too large (11269 bytes)
+2006/02/02 06:04:02| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:03| Request header is too large (11269 bytes)
+2006/02/02 06:04:03| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:04| Request header is too large (11269 bytes)
+2006/02/02 06:04:04| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:05| Request header is too large (11269 bytes)
+2006/02/02 06:04:05| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:06| Request header is too large (11269 bytes)
+2006/02/02 06:04:06| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:07| Request header is too large (11269 bytes)
+2006/02/02 06:04:07| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:08| Request header is too large (11269 bytes)
+2006/02/02 06:04:08| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:09| Request header is too large (11269 bytes)
+2006/02/02 06:04:09| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:10| Request header is too large (11193 bytes)
+2006/02/02 06:04:10| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:11| Request header is too large (11269 bytes)
+2006/02/02 06:04:11| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:12| Request header is too large (11269 bytes)
+2006/02/02 06:04:12| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:14| Request header is too large (11269 bytes)
+2006/02/02 06:04:14| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:15| Request header is too large (11269 bytes)
+2006/02/02 06:04:15| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:16| Request header is too large (11269 bytes)
+2006/02/02 06:04:16| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:17| Request header is too large (11269 bytes)
+2006/02/02 06:04:17| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:19| Request header is too large (11269 bytes)
+2006/02/02 06:04:19| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:20| Request header is too large (11269 bytes)
+2006/02/02 06:04:20| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:21| Request header is too large (11269 bytes)
+2006/02/02 06:04:21| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:22| Request header is too large (11269 bytes)
+2006/02/02 06:04:22| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:23| Request header is too large (11269 bytes)
+2006/02/02 06:04:23| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:25| Request header is too large (11269 bytes)
+2006/02/02 06:04:25| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:26| Request header is too large (11269 bytes)
+2006/02/02 06:04:26| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:27| Request header is too large (11269 bytes)
+2006/02/02 06:04:27| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:28| Request header is too large (11269 bytes)
+2006/02/02 06:04:28| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:30| Request header is too large (11269 bytes)
+2006/02/02 06:04:30| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:32| Request header is too large (11269 bytes)
+2006/02/02 06:04:32| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:34| Request header is too large (11269 bytes)
+2006/02/02 06:04:34| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:35| Request header is too large (11269 bytes)
+2006/02/02 06:04:35| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:39| Request header is too large (11269 bytes)
+2006/02/02 06:04:39| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:39| Request header is too large (12287 bytes)
+2006/02/02 06:04:39| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:42| Request header is too large (11269 bytes)
+2006/02/02 06:04:42| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:43| Request header is too large (11269 bytes)
+2006/02/02 06:04:43| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:45| Request header is too large (11269 bytes)
+2006/02/02 06:04:45| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:47| Request header is too large (11269 bytes)
+2006/02/02 06:04:47| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:50| Request header is too large (11269 bytes)
+2006/02/02 06:04:50| Config 'request_header_max_size'= 10240 bytes.
+2006/02/02 06:04:52| Request header is too large (11269 bytes)
+2006/02/02 06:04:52| Config 'request_header_max_size'= 10240 bytes.
+2006/02/10 02:48:20| Request header is too large (11141 bytes)
+2006/02/10 02:48:20| Config 'request_header_max_size'= 10240 bytes.
+2006/02/10 02:48:48| Request header is too large (11141 bytes)
+2006/02/10 02:48:48| Config 'request_header_max_size'= 10240 bytes.
+2006/02/23 15:37:25| Failure Ratio at 1.01
+2006/02/23 15:37:25| Going into hit-only-mode for 5 minutes...
+2006/02/23 15:48:34| Failure Ratio at 1.07
+2006/02/23 15:48:34| Going into hit-only-mode for 5 minutes...
+2006/02/23 15:54:52| Failure Ratio at 1.84
+2006/02/23 15:54:52| Going into hit-only-mode for 5 minutes...
+2006/02/23 18:01:22| Failure Ratio at 1.79
+2006/02/23 18:01:22| Going into hit-only-mode for 5 minutes...
+2006/02/23 19:16:12| Failure Ratio at 1.01
+2006/02/23 19:16:12| Going into hit-only-mode for 5 minutes...
+2006/02/23 19:55:30| Failure Ratio at 1.60
+2006/02/23 19:55:30| Going into hit-only-mode for 5 minutes...
+2006/02/23 21:33:19| Failure Ratio at 1.01
+2006/02/23 21:33:19| Going into hit-only-mode for 5 minutes...
+2006/02/23 23:00:32| Failure Ratio at 1.01
+2006/02/23 23:00:32| Going into hit-only-mode for 5 minutes...
+2006/02/25 18:26:57| Request header is too large (10629 bytes)
+2006/02/25 18:26:57| Config 'request_header_max_size'= 10240 bytes.

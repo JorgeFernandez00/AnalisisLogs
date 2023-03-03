@@ -1,0 +1,9 @@
+Nov 21 17:10:24 2005 (29581) gate_news.lock lifetime has expired, breaking
+Nov 21 17:10:24 2005 (29581)   File "/var/mailman/cron/gate_news", line 284, in ?
+Nov 21 17:10:24 2005 (29581)     main()
+Nov 21 17:10:24 2005 (29581)   File "/var/mailman/cron/gate_news", line 259, in main
+Nov 21 17:10:24 2005 (29581)     lock.lock(timeout=0.5)
+Nov 21 17:10:24 2005 (29581)   File "/var/mailman/Mailman/LockFile.py", line 306, in lock
+Nov 21 17:10:24 2005 (29581)     important=True)
+Nov 21 17:10:24 2005 (29581)   File "/var/mailman/Mailman/LockFile.py", line 416, in __writelog
+Nov 21 17:10:24 2005 (29581)     traceback.print_stack(file=logf)

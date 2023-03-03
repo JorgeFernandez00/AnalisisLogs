@@ -1,0 +1,79 @@
+Oct 25 10:06:09 combo messagebus: messagebus -TERM succeeded
+Oct 25 10:06:11 combo atd: atd shutdown succeeded
+Oct 25 10:06:12 combo privoxy: privoxy shutdown succeeded
+Oct 25 10:06:12 combo cups: cupsd shutdown succeeded
+Oct 25 10:06:14 combo xfs: xfs shutdown succeeded
+Oct 25 10:06:14 combo FreeWnn: jserver shutdown succeeded
+Oct 25 10:06:14 combo canna: Stopping Canna server: succeeded
+Oct 25 10:06:15 combo mysqld: Stopping MySQL:  succeeded
+Oct 25 10:06:16 combo gpm: gpm shutdown succeeded
+Oct 25 10:06:21 combo httpd: httpd shutdown succeeded
+Oct 25 10:06:22 combo squid: Stopping squid: 
+Oct 25 10:06:24 combo squid: .
+Oct 25 10:06:54 combo last message repeated 15 times
+Oct 25 10:06:54 combo squid: ^[[60G[  ^[[0;32m
+Oct 25 10:06:54 combo squid: 
+Oct 25 10:06:54 combo rc: Stopping squid:  succeeded
+Oct 25 10:06:54 combo sshd: sshd -TERM succeeded
+Oct 25 10:06:55 combo sendmail: sendmail shutdown succeeded
+Oct 25 10:06:55 combo sendmail: sm-client shutdown succeeded
+Oct 25 10:06:59 combo spamassassin: spamd shutdown succeeded
+Oct 25 10:07:00 combo smartd: smartd shutdown succeeded
+Oct 25 10:07:05 combo named: named shutdown succeeded
+Oct 25 10:07:06 combo snmpd: snmpd shutdown succeeded
+Oct 25 10:07:07 combo xinetd: xinetd shutdown succeeded
+Oct 25 10:07:08 combo crond: crond shutdown succeeded
+Oct 25 10:07:09 combo apmd: apmd shutdown succeeded
+Oct 25 10:07:09 combo ntpd: ntpd shutdown succeeded
+Oct 25 10:07:09 combo dd: 1+0 records in
+Oct 25 10:07:09 combo dd: 1+0 records out
+Oct 25 10:07:09 combo random: Saving random seed:  succeeded
+Oct 25 10:07:11 combo nfslock: rpc.statd shutdown succeeded
+Oct 25 10:07:11 combo portmap: portmap shutdown succeeded
+Oct 25 10:08:46 combo syslog: syslogd startup succeeded
+Oct 25 10:08:46 combo syslog: klogd startup succeeded
+Oct 25 10:08:46 combo irqbalance: irqbalance startup succeeded
+Oct 25 10:08:47 combo portmap: portmap startup succeeded
+Oct 25 10:08:47 combo nfslock: rpc.statd startup succeeded
+Oct 25 10:08:48 combo rpcidmapd: rpc.idmapd startup succeeded
+Oct 25 10:08:48 combo random: Initializing random number generator:  succeeded
+Oct 25 10:08:48 combo rc: Starting pcmcia:  succeeded
+Oct 25 10:08:43 combo sysctl: net.ipv4.conf.default.rp_filter = 1 
+Oct 25 10:08:43 combo sysctl: kernel.sysrq = 0 
+Oct 25 10:08:48 combo bluetooth: hcid startup succeeded
+Oct 25 10:08:43 combo sysctl: kernel.core_uses_pid = 1 
+Oct 25 10:08:49 combo bluetooth: sdpd startup succeeded
+Oct 25 10:08:43 combo network: Setting network parameters:  succeeded 
+Oct 25 10:08:43 combo network: Bringing up loopback interface:  succeeded 
+Oct 25 10:08:49 combo netfs: Mounting other filesystems:  succeeded
+Oct 25 10:08:49 combo apmd: apmd startup succeeded
+Oct 25 10:08:50 combo autofs: automount startup succeeded
+Oct 25 10:08:50 combo smartd: smartd startup succeeded
+Oct 25 10:08:52 combo rc: Starting hpoj:  succeeded
+Oct 25 10:09:06 combo cups: cupsd startup succeeded
+Oct 25 10:09:06 combo sshd:  succeeded
+Oct 25 10:09:06 combo xinetd: xinetd startup succeeded
+Oct 25 10:09:09 combo sendmail: sendmail startup succeeded
+Oct 25 10:09:10 combo sendmail: sm-client startup succeeded
+Oct 25 10:09:16 combo spamassassin: spamd startup succeeded
+Oct 25 10:09:16 combo privoxy: Oct 25 10:09:16 Privoxy(-150089600) Info: loading configuration file '/etc/privoxy/config':
+Oct 25 10:09:17 combo privoxy: privoxy startup succeeded
+Oct 25 10:09:18 combo gpm: gpm startup succeeded
+Oct 25 10:09:18 combo IIim: htt startup succeeded
+Oct 25 10:09:21 combo canna:  succeeded
+Oct 25 10:09:21 combo crond: crond startup succeeded
+Oct 25 10:09:22 combo xfs: xfs startup succeeded
+Oct 25 10:09:22 combo anacron: anacron startup succeeded
+Oct 25 10:09:22 combo atd: atd startup succeeded
+Oct 25 10:09:22 combo readahead: Starting background readahead: 
+Oct 25 10:09:23 combo rc: Starting readahead:  succeeded
+Oct 25 10:09:24 combo messagebus: messagebus startup succeeded
+Oct 25 10:09:37 combo httpd: httpd startup succeeded
+Oct 25 10:09:47 combo named: named startup succeeded
+Oct 25 10:09:49 combo snmpd: snmpd startup succeeded
+Oct 25 10:09:51 combo ntpd: ntpd startup succeeded
+Oct 25 10:09:57 combo mysqld: Starting MySQL:  succeeded
+Oct 25 10:09:58 combo mdmonitor: mdadm succeeded
+Oct 25 10:09:58 combo mdmpd: mdmpd failed
+Oct 30 04:04:30 combo cups: cupsd shutdown succeeded
+Oct 30 04:04:35 combo cups: cupsd startup succeeded
