@@ -5,7 +5,7 @@ import re
 from typing import Union, List, Dict, Type
 from datetime import timezone
 
-LOG_DIR = 'hnet-hon-var-log-02282006/var/log/httpd'
+LOG_DIR = 'hnet-hon-var-log-02282006/var/log/'
 MONTH = '(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)'
 DAY = '(Mon|Tue|Wed|Thu|Fri|Sat|Sun)'
 DATE = '([0 ][1-9]|[12][0-9]|3[01])'
@@ -166,6 +166,9 @@ rules = {
     r'ssl_access_log(\.\d+)?': HttpdLogs,
 }
 
+import pandas as pd
+
+global_df = pd.DataFrame(columns=['priority', 'protocol_ver', 'timestamp', 'host_name', 'app_name', 'process_id', 'message_id', 'struct_data', 'message'])
 
 for root, dirs, files in os.walk(LOG_DIR):
     for file in files:
@@ -178,10 +181,28 @@ for root, dirs, files in os.walk(LOG_DIR):
 
         for key in rules:
             if re.match(key, file):
-                print(rules.get(key))
                 logs = parse_logs(logs, rules.get(key))
                 break
         else:
             continue
 
-        print(*logs, sep='\n')
+        #print(*logs, sep='\n')
+
+        data = {
+            'priority': [log.priority for log in logs],
+            'protocol_ver': [log.protocol_ver for log in logs],
+            'timestamp': [log.timestamp for log in logs],
+            'host_name': [log.host_name for log in logs],
+            'app_name': [log.app_name for log in logs],
+            'process_id': [log.process_id for log in logs],
+            'message_id': [log.message_id for log in logs],
+            'struct_data': [log.struct_data for log in logs],
+            'message': [log.message for log in logs]
+        }
+
+        df = pd.DataFrame(data)
+        global_df = pd.concat([global_df, df], ignore_index=True)
+
+# global_df['timestamp'] = pd.to_datetime(global_df['timestamp'], utc=True).dt.tz_localize(tz='UTC')
+sorted_global_df = global_df.sort_values(by='timestamp')
+print(sorted_global_df['timestamp'])
