@@ -42,16 +42,14 @@ class Logs:
             if value is None:
                 self.__dict__[key] = '-'
 
-        self.timestamp = self.timestamp.strftime('%Y-%m-%dT%H:%M:%S.%f+%z')
-
-        return f'<{self.priority}>{self.protocol_ver} {self.timestamp} {self.host_name} {self.app_name} {self.process_id} {self.message_id} {struct_data} {self.message}'
+        return f'<{self.priority}>{self.protocol_ver} {self.timestamp:%Y-%m-%dT%H:%M:%S.%f+%z} {self.host_name} {self.app_name} {self.process_id} {self.message_id} {struct_data} {self.message}'
 
 
 class UnixLogs(Logs):
     def __init__(self, raw: str):
         attributes = re.match(f'^(?P<timestamp>{MONTH} {DATE} {TIME}) (?P<host_name>\S+) (?:(?P<app_name>\S+)(?:\[(?P<process_id>\d+)\]): )?(?P<message>.*)$', raw).groupdict()
         # parse time
-        attributes['timestamp'] = datetime.datetime.strptime(attributes['timestamp'], '%b %d %H:%M:%S').replace(year=datetime.datetime.now().year)
+        attributes['timestamp'] = datetime.datetime.strptime(attributes['timestamp'], '%b %d %H:%M:%S').replace(year=datetime.datetime.now().year).replace(tzinfo=datetime.timezone.utc)
         super().__init__(**attributes, raw=raw)
 
 class SquidLogs(Logs):  
@@ -84,7 +82,7 @@ class SquidLogs(Logs):
         elif((re.search(refererExpresion, raw)) != None):
             attributes = re.match(refererExpresion, raw).groupdict()
             
-            attributes['timestamp'] = datetime.datetime.utcfromtimestamp(float(attributes['timestamp']))        
+            attributes['timestamp'] = datetime.datetime.utcfromtimestamp(float(attributes['timestamp']))
         
         elif((re.search(useragentExpresion, raw)) != None):
             attributes = re.match(useragentExpresion, raw).groupdict()
@@ -92,13 +90,13 @@ class SquidLogs(Logs):
             #Pasamos la fecha a UTC
             attributes['timestamp'] = datetime.datetime.strptime(attributes['timestamp'], '%d/%b/%Y:%H:%M:%S %z')
             attributes['timestamp'] = attributes['timestamp'].astimezone(timezone.utc)
-            attributes['timestamp'] = attributes['timestamp'].replace(tzinfo=None)
 
         elif((re.search(storeExpresion, raw)) != None):
             attributes = re.match(storeExpresion, raw).groupdict()
             
             attributes['timestamp'] = datetime.datetime.utcfromtimestamp(float(attributes['timestamp']))
-        
+
+        attributes['timestamp'] = attributes['timestamp'].astimezone(timezone.utc)
         #Definimos el atributo app_name
         attributes['app_name'] = "Squid"
 
@@ -113,8 +111,7 @@ class CupsLogs(Logs):
 
         # Conversion a UTC
         attributes['timestamp'] = datetime.datetime.strptime(attributes['timestamp'], '%d/%b/%Y:%H:%M:%S %z')
-        attributes['timestamp'] = attributes['timestamp'].astimezone(timezone.utc)
-        attributes['timestamp'] = attributes['timestamp'].replace(tzinfo=None)
+        attributes['timestamp'] = attributes['timestamp'].astimezone(timezone.utc).replace(tzinfo=datetime.timezone.utc)
 
         # Definicion del atributo app_name
         attributes['app_name'] = "CUPS"
@@ -125,7 +122,7 @@ class PrivoxyLogs(Logs):
     def __init__(self, raw: str):
         attributes = re.match(f'^(?P<timestamp>{MONTH} {DATE} {TIME}) (?P<host_name>\S+) (?:(?P<app_name>\S+))?(?P<message>.*)$', raw).groupdict()
         # parse time
-        attributes['timestamp'] = datetime.datetime.strptime(attributes['timestamp'], '%b %d %H:%M:%S').replace(year=datetime.datetime.now().year)
+        attributes['timestamp'] = datetime.datetime.strptime(attributes['timestamp'], '%b %d %H:%M:%S').replace(year=datetime.datetime.now().year).replace(tzinfo=datetime.timezone.utc)
         super().__init__(**attributes, raw=raw)
 
 class HttpdLogs(Logs):
