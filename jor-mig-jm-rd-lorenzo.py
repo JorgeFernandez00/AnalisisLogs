@@ -2,6 +2,7 @@ import dataclasses
 import datetime 
 import os.path
 import re
+import matplotlib.pyplot as plt
 from typing import Union, List, Dict, Type
 from datetime import timezone
 
@@ -202,4 +203,8 @@ for root, dirs, files in os.walk(LOG_DIR):
 
 # global_df['timestamp'] = pd.to_datetime(global_df['timestamp'], utc=True).dt.tz_localize(tz='UTC')
 sorted_global_df = global_df.sort_values(by='timestamp')
+
+# save dataframe
+sorted_global_df.to_numpy().dump('logs.npy')
+
 print(sorted_global_df['timestamp'])
