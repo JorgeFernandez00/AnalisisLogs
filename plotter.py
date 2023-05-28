@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
+# Generación de visualizaciones de la información parseada de los logs.
 
 # load data from file
 data = np.load('logs.npy', allow_pickle=True)
